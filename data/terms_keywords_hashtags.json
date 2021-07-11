@@ -1,0 +1,81 @@
+{
+    "Negative Phrases": [
+      {
+          "negative_phrase": "I hate science fiction"
+      },
+      {
+          "negative_phrase": "I hate star trek"
+      },
+      {
+          "negative_phrase": "comic book"
+      },
+      {
+          "negative_phrase": "Book a"
+      },
+      {
+          "negative_phrase": "Book the"
+      },
+      {
+          "negative_phrase": "Book your next"
+      },
+      {
+          "negative_phrase": "book my shows"
+      }
+    ],
+    "Positive Phrases": [
+      {
+          "positive_phrase": "I love science fiction"
+      },
+      {
+          "positive_phrase": "I love time travel"
+      },
+      {
+          "positive_phrase": "huge reader"
+      },
+      {
+          "positive_phrase": "I read a lot"
+      }
+    ],
+    "Hashtags": [
+      {
+        "hashtag": "#KindleUnlimited",
+        "id": 1
+      },
+      {
+        "hashtag": "#KU",
+        "id": 2
+      },
+      {
+        "hashtag": "#authors",
+        "id": 3
+      },
+      {
+        "hashtag": "#Read",
+        "id": 4
+      },
+      {
+        "hashtag": "#Books",
+        "id": 5
+      },
+      {
+        "hashtag": "#SciFi",
+        "id": 6
+      },
+      {
+        "hashtag": "#ScienceFiction",
+        "id": 7
+      },
+      {
+        "hashtag": "#amreading",
+        "id": 8
+      },
+      {
+        "hashtag": "#Kindle",
+        "id": 9
+      },
+      {
+        "hashtag": "#iartg",
+        "id": 10
+      }
+    ]
+}
