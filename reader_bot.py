@@ -292,12 +292,16 @@ class readerBotTools(object):
                         pp.pprint('RUN!!!!')
                 pp.pprint('TEXT: %s' % result['text'])
 
+    def send_simple_tweet(self, message=None):
+        if message:
+            self.api.PostUpdate(status=message)
+
 
 if __name__ == "__main__":
     test = readerBotTools()
     # print(test.rando_range(0, 100, integer=True))
     # print(test.pick_random_tweet())
-    test.check_twitter_temperature()
+    # test.check_twitter_temperature()
     # results = test.twit_search(terms='book')
     # print(results)
     # for book in results:
@@ -305,6 +309,7 @@ if __name__ == "__main__":
     #         print(page, book[page])
     #     print('-' * 60)
     # test.find_friends(terms='book', count=10)
+    test.send_simple_tweet(message='Testing, testing. 1, 2, 3')
 
 # for x in range(0, 98):
 #     print(int(math.fmod(x, 12)))
