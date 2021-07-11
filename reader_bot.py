@@ -4,6 +4,7 @@ This is my new reader bot.
 
 import configparser
 import twitter
+import tweepy
 import json
 import sys
 import os
@@ -294,6 +295,8 @@ class readerBotTools(object):
 
     def send_simple_tweet(self, message=None):
         if message:
+            # Testing sending an image first...
+            # media = self.api
             self.api.PostUpdate(status=message)
 
 
@@ -309,7 +312,7 @@ if __name__ == "__main__":
     #         print(page, book[page])
     #     print('-' * 60)
     # test.find_friends(terms='book', count=10)
-    test.send_simple_tweet(message='Testing, testing. 1, 2, 3')
+    test.send_simple_tweet(message='Web Test \nhttp://www.adamdbenson.com/visualeffects.cfm')
 
 # for x in range(0, 98):
 #     print(int(math.fmod(x, 12)))
