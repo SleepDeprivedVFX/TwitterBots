@@ -93,17 +93,20 @@ class readerBotTools(object):
         self.api = tweepy.API(auth)
 
         # Collect and create the ads database
-        self.ads_db = None
+        self.ads = self.open_ads_db()
+
+    def open_ads_db(self):
+        ads_db = None
         ads_file = 'tweets.json'
         ads_path = find_file(file_name=ads_file, folder='data')
         if ads_path:
             with open(ads_path, 'r+') as ads:
-                self.ads_db = json.load(ads)
-            if self.ads_db:
-                self.ads = self.ads_db['Tweets']
+                ads_db = json.load(ads)
+            if ads_db:
+                ads = ads_db['Tweets']
             else:
-                self.ads = None
-        print(self.ads)
+                ads = None
+        return ads
 
     def save_tweet(self, text=None, image=None, link=None, last_posted=None):
         previous_tweets = self.get_saved_tweets()
