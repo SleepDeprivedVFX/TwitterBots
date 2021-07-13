@@ -319,6 +319,6 @@ if __name__ == "__main__":
     #         print(page, book[page])
     #     print('-' * 60)
     # test.find_friends(terms='book', count=10)
-    test.send_simple_tweet(message='Stranded in the distant past, attempting to preserve an uncertain future.\nThe Roswell Paradox book 1 is an adventure in time that stretches across millions of years. Sometimes the only way forward is back.\n#TheRoswellParadox\n#BackInTime\n#Books https://www.amazon.com/dp/B085DDSY8T/ref=cm_sw_r_tw_dp_F4ZBPXKYK3T06GWHNW55 via @amazon ')
+    test.send_simple_tweet(message='Stranded in the distant past, attempting to preserve an uncertain future.\nThe Roswell Paradox book 1 is an adventure in time that stretches across millions of years. Sometimes the only way forward is back.\n#TheRoswellParadox\n#BackInTime\n#Books https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P via @amazon ')
 # for x in range(0, 98):
 #     print(int(math.fmod(x, 12)))

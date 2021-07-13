@@ -1,46 +1,70 @@
 {
     "Tweets": [
         {
-            "text": "Hello THere Barney!",
+            "text": "Stranded in the distant past, attempting to preserve an uncertain future.\\nThe Roswell Paradox book 1 is an adventure in time that stretches across millions of years. Sometimes the only way forward is back.\\n",
             "id": 1,
             "image": "",
-            "link": "no link",
-            "last_posted": "2019-10-23 22:28:39.007031"
+            "hashtags": "#TheRoswellParadox\\n#BackInTime\\n#Books\\n#TemporalKey",
+            "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P via @amazon",
+            "last_posted": "Tue Jul 13 03:19:17 +0000 2021",
+            "last_posted_id": "1414786483773349892",
+            "post_count": 1,
+            "description": "First ad for the Roswell Paradox: The Temporal Key."
         },
         {
-            "text": "How are you doing?",
+            "text": "Labeled as a Temporal Fugitives, Dayk must find a way to stop agents from ruining the future.\\Iteration is the trhilling climax to The Temporal Key! ",
             "id": 2,
-            "image": "Big Photo Finish",
-            "link": "long_link",
-            "last_posted": "2019-10-27 22:28:39.007031"
+            "image": "",
+            "hashtags": "#TheRoswellParadox\\n#BackInTime\\n#Books\\n#Iteration",
+            "link": "https://www.amazon.com/dp/B085DDSY8T/ref=cm_sw_r_tw_dp_GFT7F86WZF356S45KF6Y via @amazon",
+            "last_posted": "",
+            "last_posted_id": "",
+            "post_count": 0,
+            "description": "First Ad for the Roswell Paradox Book 2: Iteration"
         },
         {
-            "text": "Big Goose",
+            "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine\\nGet it on @AmazonMusic",
             "id": 3,
-            "image": "Horse",
-            "link": "badong",
-            "last_posted": "2019-10-26 22:28:39.007031"
+            "image": "",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
+            "link": "https://www.amazon.com/gp/product/B08QWB159K/",
+            "last_posted": "",
+            "last_posted_id": "",
+            "post_count": 0,
+            "description": "The Amazon Ad for The Before Times"
         },
         {
-            "text": "Old Bear",
+            "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine\\nGet it on @Spotify",
             "id": 4,
-            "image": "Donkey",
-            "link": "offal",
-            "last_posted": "2019-10-29 22:29:14.234783"
+            "image": "",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
+            "link": "https://open.spotify.com/album/3fUtPDQw3pdbVgHmEHzlFT",
+            "last_posted": "",
+            "last_posted_id": "",
+            "post_count": 0,
+            "description": "The Spotify Ad for The Before Times"
         },
         {
-            "text": "Spooky Booger",
+            "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine\\nGet it on @YoutubeMusic",
             "id": 5,
-            "image": "Whale",
-            "link": "termite",
-            "last_posted": "2019-10-28 22:38:11.727888"
+            "image": "",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
+            "link": "https://music.youtube.com/playlist?list=OLAK5uy_kyPPG4vjDJyAtnYSkeriYTg5AiDMUKjEc&feature=share ",
+            "last_posted": "",
+            "last_posted_id": "",
+            "post_count": 0,
+            "description": "The YouTube Music Ad for The Before Times"
         },
         {
-            "text": "Jerry Rig",
+            "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine\\nGet it on @AppleMusic",
             "id": 6,
-            "image": "Tard",
-            "link": "Digger",
-            "last_posted": "2019-10-29 22:39:39.813693"
+            "image": "",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
+            "link": "https://music.apple.com/us/album/the-before-times/1545406040",
+            "last_posted": "",
+            "last_posted_id": "",
+            "post_count": 0,
+            "description": "The Apple Music Ad for The Before Times"
         }
     ]
 }
