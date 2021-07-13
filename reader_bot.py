@@ -34,6 +34,22 @@ twitter_keys = [
     "retweeted"
 ]
 
+def find_file(file_name=None, folder=None):
+    if file_name:
+        path = None
+        sys_path = sys.path
+        try:
+            if folder:
+                path = [f for f in sys_path if os.path.isfile(f + '/' + folder + '/' + file_name)][0] + '/' + folder + \
+                       '/' + file_name
+                path = path.replace('\\', '/')
+            else:
+                path = [f for f in sys_path if os.path.isfile(f + '/' + file_name)][0] + '/' + file_name
+                path = path.replace('\\', '/')
+        except IndexError as e:
+            raise e
+        return path
+
 
 def get_configuration():
     '''
@@ -42,14 +58,8 @@ def get_configuration():
     '''
 
     # Get System path and config file
-    sys_path = sys.path
     config_file = 'twit_config.cfg'
-    try:
-        config_path = [f for f in sys_path if os.path.isfile(f + '/' + config_file)][0] + '/' + config_file
-        config_path = config_path.replace('\\', '/')
-    except IndexError as e:
-        raise e
-
+    config_path = find_file(file_name=config_file)
     # Create the configuration connection
     configuration = configparser.ConfigParser()
     configuration.read(config_path)
@@ -73,10 +83,27 @@ class readerBotTools(object):
     '''
     def __init__(self):
         super(readerBotTools, self).__init__()
+
+        # Get Configuration
         self.config = get_configuration()
+
+        # Setup and authorize the Twitter connection and api
         auth = tweepy.OAuthHandler(self.config['consumer_api_key'], self.config['consumer_secret_key'])
         auth.set_access_token(self.config['api_token'], self.config['api_secret'])
         self.api = tweepy.API(auth)
+
+        # Collect and create the ads database
+        self.ads_db = None
+        ads_file = 'tweets.json'
+        ads_path = find_file(file_name=ads_file, folder='data')
+        if ads_path:
+            with open(ads_path, 'r+') as ads:
+                self.ads_db = json.load(ads)
+            if self.ads_db:
+                self.ads = self.ads_db['Tweets']
+            else:
+                self.ads = None
+        print(self.ads)
 
     def save_tweet(self, text=None, image=None, link=None, last_posted=None):
         previous_tweets = self.get_saved_tweets()
@@ -319,6 +346,6 @@ if __name__ == "__main__":
     #         print(page, book[page])
     #     print('-' * 60)
     # test.find_friends(terms='book', count=10)
-    test.send_simple_tweet(message='Stranded in the distant past, attempting to preserve an uncertain future.\nThe Roswell Paradox book 1 is an adventure in time that stretches across millions of years. Sometimes the only way forward is back.\n#TheRoswellParadox\n#BackInTime\n#Books https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P via @amazon ')
+    # test.send_simple_tweet(message='Stranded in the distant past, attempting to preserve an uncertain future.\nThe Roswell Paradox book 1 is an adventure in time that stretches across millions of years. Sometimes the only way forward is back.\n#TheRoswellParadox\n#BackInTime\n#Books https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P via @amazon ')
 # for x in range(0, 98):
 #     print(int(math.fmod(x, 12)))
