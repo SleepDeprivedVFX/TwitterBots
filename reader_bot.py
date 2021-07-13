@@ -74,8 +74,9 @@ class readerBotTools(object):
     def __init__(self):
         super(readerBotTools, self).__init__()
         self.config = get_configuration()
-        self.api = twitter.Api(self.config['consumer_api_key'], self.config['consumer_secret_key'],
-                               self.config['api_token'], self.config['api_secret'])
+        auth = tweepy.OAuthHandler(self.config['consumer_api_key'], self.config['consumer_secret_key'])
+        auth.set_access_token(self.config['api_token'], self.config['api_secret'])
+        self.api = tweepy.API(auth)
 
     def save_tweet(self, text=None, image=None, link=None, last_posted=None):
         previous_tweets = self.get_saved_tweets()
@@ -116,11 +117,12 @@ class readerBotTools(object):
         return listed_tweets
 
     def get_tweets(self, screen_name=None):
-        timeline = self.api.GetUserTimeline(screen_name=screen_name, count=10)
+        # timeline = self.api.GetUserTimeline(screen_name=screen_name, count=10)
+        timeline = self.api.user_timeline(screen_name=screen_name, count=10)
         earliest_tweet = min(timeline, key=lambda x: x.id).id
 
         while True:
-            tweets = self.api.GetUserTimeline(
+            tweets = self.api.user_timeline(
                 screen_name=screen_name, max_id=earliest_tweet, count=10
             )
             new_earliest = min(tweets, key=lambda x: x.id).id
@@ -211,7 +213,8 @@ class readerBotTools(object):
         return new_tweet
 
     def twit_search(self, terms=None, result_type='recent', count=20):
-        search = self.api.GetSearch(term=terms, result_type=result_type, count=count)
+        # search = self.api.GetSearch(term=terms, result_type=result_type, count=count)
+        search = [status for status in tweepy.Cursor(self.api.search, q=terms).items(count)]
         found = {}
         all_found = []
         for txt in search:
@@ -273,7 +276,8 @@ class readerBotTools(object):
             positive_phrases = tkh_data['Positive Phrases']
             hashtags = tkh_data['Hashtags']
 
-            search_results = self.api.GetSearch(term=terms, result_type=result_type, count=count)
+            # search_results = self.api.GetSearch(term=terms, result_type=result_type, count=count)
+            search_results = [status for status in tweepy.Cursor(self.api.search, q=terms).items(count)]
             pp.pprint(search_results)
             i = 0
             for result in search_results:
@@ -293,11 +297,14 @@ class readerBotTools(object):
                         pp.pprint('RUN!!!!')
                 pp.pprint('TEXT: %s' % result['text'])
 
-    def send_simple_tweet(self, message=None):
+    def send_simple_tweet(self, message=None, file_name=None):
         if message:
             # Testing sending an image first...
-            # media = self.api
-            self.api.PostUpdate(status=message)
+            if file_name:
+                post_id = self.api.update_with_media(file_name, message)
+            else:
+                post_id = self.api.update_status(status=message)
+            print('Post_ID: %s' % post_id)
 
 
 if __name__ == "__main__":
@@ -312,7 +319,6 @@ if __name__ == "__main__":
     #         print(page, book[page])
     #     print('-' * 60)
     # test.find_friends(terms='book', count=10)
-    test.send_simple_tweet(message='Web Test \nhttp://www.adamdbenson.com/visualeffects.cfm')
-
+    test.send_simple_tweet(message='Stranded in the distant past, attempting to preserve an uncertain future.\nThe Roswell Paradox book 1 is an adventure in time that stretches across millions of years. Sometimes the only way forward is back.\n#TheRoswellParadox\n#BackInTime\n#Books https://www.amazon.com/dp/B085DDSY8T/ref=cm_sw_r_tw_dp_F4ZBPXKYK3T06GWHNW55 via @amazon ')
 # for x in range(0, 98):
 #     print(int(math.fmod(x, 12)))
