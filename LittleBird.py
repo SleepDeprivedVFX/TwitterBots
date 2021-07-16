@@ -1,3 +1,20 @@
+"""
+A LITTLE BIRD TOLD ME
+-------------------------------------------------------------------
+This is the Twitter Bot that will run in the background, occasionally checking Twitter for tween statuses and such,
+And then posting certain things on my behalf.
+
+GOALS:
+1. Have it post a "random" ad for me every X number of times that I tweet or retweet for reals.
+2. Have it automatically Follow people who like, or retweet my ads.
+3. Have it Direct Message people who like and retweet my ads, or who comment on them.
+
+CHALLENGES:
+1. Need to keep track of automatically posted ads.  I think this could be as simple as saving the last post ID in the
+ad itself.
+2. Have it check for the number of tweets/retweets made (and require at least 1 tweet)
+"""
+
 from datetime import datetime, timedelta
 import time
 import os
