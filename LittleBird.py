@@ -31,9 +31,27 @@ import socket
 import BirdBrains
 import pprint
 import logging
+from logging.handlers import TimedRotatingFileHandler
+
+config = BirdBrains.get_configuration()
+sys_path = sys.path[0]
 
 # Setup logging system
-logger = logging.Logger(name='bird_song', level=logging.DEBUG)
+log_filename = 'bird_song.log'
+log_root = os.path.join(sys_path, 'logs')
+log_file = os.path.join(log_root, log_filename)
+if config['debug_logging'] == True or config['debug_logging'] == 'True':
+    level = logging.DEBUG
+else:
+    level = logging.INFO
+logger = logging.getLogger('bird_song')
+logger.setLevel(level)
+fh = TimedRotatingFileHandler(log_file, when='d', interval=7, backupCount=30)
+fm = logging.Formatter(fmt='%(asctime)s - %(name)s | %(levelname)s : %(lineno)d - %(message)s')
+fh.setFormatter(fm)
+logger.addHandler(fh)
+
+logger.info('A little bird told me....')
 
 # Ingest Reader Bot
 brains = BirdBrains.birdBrains()

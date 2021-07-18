@@ -11,6 +11,7 @@ import time
 import random
 import math
 import pprint
+import logging
 
 twitter_keys = [
     "coordinates",
@@ -72,6 +73,9 @@ def get_configuration():
     config['user'] = configuration.get('User', 'screen_name')
     config['record_count'] = configuration.get('params', 'record_count')
     config['read_length'] = configuration.get('params', 'read_length')
+
+    # Debug logging
+    config['debug_logging'] = True
     return config
 
 
