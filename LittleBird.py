@@ -29,7 +29,6 @@ import win32event
 import servicemanager
 import socket
 import BirdBrains
-import pprint
 import logging
 from logging.handlers import TimedRotatingFileHandler
 
@@ -56,21 +55,21 @@ logger.info('A little bird told me....')
 # Ingest Reader Bot
 brains = BirdBrains.birdBrains()
 
-# Setup the queue
-q = queue.Queue()
-
-
-def bird_nest():
-    """
-    The Queue.
-    """
-    print('Fart')
-
-
-# Create and start a Thread
-t = threading.Thread(target=bird_nest, name='BirdNest')
-t.setDaemon(True)
-t.start()
+# # Setup the queue
+# q = queue.Queue()
+#
+#
+# def bird_nest():
+#     """
+#     The Queue.
+#     """
+#     print('Fart')
+#
+#
+# # Create and start a Thread
+# t = threading.Thread(target=bird_nest, name='BirdNest')
+# t.setDaemon(True)
+# t.start()
 
 
 class littleBird(win32serviceutil.ServiceFramework):
@@ -89,6 +88,7 @@ class littleBird(win32serviceutil.ServiceFramework):
         # set Initial start and end times
         # TODO: Start time should eventually be saved in a document, for when the computer is off.
         self.start_time = datetime.now()
+        brains.update_start_time(start_time=self.start_time)
         self.end_time = datetime.now()
 
     def SvcStop(self):
@@ -106,7 +106,7 @@ class littleBird(win32serviceutil.ServiceFramework):
         """
 
         while True:
-            if (self.start_time + timedelta(hours=18)) < self.end_time:
+            if (self.start_time + timedelta(hours=int(config['interval']))) < self.end_time:
                 self.start_time = datetime.now()
             self.end_time = datetime.now()
             time.sleep(30)

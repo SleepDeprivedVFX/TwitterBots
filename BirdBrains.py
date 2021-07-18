@@ -1,4 +1,3 @@
-
 import configparser
 import twitter
 import tweepy
@@ -75,14 +74,22 @@ def get_configuration():
     config['read_length'] = configuration.get('params', 'read_length')
 
     # Debug logging
-    config['debug_logging'] = True
+    config['debug_logging'] = configuration.get('logging', 'debug_logging')
+
+    # Timers
+    config['interval'] = configuration.get('timers', 'tweet_interval')
     return config
+
+
+logger = logging.getLogger('bird_song')
+logger.info('Bird Brains Thinking...')
 
 
 class birdBrains(object):
     '''
     The smarts for the Little Bird
     '''
+
     def __init__(self):
         super(birdBrains, self).__init__()
 
@@ -105,8 +112,20 @@ class birdBrains(object):
         if ads_path:
             with open(ads_path, 'r+') as ads:
                 ads_db = json.load(ads)
+                logger.info('Ads DB opened.')
             if ads_db:
-                ads = ads_db['Tweets']
+                ads = ads_db
             else:
                 ads = None
         return ads
+
+    def update_start_time(self, start_time=None):
+        if start_time:
+            get_current_db = self.open_ads_db()
+            get_current_db['StartDate'] = start_time
+            ads_file = 'tweets.json'
+            ads_path = find_file(file_name=ads_file, folder='data')
+            if ads_path:
+                with open(ads_path, 'w+') as save:
+                    json.dump(get_current_db)
+                    logger.info('Date updated')
