@@ -28,10 +28,11 @@ import win32service
 import win32event
 import servicemanager
 import socket
-import reader_bot
+import BirdBrains
+import pprint
 
 # Ingest Reader Bot
-rb = reader_bot.readerBotTools()
+brains = BirdBrains.birdBrains()
 
 # This setup with the Timedelta can function as the method for running the tweet bot.
 ''' START EXAMPLE '''
@@ -85,6 +86,10 @@ class littleBird(win32serviceutil.ServiceFramework):
         self.hWaitStop = win32event.CreateEvent(None, 0, 0, None)
         socket.setdefaulttimeout(60)
 
+        # set Initial start and end times
+        self.start_time = datetime.now()
+        self.end_time = datetime.now()
+
     def SvcStop(self):
         self.ReportServiceStatus(win32service.SERVICE_STOP_PENDING)
         win32event.SetEvent(self.hWaitStop)
@@ -98,7 +103,12 @@ class littleBird(win32serviceutil.ServiceFramework):
         """
         The main loop
         """
-        pass
+
+        while True:
+            if (self.start_time + timedelta(hours=18)) < self.end_time:
+                self.start_time = datetime.now()
+            self.end_time = datetime.now()
+            time.sleep(30)
 
 
 if __name__ == '__main__':
