@@ -30,31 +30,13 @@ import servicemanager
 import socket
 import BirdBrains
 import pprint
+import logging
+
+# Setup logging system
+logger = logging.Logger(name='bird_song', level=logging.DEBUG)
 
 # Ingest Reader Bot
 brains = BirdBrains.birdBrains()
-
-# This setup with the Timedelta can function as the method for running the tweet bot.
-''' START EXAMPLE '''
-# start_time = datetime.now()
-# time.sleep(1)
-# end_time = datetime.now()
-# time_diff = end_time - start_time
-# time_diff += timedelta(days=1)
-# print(time_diff)
-# if time_diff > timedelta(days=1, seconds=5):
-#     print('TOO LONG!')
-# else:
-#     print('TOO SHORT.')
-# ''' END THE EXAMPLE '''
-#
-# start_time = datetime.now()
-# time_diff = start_time - start_time
-# while time_diff < timedelta(seconds=10):
-#     end_time = datetime.now()
-#     time_diff = end_time - start_time
-# print(time_diff)
-# print('Time\'s up!')
 
 # Setup the queue
 q = queue.Queue()
@@ -87,6 +69,7 @@ class littleBird(win32serviceutil.ServiceFramework):
         socket.setdefaulttimeout(60)
 
         # set Initial start and end times
+        # TODO: Start time should eventually be saved in a document, for when the computer is off.
         self.start_time = datetime.now()
         self.end_time = datetime.now()
 
