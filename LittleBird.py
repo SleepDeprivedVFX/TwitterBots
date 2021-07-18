@@ -44,6 +44,7 @@ if config['debug_logging'] == True or config['debug_logging'] == 'True':
 else:
     level = logging.INFO
 logger = logging.getLogger('bird_song')
+logger.getChild('brains')
 logger.setLevel(level)
 fh = TimedRotatingFileHandler(log_file, when='d', interval=7, backupCount=30)
 fm = logging.Formatter(fmt='%(asctime)s - %(name)s | %(levelname)s : %(lineno)d - %(message)s')
@@ -86,8 +87,12 @@ class littleBird(win32serviceutil.ServiceFramework):
         socket.setdefaulttimeout(60)
 
         # set Initial start and end times
-        # TODO: Start time should eventually be saved in a document, for when the computer is off.
-        self.start_time = datetime.now()
+        self.start_time = brains.open_ads_db()['StartDate']
+        if not self.start_time:
+            self.start_time = datetime.now()
+            logger.debug('The start time was empty.  Updating with a real date: %s' % self.start_time)
+            brains.update_start_time(start_time=self.start_time)
+        logger.info('Start Time updated from DB: %s' % self.start_time)
         brains.update_start_time(start_time=self.start_time)
         self.end_time = datetime.now()
 

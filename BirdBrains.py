@@ -81,8 +81,14 @@ def get_configuration():
     return config
 
 
-logger = logging.getLogger('bird_song')
+logger = logging.getLogger('bird_song.brains')
 logger.info('Bird Brains Thinking...')
+config = get_configuration()
+if config['debug_logging'] == True or config['debug_logging'] == 'True':
+    level = logging.DEBUG
+else:
+    level = logging.INFO
+logger.setLevel(level)
 
 
 class birdBrains(object):
@@ -93,12 +99,9 @@ class birdBrains(object):
     def __init__(self):
         super(birdBrains, self).__init__()
 
-        # Get Configuration
-        self.config = get_configuration()
-
         # Setup and authorize Twitter connection and api
-        auth = tweepy.OAuthHandler(self.config['consumer_api_key'], self.config['consumer_secret_key'])
-        auth.set_access_token(self.config['api_token'], self.config['api_secret'])
+        auth = tweepy.OAuthHandler(config['consumer_api_key'], config['consumer_secret_key'])
+        auth.set_access_token(config['api_token'], config['api_secret'])
         self.api = tweepy.API(auth)
 
         # Collect and create the ads database
@@ -121,11 +124,17 @@ class birdBrains(object):
 
     def update_start_time(self, start_time=None):
         if start_time:
+            logger.debug('Start time added: %s' % start_time)
             get_current_db = self.open_ads_db()
             get_current_db['StartDate'] = start_time
             ads_file = 'tweets.json'
+            logger.info('CDB: %s' % get_current_db['StartDate'])
             ads_path = find_file(file_name=ads_file, folder='data')
             if ads_path:
-                with open(ads_path, 'w+') as save:
-                    json.dump(get_current_db)
-                    logger.info('Date updated')
+                # save = json.dump(get_current_db)
+                # with open(ads_path, 'wb') as save:
+                #     logger.info('Date updated')
+                save = json.dumps(get_current_db, sort_keys=True, indent=4, separators=(',', ': '))
+                save_file = open(ads_file, 'w+')
+                save_file.write(save)
+                logger.info('Date Updated')
