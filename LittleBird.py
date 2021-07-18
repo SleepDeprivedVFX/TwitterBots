@@ -28,6 +28,10 @@ import win32service
 import win32event
 import servicemanager
 import socket
+import reader_bot
+
+# Ingest Reader Bot
+rb = reader_bot.readerBotTools()
 
 # This setup with the Timedelta can function as the method for running the tweet bot.
 ''' START EXAMPLE '''

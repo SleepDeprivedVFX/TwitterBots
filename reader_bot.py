@@ -34,6 +34,7 @@ twitter_keys = [
     "retweeted"
 ]
 
+
 def find_file(file_name=None, folder=None):
     if file_name:
         path = None
@@ -97,6 +98,7 @@ class readerBotTools(object):
 
     def open_ads_db(self):
         ads_db = None
+        ads = None
         ads_file = 'tweets.json'
         ads_path = find_file(file_name=ads_file, folder='data')
         if ads_path:
@@ -274,12 +276,17 @@ class readerBotTools(object):
         tweet_count = 0
         retweet_count = 0
         if latest_tweets:
+            already_used = []
             for tweet in latest_tweets:
-                print(tweet)
-                this_tweet = tweet.AsDict()
-                if 'retweeted' in this_tweet.keys() and this_tweet['retweeted']:
+                # this_tweet = tweet.AsDict()
+                this_tweet = tweet._json
+                pp = pprint.PrettyPrinter(indent=1)
+                # pp.pprint(this_tweet)
+                print('TWEET ID: %s' % this_tweet['id_str'])
+                print('TWEED Text: %s' % this_tweet['text'])
+                if tweet.retweeted:
                     # This is a retweet: treat it as such
-                    print('retweet = %s' % this_tweet['retweeted'])
+                    print('retweet = %s' % tweet.retweeted)
                     retweet_count += 1
                     print('retween count: %s' % retweet_count)
                     # TODO: Cycle through the tweet ids:
@@ -291,11 +298,23 @@ class readerBotTools(object):
                     #       id[1] = 37
                     #       All conditions met, print the results:
                     #       [34, 37, 32]
-                elif 'retweeted' not in this_tweet.keys() or 'retweeted' in this_tweet.keys() and \
-                        not this_tweet['retweeted']:
+                    for ad in self.ads:
+                        print('AD ID: %s' % ad['last_posted_id'])
+                        if this_tweet['id_str'] == ad['last_posted_id']:
+                            pp.pprint(ad)
+                            # if retweet_count <= 10:
+                            print('AD FOUND!!')
+                            already_used.append(ad['id'])
+                elif not tweet.retweeted:
                     print('retweet = False')
                     tweet_count += 1
                     print('Tweet Count = %s' % tweet_count)
+                    for ad in self.ads:
+                        if this_tweet['id_str'] == ad['last_posted_id']:
+                            pp.pprint(ad)
+                            # if retweet_count <= 10:
+                            print('AD FOUND!!')
+                            already_used.append(ad['id'])
 
     def find_friends(self, terms=None, result_type='recent', count=20):
         pp = pprint.PrettyPrinter(indent=1)
@@ -320,12 +339,28 @@ class readerBotTools(object):
                 #         if tag in hashtags:
                 #             pp.pprint('TAG FOUND: %s' % tag)
                 for positive in positive_phrases:
-                    if positive['positive_phrase'] in result['text']:
-                        pp.pprint('Found Friend!')
+                    try:
+                        if positive['positive_phrase'] in result['text']:
+                            pp.pprint('Found Friend!')
+                    except TypeError as e:
+                        pp.pprint('_' * 120)
+                        pp.pprint('POSITIVE - Failed with error: %s' % e)
+                        pp.pprint('RESULT: %s' % result)
+                        break
                 for negative in negative_phrases:
-                    if negative['negative_phrase'] in result['text']:
-                        pp.pprint('RUN!!!!')
-                pp.pprint('TEXT: %s' % result['text'])
+                    try:
+                        if negative['negative_phrase'] in result['text']:
+                            pp.pprint('RUN!!!!')
+                    except TypeError as e:
+                        pp.pprint('_' * 120)
+                        pp.pprint('NEGATIVE - Failed with error: %s' % e)
+                        pp.pprint('RESULT: %s' % result)
+                        break
+                try:
+                    pp.pprint('TEXT: %s' % result['text'])
+                except TypeError as e:
+                    pp.pprint('Failed with error: %s' % e)
+                    pp.pprint('FINAL RESULT: %s' % result)
 
     def send_simple_tweet(self, message=None, file_name=None):
         if message:
@@ -341,7 +376,7 @@ if __name__ == "__main__":
     test = readerBotTools()
     # print(test.rando_range(0, 100, integer=True))
     # print(test.pick_random_tweet())
-    # test.check_twitter_temperature()
+    test.check_twitter_temperature()
     # results = test.twit_search(terms='book')
     # print(results)
     # for book in results:
