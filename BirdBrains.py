@@ -138,8 +138,8 @@ class birdBrains(object):
                     save_file.write(save)
                 logger.info('Date Updated')
 
-    def update_database(self, key=None, value=None):
-        if key:
+    def update_database(self, key=None, value=None, id=None):
+        if key and id:
             logger.info('Updating the Database')
             db = self.open_ads_db()
             logger.debug('Ads DB opened.')
@@ -149,7 +149,10 @@ class birdBrains(object):
 
             # Set the new value in the database
             logger.debug('Setting the value to', value)
-            db[key] = value
+            c = len(db) + 1
+            for x in range(0, c):
+                if db[x]['id'] == id:
+                    db[x][key] = value
 
             logger.info('Saving database...')
             ads_file = 'tweets.json'
@@ -179,9 +182,14 @@ class birdBrains(object):
                 logger.debug('TYPE: %s' % type(tweet))
                 for key, val in tweet.items():
                     logger.debug('%s: %s' % (key, val))
-                message = tweet['text']
-                message += tweet['link']
-                message += tweet['hashtags']
+                split_text = tweet['text'].split('\n')
+                message = ""
+                for t in split_text:
+                    message += t + "\n"
+                message += "\n" + tweet['link'] + "\n"
+                hash_tags = tweet['hashtags'].split(" ")
+                for h in hash_tags:
+                    message += h + "\n"
                 file_name = tweet['image']
 
                 split_message = message.split('\n')
@@ -197,5 +205,6 @@ class birdBrains(object):
             except Exception as e:
                 logger.error('POST TWEET FAILED: %s' % e)
         return sent
+
 
 

@@ -95,9 +95,21 @@ def bird_nest():
                     get_tweet_id = brains.find_random_tweet(tweet_list=sorted_tweets)
                     logger.debug('Tweet ID: %s' % get_tweet_id)
                     get_tweet = next((twt for twt in tweets if twt['id'] == get_tweet_id), False)
+                    post_count = int(get_tweet['post_count'])
                     logger.debug('SELECTED TWEET: %s' % get_tweet)
                     posted_tweet = brains.post_tweet(tweet=get_tweet)
-                    logger.debug('Tweet posted: %s' % posted_tweet)
+                    tweet_data = posted_tweet._json
+                    logger.debug('Tweet posted: %s' % tweet_data)
+                    post_count += 1
+                    brains.update_database(key="post_count", value=post_count, id=get_tweet_id)
+                    new_id = tweet_data['id']
+                    brains.update_database(key='last_posted_id', value=new_id, id=get_tweet_id)
+                    new_post_time = tweet_data['created_at']
+                    # Tue Jul 20 05:18:56 +0000 2021
+                    corrected_post_time = datetime.strptime(new_post_time, "%a %b %d %H:%M:%S %z %Y")
+                    updated_time = datetime.strftime(corrected_post_time)
+                    brains.update_database(key="last_posted", value=updated_time, id=get_tweet_id)
+
                 except Exception as e:
                     logger.error('The collected tweet didn\'t work', e)
 
