@@ -14,7 +14,7 @@ CHALLENGES:
 ad itself.
 2. Have it check for the number of tweets/retweets made (and require at least 1 tweet)
 """
-
+import socketserver
 from datetime import datetime, timedelta
 import time
 import os
@@ -85,16 +85,11 @@ class littleBird(win32serviceutil.ServiceFramework):
         win32serviceutil.ServiceFramework.__init__(self, args)
         self.hWaitStop = win32event.CreateEvent(None, 0, 0, None)
         socket.setdefaulttimeout(60)
+        self.start_time = None
+        self.end_time = None
 
-        # set Initial start and end times
-        self.start_time = brains.open_ads_db()['StartDate']
-        if not self.start_time:
-            self.start_time = datetime.now()
-            logger.debug('The start time was empty.  Updating with a real date: %s' % self.start_time)
-            brains.update_start_time(start_time=self.start_time)
-        logger.info('Start Time updated from DB: %s' % self.start_time)
-        brains.update_start_time(start_time=self.start_time)
-        self.end_time = datetime.now()
+        # Test
+        # self.main()
 
     def SvcStop(self):
         self.ReportServiceStatus(win32service.SERVICE_STOP_PENDING)
@@ -109,10 +104,30 @@ class littleBird(win32serviceutil.ServiceFramework):
         """
         The main loop
         """
+        # set Initial start and end times
+        self.end_time = datetime.now()
+        # try:
+        self.start_time = brains.open_ads_db()['StartDate']
+        if not self.start_time:
+            self.start_time = datetime.now()
+            logger.debug('The start time was empty.  Updating with a real date: %s' % self.start_time)
+            start_date_to_string = self.start_time.strftime("%m/%d/%Y, %H:%M:%S")
+            brains.update_start_time(start_time=start_date_to_string)
+        elif type(self.start_time) != datetime:
+            logger.debug('Converting date time to Datetime')
+            self.start_time = datetime.strptime(self.start_time, '%m/%d/%Y, %H:%M:%S')
+        logger.info('Start Time updated from DB: %s' % self.start_time)
+        brains.update_start_time(start_time=self.start_time.strftime("%m/%d/%Y, %H:%M:%S"))
+        self.end_time = datetime.now()
+        # except Exception as e:
+        #     logger.error('The fit hit the shan!', e)
 
         while True:
-            if (self.start_time + timedelta(hours=int(config['interval']))) < self.end_time:
+            if (self.start_time + timedelta(minutes=int(config['interval']))) < self.end_time:
                 self.start_time = datetime.now()
+                logger.debug('LOOP: %s' % self.start_time)
+                logger.info('Updating Start Date...')
+                brains.update_start_time(self.start_time)
             self.end_time = datetime.now()
             time.sleep(30)
 
@@ -120,3 +135,5 @@ class littleBird(win32serviceutil.ServiceFramework):
 if __name__ == '__main__':
     win32serviceutil.HandleCommandLine(littleBird)
 
+    # test = littleBird()
+    # test.main()

@@ -124,6 +124,8 @@ class birdBrains(object):
 
     def update_start_time(self, start_time=None):
         if start_time:
+            if type(start_time) == datetime:
+                start_time = start_time.strftime("%m/%d/%Y, %H:%M:%S")
             logger.debug('Start time added: %s' % start_time)
             get_current_db = self.open_ads_db()
             get_current_db['StartDate'] = start_time
@@ -131,10 +133,7 @@ class birdBrains(object):
             logger.info('CDB: %s' % get_current_db['StartDate'])
             ads_path = find_file(file_name=ads_file, folder='data')
             if ads_path:
-                # save = json.dump(get_current_db)
-                # with open(ads_path, 'wb') as save:
-                #     logger.info('Date updated')
                 save = json.dumps(get_current_db, sort_keys=True, indent=4, separators=(',', ': '))
-                save_file = open(ads_file, 'w+')
-                save_file.write(save)
+                with open(ads_path, 'w+') as save_file:
+                    save_file.write(save)
                 logger.info('Date Updated')
