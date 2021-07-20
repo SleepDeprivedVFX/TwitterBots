@@ -182,7 +182,18 @@ class birdBrains(object):
                 message = tweet['text']
                 message += tweet['link']
                 message += tweet['hashtags']
-                sent = message
+                file_name = tweet['image']
+
+                split_message = message.split('\n')
+                message = " \n ".join(line for line in split_message)
+
+                if message:
+                    # Testing sending an image first...
+                    if file_name:
+                        post_id = self.api.update_with_media(file_name, message)
+                    else:
+                        post_id = self.api.update_status(status=message)
+                    sent = post_id
             except Exception as e:
                 logger.error('POST TWEET FAILED: %s' % e)
         return sent
