@@ -192,7 +192,7 @@ class birdBrains(object):
                 logger.debug('TYPE: %s' % type(tweet))
                 for key, val in tweet.items():
                     logger.debug('%s: %s' % (key, val))
-                split_text = tweet['text'].split('\n')
+                split_text = tweet['text'].split("\n")
                 message = ""
                 for t in split_text:
                     message += t + "\n"
@@ -202,7 +202,7 @@ class birdBrains(object):
                     message += h + "\n"
                 file_name = tweet['image']
 
-                split_message = message.split('\n')
+                split_message = message.split("\n")
                 message = " \n ".join(line for line in split_message)
 
                 if message:
