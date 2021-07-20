@@ -175,7 +175,7 @@ class littleBird(win32serviceutil.ServiceFramework):
         #     logger.error('The fit hit the shan!', e)
 
         while True:
-            if (self.start_time + timedelta(minutes=int(config['interval']))) < self.end_time:
+            if (self.start_time + timedelta(hours=int(config['interval']))) < self.end_time:
                 self.start_time = datetime.now()
                 logger.debug('LOOP: %s' % self.start_time)
                 logger.info('Updating Start Date...')
