@@ -138,21 +138,31 @@ class birdBrains(object):
                     save_file.write(save)
                 logger.info('Date Updated')
 
-    def update_database(self, key=None, value=None, id=None):
-        if key and id:
+    def update_database(self, key=None, value=None, tid=None):
+        if key and tid:
+            tid = int(tid)
             logger.info('Updating the Database')
             db = self.open_ads_db()
-            logger.debug('Ads DB opened.')
+            logger.debug('Ads DB collected.')
             if not value:
                 value = ""
                 logger.debug('Value is empty')
+            else:
+                logger.debug('Value is %s' % value)
 
             # Set the new value in the database
-            logger.debug('Setting the value to', value)
-            c = len(db) + 1
+            logger.debug('Setting the value to %s' % value)
+            c = len(db['Tweets']) + 1
+            logger.debug('DB length + 1 = %s' % c)
             for x in range(0, c):
-                if db[x]['id'] == id:
+                logger.debug('ITERATING: %s' % db['Tweets'][x])
+                if db['Tweets'][x]['id'] == tid:
+                    logger.debug('ID found: %s' % tid)
+                    logger.debug('Updating database...')
                     db[x][key] = value
+                    logger.debug('JSON updated')
+                    logger.debug('ENTRY: %s' % db['Tweets'][x])
+                    break
 
             logger.info('Saving database...')
             ads_file = 'tweets.json'
