@@ -89,12 +89,17 @@ def bird_nest():
             except Exception as e:
                 logger.error('This shit dont work! %s' % e)
             if collect_tweets:
-                sorted_tweets = sorted(collect_tweets, key=lambda i: (i['last_posted'], i['post_count']),
-                                       reverse=True)[1:]
-                get_tweet_id = brains.find_random_tweet(tweet_list=sorted_tweets)
-                logger.debug('Tweet ID: %s' % get_tweet_id)
-                get_tweet = next((twt for twt in tweets if twt['id'] == get_tweet_id), False)
-                logger.debug('SELECTED TWEET: %s' % get_tweet)
+                try:
+                    sorted_tweets = sorted(collect_tweets, key=lambda i: (i['last_posted'], i['post_count']),
+                                           reverse=True)[1:]
+                    get_tweet_id = brains.find_random_tweet(tweet_list=sorted_tweets)
+                    logger.debug('Tweet ID: %s' % get_tweet_id)
+                    get_tweet = next((twt for twt in tweets if twt['id'] == get_tweet_id), False)
+                    logger.debug('SELECTED TWEET: %s' % get_tweet)
+                    posted_tweet = brains.post_tweet(tweet=get_tweet)
+                    logger.debug('Tweet posted: %s' % posted_tweet)
+                except Exception as e:
+                    logger.error('The collected tweet didn\'t work', e)
 
 
 # Create and start a Thread

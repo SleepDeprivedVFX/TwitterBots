@@ -171,4 +171,20 @@ class birdBrains(object):
 
         return tweet_id
 
+    def post_tweet(self, tweet=None):
+        sent = None
+        if tweet:
+            try:
+                logger.debug('Sending Tweet: %s' % tweet)
+                logger.debug('TYPE: %s' % type(tweet))
+                for key, val in tweet.items():
+                    logger.debug('%s: %s' % (key, val))
+                message = tweet['text']
+                message += tweet['link']
+                message += tweet['hashtags']
+                sent = message
+            except Exception as e:
+                logger.error('POST TWEET FAILED: %s' % e)
+        return sent
+
 
