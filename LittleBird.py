@@ -73,6 +73,28 @@ def bird_nest():
             db = brains.open_ads_db()
             tweets = db['Tweets']
             logger.debug('TWEETS: %s' % tweets)
+            collect_tweets = []
+            try:
+                for tweet in tweets:
+                    logger.debug(type(tweet))
+                    logger.debug('TWEET: %s' % tweet)
+                    collect_tweets.append(
+                        {
+                            'id': tweet['id'],
+                            'last_posted': tweet['last_posted'],
+                            'last_posted_id': tweet['last_posted_id'],
+                            'post_count': tweet['post_count']
+                        }
+                    )
+            except Exception as e:
+                logger.error('This shit dont work! %s' % e)
+            if collect_tweets:
+                sorted_tweets = sorted(collect_tweets, key=lambda i: (i['last_posted'], i['post_count']),
+                                       reverse=True)[1:]
+                get_tweet_id = brains.find_random_tweet(tweet_list=sorted_tweets)
+                logger.debug('Tweet ID: %s' % get_tweet_id)
+                get_tweet = next((twt for twt in tweets if twt['id'] == get_tweet_id), False)
+                logger.debug('SELECTED TWEET: %s' % get_tweet)
 
 
 # Create and start a Thread
@@ -139,7 +161,7 @@ class littleBird(win32serviceutil.ServiceFramework):
                 logger.info('Starting Tweet Function...')
                 q.put(self.start_time)
             self.end_time = datetime.now()
-            time.sleep(30)
+            time.sleep(5)
 
 
 if __name__ == '__main__':

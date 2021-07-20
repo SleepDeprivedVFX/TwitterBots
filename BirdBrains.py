@@ -33,8 +33,8 @@ twitter_keys = [
 
 
 def find_file(file_name=None, folder=None):
+    path = None
     if file_name:
-        path = None
         sys_path = sys.path
         try:
             if folder:
@@ -46,7 +46,7 @@ def find_file(file_name=None, folder=None):
                 path = path.replace('\\', '/')
         except IndexError as e:
             raise e
-        return path
+    return path
 
 
 def get_configuration():
@@ -137,3 +137,38 @@ class birdBrains(object):
                 with open(ads_path, 'w+') as save_file:
                     save_file.write(save)
                 logger.info('Date Updated')
+
+    def update_database(self, key=None, value=None):
+        if key:
+            logger.info('Updating the Database')
+            db = self.open_ads_db()
+            logger.debug('Ads DB opened.')
+            if not value:
+                value = ""
+                logger.debug('Value is empty')
+
+            # Set the new value in the database
+            logger.debug('Setting the value to', value)
+            db[key] = value
+
+            logger.info('Saving database...')
+            ads_file = 'tweets.json'
+            ads_path = find_file(file_name=ads_file, folder='data')
+            if ads_path:
+                save = json.dumps(db, sort_keys=True, indent=4, separators=(',', ': '))
+                with open(ads_path, 'w+') as save_file:
+                    save_file.write(save)
+                    logger.info('File saved.')
+
+    def find_random_tweet(self, tweet_list=None):
+        tweet_id = None
+        if tweet_list:
+            total_tweets = len(tweet_list)
+            rand = random.randrange(0, (total_tweets + 1))
+            logger.debug('Random Number: %s' % rand)
+            tweet_id = tweet_list[rand]['id']
+            logger.debug('Tweet ID: %s' % tweet_id)
+
+        return tweet_id
+
+
