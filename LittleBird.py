@@ -56,21 +56,29 @@ logger.info('A little bird told me....')
 # Ingest Reader Bot
 brains = BirdBrains.birdBrains()
 
-# # Setup the queue
-# q = queue.Queue()
-#
-#
-# def bird_nest():
-#     """
-#     The Queue.
-#     """
-#     print('Fart')
-#
-#
-# # Create and start a Thread
-# t = threading.Thread(target=bird_nest, name='BirdNest')
-# t.setDaemon(True)
-# t.start()
+# Setup the queue
+q = queue.Queue()
+
+
+def bird_nest():
+    """
+    The Queue.
+    """
+    logger.debug('Queue Running...')
+    while True:
+        package = q.get(block=True)
+        logger.debug('PACKAGE: %s' % package)
+
+        if package:
+            db = brains.open_ads_db()
+            tweets = db['Tweets']
+            logger.debug('TWEETS: %s' % tweets)
+
+
+# Create and start a Thread
+t = threading.Thread(target=bird_nest, name='BirdNest')
+t.setDaemon(True)
+t.start()
 
 
 class littleBird(win32serviceutil.ServiceFramework):
@@ -128,6 +136,8 @@ class littleBird(win32serviceutil.ServiceFramework):
                 logger.debug('LOOP: %s' % self.start_time)
                 logger.info('Updating Start Date...')
                 brains.update_start_time(self.start_time)
+                logger.info('Starting Tweet Function...')
+                q.put(self.start_time)
             self.end_time = datetime.now()
             time.sleep(30)
 

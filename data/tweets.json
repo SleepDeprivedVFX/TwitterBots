@@ -1,71 +1,71 @@
 {
+    "StartDate": "07/19/2021, 19:38:26",
     "Tweets": [
         {
-            "text": "Stranded in the distant past, attempting to preserve an uncertain future.\\nThe Roswell Paradox book 1 is an adventure in time that stretches across millions of years. Sometimes the only way forward is back.\\n",
+            "description": "First ad for the Roswell Paradox: The Temporal Key.",
+            "hashtags": "#TheRoswellParadox\\n#BackInTime\\n#Books\\n#TemporalKey",
             "id": 1,
             "image": "",
-            "hashtags": "#TheRoswellParadox\\n#BackInTime\\n#Books\\n#TemporalKey",
-            "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P via @amazon",
             "last_posted": "Tue Jul 13 03:19:17 +0000 2021",
             "last_posted_id": "1414798024019124229",
+            "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P via @amazon",
             "post_count": 1,
-            "description": "First ad for the Roswell Paradox: The Temporal Key."
+            "text": "Stranded in the distant past, attempting to preserve an uncertain future.\\nThe Roswell Paradox book 1 is an adventure in time that stretches across millions of years. Sometimes the only way forward is back.\\n"
         },
         {
-            "text": "Labeled as a Temporal Fugitives, Dayk must find a way to stop agents from ruining the future.\\Iteration is the trhilling climax to The Temporal Key! ",
+            "description": "First Ad for the Roswell Paradox Book 2: Iteration",
+            "hashtags": "#TheRoswellParadox\\n#BackInTime\\n#Books\\n#Iteration",
             "id": 2,
             "image": "",
-            "hashtags": "#TheRoswellParadox\\n#BackInTime\\n#Books\\n#Iteration",
-            "link": "https://www.amazon.com/dp/B085DDSY8T/ref=cm_sw_r_tw_dp_GFT7F86WZF356S45KF6Y via @amazon",
             "last_posted": "",
             "last_posted_id": "",
+            "link": "https://www.amazon.com/dp/B085DDSY8T/ref=cm_sw_r_tw_dp_GFT7F86WZF356S45KF6Y via @amazon",
             "post_count": 0,
-            "description": "First Ad for the Roswell Paradox Book 2: Iteration"
+            "text": "Labeled as a Temporal Fugitives, Dayk must find a way to stop agents from ruining the future.\\Iteration is the trhilling climax to The Temporal Key! "
         },
         {
-            "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine\\nGet it on @AmazonMusic",
+            "description": "The Amazon Ad for The Before Times",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
             "id": 3,
             "image": "",
-            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
-            "link": "https://www.amazon.com/gp/product/B08QWB159K/",
             "last_posted": "",
             "last_posted_id": "",
+            "link": "https://www.amazon.com/gp/product/B08QWB159K/",
             "post_count": 0,
-            "description": "The Amazon Ad for The Before Times"
+            "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine\\nGet it on @AmazonMusic"
         },
         {
-            "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine\\nGet it on @Spotify",
+            "description": "The Spotify Ad for The Before Times",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
             "id": 4,
             "image": "",
-            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
-            "link": "https://open.spotify.com/album/3fUtPDQw3pdbVgHmEHzlFT",
             "last_posted": "",
             "last_posted_id": "",
+            "link": "https://open.spotify.com/album/3fUtPDQw3pdbVgHmEHzlFT",
             "post_count": 0,
-            "description": "The Spotify Ad for The Before Times"
+            "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine\\nGet it on @Spotify"
         },
         {
-            "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine\\nGet it on @YoutubeMusic",
+            "description": "The YouTube Music Ad for The Before Times",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
             "id": 5,
             "image": "",
-            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
-            "link": "https://music.youtube.com/playlist?list=OLAK5uy_kyPPG4vjDJyAtnYSkeriYTg5AiDMUKjEc&feature=share ",
             "last_posted": "",
             "last_posted_id": "",
+            "link": "https://music.youtube.com/playlist?list=OLAK5uy_kyPPG4vjDJyAtnYSkeriYTg5AiDMUKjEc&feature=share ",
             "post_count": 0,
-            "description": "The YouTube Music Ad for The Before Times"
+            "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine\\nGet it on @YoutubeMusic"
         },
         {
-            "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine\\nGet it on @AppleMusic",
+            "description": "The Apple Music Ad for The Before Times",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
             "id": 6,
             "image": "",
-            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
-            "link": "https://music.apple.com/us/album/the-before-times/1545406040",
             "last_posted": "",
             "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/the-before-times/1545406040",
             "post_count": 0,
-            "description": "The Apple Music Ad for The Before Times"
+            "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine\\nGet it on @AppleMusic"
         }
-    ],
-    "StartDate": ""
+    ]
 }
