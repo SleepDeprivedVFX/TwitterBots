@@ -159,7 +159,7 @@ class birdBrains(object):
                 if db['Tweets'][x]['id'] == tid:
                     logger.debug('ID found: %s' % tid)
                     logger.debug('Updating database...')
-                    db[x][key] = value
+                    db['Tweets'][x][key] = value
                     logger.debug('JSON updated')
                     logger.debug('ENTRY: %s' % db['Tweets'][x])
                     break
