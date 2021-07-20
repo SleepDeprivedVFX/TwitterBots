@@ -1,12 +1,12 @@
 {
-    "StartDate": "07/19/2021, 23:25:06",
+    "StartDate": "07/19/2021, 23:41:19",
     "Tweets": [
         {
             "description": "First ad for the Roswell Paradox: The Temporal Key.",
             "hashtags": "#TheRoswellParadox #BackInTime #Books #TemporalKey",
             "id": 1,
             "image": "",
-            "last_posted": "07/19/2021, 06:21:24",
+            "last_posted": "07/16/2021, 06:21:24",
             "last_posted_id": "1414798024019124229",
             "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P via @amazon",
             "post_count": 1,
@@ -39,10 +39,10 @@
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
             "id": 4,
             "image": "",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/20/2021, 06:41:19",
+            "last_posted_id": "1417374042328166402",
             "link": "https://open.spotify.com/album/3fUtPDQw3pdbVgHmEHzlFT",
-            "post_count": 0,
+            "post_count": 1,
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @Spotify"
         },
         {
@@ -50,7 +50,7 @@
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
             "id": 5,
             "image": "",
-            "last_posted": "07/20/2021, 06:25:06",
+            "last_posted": "07/18/2021, 06:25:06",
             "last_posted_id": "1417369960221872128",
             "link": "https://music.youtube.com/playlist?list=OLAK5uy_kyPPG4vjDJyAtnYSkeriYTg5AiDMUKjEc&feature=share ",
             "post_count": 1,
@@ -61,11 +61,132 @@
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
             "id": 6,
             "image": "",
-            "last_posted": "07/20/2021, 06:21:24",
+            "last_posted": "07/17/2021, 06:21:24",
             "last_posted_id": "1417369026771099649",
             "link": "https://music.apple.com/us/album/the-before-times/1545406040",
             "post_count": 1,
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @AppleMusic"
+        },
+        {
+            "description": "Another variation of an add for the books.",
+            "hashtags": "#TheRoswellParadox #BackInTime #Books #TemporalKey #Novel #Author #AdamDBenson",
+            "id": 7,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P via @amazon",
+            "post_count": 0,
+            "text": "I love to write stories. Do it as often as I can. \\n Check out my 2 part book series, 'The Roswell Paradox' on @AmazonKindle! \\n "
+        },
+        {
+            "description": "Supplemental Ad for book 2",
+            "hashtags": "#TheRoswellParadox #BackInTime #Books #Iteration #Writing #AdamDBenson #SciFi",
+            "id": 8,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://www.amazon.com/dp/B085DDSY8T/ref=cm_sw_r_tw_dp_GFT7F86WZF356S45KF6Y via @amazon",
+            "post_count": 0,
+            "text": "'The Roswell Paradox: Iteration' is the second book I wrote for my 2 part series! Check it out and leave a review! "
+        },
+        {
+            "description": "The Amazon Ad for The Before Times",
+            "hashtags": "#AdamDBenson #TheBeforeTimes #Music #IndieRecordings #Songs #Recordings",
+            "id": 9,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://www.amazon.com/gp/product/B08QWB159K/",
+            "post_count": 0,
+            "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @AmazonMusic"
+        },
+        {
+            "description": "The Spotify Ad for The Before Times",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings #Songs #Recordings #Instrumental",
+            "id": 10,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://open.spotify.com/album/3fUtPDQw3pdbVgHmEHzlFT",
+            "post_count": 0,
+            "text": "I write a ton of #music across many styles. Trying to finish a new album now. Check out my last, 'The Before Times' on @Spotify"
+        },
+        {
+            "description": "The YouTube Music Ad for The Before Times",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings #songs #Recordings #Instrumental",
+            "id": 11,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.youtube.com/playlist?list=OLAK5uy_kyPPG4vjDJyAtnYSkeriYTg5AiDMUKjEc&feature=share ",
+            "post_count": 0,
+            "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @YoutubeMusic"
+        },
+        {
+            "description": "The Apple Music Ad for The Before Times",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings #Songs #Instrumental #Recordings",
+            "id": 12,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/the-before-times/1545406040",
+            "post_count": 0,
+            "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @AppleMusic"
+        },
+        {
+            "description": "Spotify link for Spanish Inquisition",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #SpanishInquisition #Songs #Instrumental #Recordings",
+            "id": 13,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://open.spotify.com/track/2G7PZaSeSPJwDL0hhK7eZg?si=dc32de20836c4513",
+            "post_count": 0,
+            "text": "I wrote this song many years ago. It's called *'Spanish Inquisition'*! You can check it out on @Spotify "
+        },
+        {
+            "description": "Spotify link for The Artifact",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #TheArtifact #Songs #Instrumental #Recordings",
+            "id": 14,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://open.spotify.com/track/2ThrODe5wYZc5OrABi9rSW?si=d0c4775c7baf4872",
+            "post_count": 0,
+            "text": "I wrote *'The Artifact'* years ago for a Demo Reel. Turned out really good! You can check it out on @Spotify "
+        },
+        {
+            "description": "Spotify link for Angie Trent",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #AngieTrent #Songs #Instrumental #Recordings",
+            "id": 15,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://open.spotify.com/track/0al9E7MuAZdeAeCr3GJLnG?si=c753e088cb284be5",
+            "post_count": 0,
+            "text": "*'Angie Trent'* was a girl I knew who died in a car crash in High School. I wrote this as an homage.  You can check it out on @Spotify "
+        },
+        {
+            "description": "Spotify link for Lies",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #Lies #Songs #Instrumental #Recordings",
+            "id": 16,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://open.spotify.com/track/3mmRVFfKnnptvE540Qzhd6?si=c86264129bc74d3a",
+            "post_count": 0,
+            "text": "*'Lies!'* I always liked this piece. Exes can be great inspiration for songs.  You can check it out on @Spotify "
+        },
+        {
+            "description": "Spotify link for Love on the Terrace",
+            "hashtags": "#AdamBenson #TheBeforeTimes #Music #LoveOnTheTerrace #Songs #Instrumental #Recordings",
+            "id": 17,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://open.spotify.com/track/0WYnRrySvKC2BWKnbttXgY?si=63131516fef24036",
+            "post_count": 0,
+            "text": "I wrote *'Love on the Terrace'* after a trip to #Bisbee Arizona. #Theramin is always a fun instrument! You can check it out on @Spotify "
         }
     ]
 }
