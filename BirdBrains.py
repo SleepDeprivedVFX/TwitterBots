@@ -174,6 +174,7 @@ class birdBrains(object):
                     logger.info('File saved.')
 
     def find_random_tweet(self, tweet_list=None):
+        logger.info('Finding Random Tweet...')
         tweet_id = None
         if tweet_list:
             total_tweets = len(tweet_list)
@@ -181,7 +182,7 @@ class birdBrains(object):
             logger.debug('Random Number: %s' % rand)
             tweet_id = tweet_list[rand]['id']
             logger.debug('Tweet ID: %s' % tweet_id)
-
+        logger.info('Random Tweet ID: %s' % tweet_id)
         return tweet_id
 
     def track_tweet(self, tweet=None):
@@ -190,6 +191,7 @@ class birdBrains(object):
             pass
 
     def post_tweet(self, tweet=None):
+        logger.debug('post_tweet started.')
         sent = None
         if tweet:
             try:
@@ -220,7 +222,9 @@ class birdBrains(object):
             except Exception as e:
                 logger.error('POST TWEET FAILED: %s' % e)
             if sent:
+                logger.debug('Sending tweet to tracker db...')
                 self.track_tweet(tweet=sent)
+        logger.info('The Little Bird has spoken!')
         return sent
 
 

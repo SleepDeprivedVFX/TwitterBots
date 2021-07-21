@@ -92,6 +92,7 @@ def bird_nest():
                 try:
                     sorted_tweets = sorted(collect_tweets, key=lambda i: (i['last_posted'], i['post_count']),
                                            reverse=True)[1:]
+                    logger.info('Grabbing a pre-built tweet...')
                     get_tweet_id = brains.find_random_tweet(tweet_list=sorted_tweets)
                     logger.debug('Tweet ID: %s' % get_tweet_id)
                     get_tweet = next((twt for twt in tweets if twt['id'] == get_tweet_id), False)
@@ -99,6 +100,7 @@ def bird_nest():
                     logger.debug('SELECTED TWEET: %s' % get_tweet)
                     posted_tweet = brains.post_tweet(tweet=get_tweet)
                     tweet_data = posted_tweet._json
+                    logger.info('A Little Bird told me: %s' % tweet_data['text'])
                     logger.debug('Tweet posted: %s' % tweet_data)
                     post_count += 1
                     brains.update_database(key="post_count", value=post_count, tid=get_tweet_id)
@@ -134,6 +136,7 @@ class littleBird(win32serviceutil.ServiceFramework):
     queue_prep = []
 
     def __init__(self, args):
+        logger.info('Starting service...')
         win32serviceutil.ServiceFramework.__init__(self, args)
         self.hWaitStop = win32event.CreateEvent(None, 0, 0, None)
         socket.setdefaulttimeout(60)
@@ -150,12 +153,14 @@ class littleBird(win32serviceutil.ServiceFramework):
     def SvcDoRun(self):
         servicemanager.LogMsg(servicemanager.EVENTLOG_INFORMATION_TYPE, servicemanager.PYS_SERVICE_STARTED,
                               (self._svc_name_, ''))
+        logger.info('Starting Little Bird')
         self.main()
 
     def main(self):
         """
         The main loop
         """
+        logger.info('Little Bird started.')
         # set Initial start and end times
         self.end_time = datetime.now()
         # try:
