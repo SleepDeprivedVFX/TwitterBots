@@ -184,6 +184,11 @@ class birdBrains(object):
 
         return tweet_id
 
+    def track_tweet(self, tweet=None):
+        if tweet:
+            # TODO: Make this save the tweet into the post_watch_list.json document.
+            pass
+
     def post_tweet(self, tweet=None):
         sent = None
         if tweet:
@@ -214,6 +219,8 @@ class birdBrains(object):
                     sent = post_id
             except Exception as e:
                 logger.error('POST TWEET FAILED: %s' % e)
+            if sent:
+                self.track_tweet(tweet=sent)
         return sent
 
 
