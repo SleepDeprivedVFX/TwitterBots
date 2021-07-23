@@ -372,10 +372,12 @@ class readerBotTools(object):
             print('Post_ID: %s' % post_id)
 
     def get_tweet_by_id(self, tid=None):
+        find_tweet = None
         pp = pprint.PrettyPrinter()
         if tid:
             find_tweet = self.api.get_status(tid)
             pp.pprint(find_tweet)
+        return find_tweet
 
 
 if __name__ == "__main__":
@@ -383,7 +385,12 @@ if __name__ == "__main__":
     # print(test.rando_range(0, 100, integer=True))
     # print(test.pick_random_tweet())
     # test.check_twitter_temperature()
-    test.get_tweet_by_id(1417648315911397378)
+    t = test.get_tweet_by_id(1417648315911397378)
+    if t:
+        js = t._json
+        if js['favorited']:
+            check_likes = js['favorite_count']
+            print('like cound: %s' % check_likes)
     # results = test.twit_search(terms='book')
     # print(results)
     # for book in results:
