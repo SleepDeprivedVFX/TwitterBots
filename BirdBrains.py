@@ -190,7 +190,30 @@ class birdBrains(object):
             # TODO: Make this save the tweet into the post_watch_list.json document.
             pass
 
-    def post_tweet(self, tweet=None, collected_tweets=[], retries=0):
+    def get_tweets(self):
+        db = self.open_ads_db()
+        tweets = db['Tweets']
+        logger.debug('TWEETS: %s' % tweets)
+        collect_tweets = []
+        try:
+            for tweet in tweets:
+                logger.debug('ACTIVE AD: %s' % tweet['active_ad'])
+                if tweet['active_ad']:
+                    logger.debug(type(tweet))
+                    logger.debug('TWEET: %s' % tweet)
+                    collect_tweets.append(
+                        {
+                            'id': tweet['id'],
+                            'last_posted': tweet['last_posted'],
+                            'last_posted_id': tweet['last_posted_id'],
+                            'post_count': tweet['post_count']
+                        }
+                    )
+        except Exception as e:
+            logger.error('This shit dont work! %s' % e)
+        return collect_tweets, tweets
+
+    def post_tweet(self, tweet=None, retries=0):
         logger.debug('post_tweet started.')
         sent = None
         if tweet:
@@ -223,14 +246,18 @@ class birdBrains(object):
                 retries += 1
                 if retries <= 5:
                     logger.info('Retrying...  Attempt #{0}'.format(retries))
-                    reduced_list = collected_tweets.remove(tweet)
-                    db = self.open_ads_db()
-                    tweets = db['Tweets']
-                    get_tweet_id = self.find_random_tweet(tweet_list=reduced_list)
+                    logger.info('Killing bad Tweet...')
+                    self.update_database(key='active_ad', value=False, tid=tweet['id'])
+                    logger.info('Getting new tweet...')
+                    get_tweets = self.get_tweets()
+                    collect_tweets = get_tweets[0]
+                    tweets = get_tweets[1]
+                    get_tweet_id = self.find_random_tweet(tweet_list=collect_tweets)
                     get_tweet = next((twt for twt in tweets if twt['id'] == get_tweet_id), False)
+                    logger.info('Trying the next tweet: %s' % get_tweet)
                     logger.info('Sending back through...')
                     logger.debug('Retry tweet: %s' % get_tweet)
-                    self.post_tweet(tweet=get_tweet, collected_tweets=tweets, retries=retries)
+                    self.post_tweet(tweet=get_tweet, retries=retries)
             if sent:
                 logger.debug('Sending tweet to tracker db...')
                 self.track_tweet(tweet=sent)
