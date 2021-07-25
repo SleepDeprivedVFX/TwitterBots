@@ -205,7 +205,9 @@ class birdBrains(object):
 
                 message = '''
         {text}
+        
         {link}
+        
         {hash_tags}
         '''.format(text=tweet['text'], link=tweet['link'], hash_tags=tweet['hashtags'])
 
