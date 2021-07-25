@@ -235,7 +235,7 @@ class birdBrains(object):
 {link}
 
 {hash_tags}
-        '''.format(text=tweet['text'], link=tweet['link'], hash_tags=tweet['hashtags'])
+                '''.format(text=tweet['text'], link=tweet['link'], hash_tags=tweet['hashtags'])
 
                 if message:
                     # Testing sending an image first...
