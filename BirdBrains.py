@@ -190,7 +190,7 @@ class birdBrains(object):
             # TODO: Make this save the tweet into the post_watch_list.json document.
             pass
 
-    def post_tweet(self, tweet=None):
+    def post_tweet(self, tweet=None, collected_tweets=[], retries=0):
         logger.debug('post_tweet started.')
         sent = None
         if tweet:
@@ -199,18 +199,15 @@ class birdBrains(object):
                 logger.debug('TYPE: %s' % type(tweet))
                 for key, val in tweet.items():
                     logger.debug('%s: %s' % (key, val))
-                split_text = tweet['text'].split("\n")
-                message = ""
-                for t in split_text:
-                    message += t + "\n"
-                message += "\n" + tweet['link'] + "\n"
-                hash_tags = tweet['hashtags'].split(" ")
-                for h in hash_tags:
-                    message += h + "\n"
+
+                # Get file if it exists
                 file_name = tweet['image']
 
-                split_message = message.split("\n")
-                message = " \n ".join(line for line in split_message)
+                message = '''
+                {text}
+                {link}
+                {hash_tags}
+                '''.format(text=tweet['text'], link=tweet['link'], hash_tags=tweet['hashtags'])
 
                 if message:
                     # Testing sending an image first...
@@ -221,6 +218,15 @@ class birdBrains(object):
                     sent = post_id
             except Exception as e:
                 logger.error('POST TWEET FAILED: %s' % e)
+                retries += 1
+                if retries <= 5:
+                    logger.info('Retrying...  Attempt #{0}'.format(retries))
+                    reduced_list = collected_tweets.remove(tweet)
+                    get_tweet_id = self.find_random_tweet(tweet_list=reduced_list)
+                    get_tweet = next((twt for twt in reduced_list if twt['id'] == get_tweet_id), False)
+                    logger.info('Sending back through...')
+                    logger.debug('Retry tweet: %s' % get_tweet)
+                    self.post_tweet(tweet=get_tweet, collected_tweets=reduced_list, retries=retries)
             if sent:
                 logger.debug('Sending tweet to tracker db...')
                 self.track_tweet(tweet=sent)

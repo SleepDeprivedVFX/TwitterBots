@@ -1,18 +1,20 @@
 {
-    "StartDate": "07/22/2021, 03:51:26",
+    "StartDate": "07/24/2021, 18:47:53",
     "Tweets": [
         {
+            "active_ad": false,
             "description": "First ad for the Roswell Paradox: The Temporal Key.",
             "hashtags": "#TheRoswellParadox #BackInTime #Books #TemporalKey",
             "id": 1,
             "image": "",
             "last_posted": "07/16/2021, 06:21:24",
             "last_posted_id": "1414798024019124229",
-            "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P via @amazon",
+            "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P",
             "post_count": 1,
-            "text": "Stranded in the distant past, attempting to preserve an uncertain future.\\n The Roswell Paradox book 1 is an adventure in time that stretches across millions of years. Sometimes the only way forward is back. \\n "
+            "text": "Stranded in the distant past, trying to preserve the future. The Roswell Paradox is an adventure across millions of years. Sometimes the only way forward is back."
         },
         {
+            "active_ad": true,
             "description": "First Ad for the Roswell Paradox Book 2: Iteration",
             "hashtags": "#TheRoswellParadox #BackInTime #Books #Iteration",
             "id": 2,
@@ -21,20 +23,22 @@
             "last_posted_id": "",
             "link": "https://www.amazon.com/dp/B085DDSY8T/ref=cm_sw_r_tw_dp_GFT7F86WZF356S45KF6Y via @amazon",
             "post_count": 0,
-            "text": "Labeled as a Temporal Fugitives, Dayk must find a way to stop agents from ruining the future.\\n Iteration is the trhilling climax to The Temporal Key! "
+            "text": "Labeled as a Temporal Fugitives, Dayk must find a way to stop agents from ruining the future. Iteration is the trhilling climax to The Temporal Key! "
         },
         {
+            "active_ad": true,
             "description": "The Amazon Ad for The Before Times",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
             "id": 3,
             "image": "",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/23/2021, 21:44:07",
+            "last_posted_id": "1418688401356722177",
             "link": "https://www.amazon.com/gp/product/B08QWB159K/",
-            "post_count": 0,
+            "post_count": 1,
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @AmazonMusic"
         },
         {
+            "active_ad": true,
             "description": "The Spotify Ad for The Before Times",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
             "id": 4,
@@ -46,6 +50,7 @@
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @Spotify"
         },
         {
+            "active_ad": true,
             "description": "The YouTube Music Ad for The Before Times",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
             "id": 5,
@@ -57,6 +62,7 @@
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @YoutubeMusic"
         },
         {
+            "active_ad": true,
             "description": "The Apple Music Ad for The Before Times",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings",
             "id": 6,
@@ -68,6 +74,7 @@
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @AppleMusic"
         },
         {
+            "active_ad": true,
             "description": "Another variation of an add for the books.",
             "hashtags": "#TheRoswellParadox #BackInTime #Books #TemporalKey #Novel #Author #AdamDBenson",
             "id": 7,
@@ -79,6 +86,7 @@
             "text": "I love to write stories. Do it as often as I can. \\n Check out my 2 part book series, 'The Roswell Paradox' on @AmazonKindle! \\n "
         },
         {
+            "active_ad": true,
             "description": "Supplemental Ad for book 2",
             "hashtags": "#TheRoswellParadox #BackInTime #Books #Iteration #Writing #AdamDBenson #SciFi",
             "id": 8,
@@ -90,6 +98,7 @@
             "text": "'The Roswell Paradox: Iteration' is the second book I wrote for my 2 part series! Check it out and leave a review! "
         },
         {
+            "active_ad": true,
             "description": "The Amazon Ad for The Before Times",
             "hashtags": "#AdamDBenson #TheBeforeTimes #Music #IndieRecordings #Songs #Recordings",
             "id": 9,
@@ -101,6 +110,7 @@
             "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @AmazonMusic"
         },
         {
+            "active_ad": true,
             "description": "The Spotify Ad for The Before Times",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings #Songs #Recordings #Instrumental",
             "id": 10,
@@ -112,6 +122,7 @@
             "text": "I write a ton of #music across many styles. Trying to finish a new album now. Check out my last, 'The Before Times' on @Spotify"
         },
         {
+            "active_ad": true,
             "description": "The YouTube Music Ad for The Before Times",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings #songs #Recordings #Instrumental",
             "id": 11,
@@ -123,6 +134,7 @@
             "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @YoutubeMusic"
         },
         {
+            "active_ad": true,
             "description": "The Apple Music Ad for The Before Times",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #IndieRecordings #Songs #Instrumental #Recordings",
             "id": 12,
@@ -134,6 +146,7 @@
             "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @AppleMusic"
         },
         {
+            "active_ad": true,
             "description": "Spotify link for Spanish Inquisition",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #SpanishInquisition #Songs #Instrumental #Recordings",
             "id": 13,
@@ -145,6 +158,7 @@
             "text": "I wrote this song many years ago. It's called *'Spanish Inquisition'*! You can check it out on @Spotify "
         },
         {
+            "active_ad": true,
             "description": "Spotify link for The Artifact",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #TheArtifact #Songs #Instrumental #Recordings",
             "id": 14,
@@ -156,6 +170,7 @@
             "text": "I wrote *'The Artifact'* years ago for a Demo Reel. Turned out really good! You can check it out on @Spotify "
         },
         {
+            "active_ad": true,
             "description": "Spotify link for Angie Trent",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #AngieTrent #Songs #Instrumental #Recordings",
             "id": 15,
@@ -167,6 +182,7 @@
             "text": "*'Angie Trent'* was a girl I knew who died in a car crash in High School. I wrote this as an homage.  You can check it out on @Spotify "
         },
         {
+            "active_ad": true,
             "description": "Spotify link for Lies",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #Lies #Songs #Instrumental #Recordings",
             "id": 16,
@@ -178,6 +194,7 @@
             "text": "*'Lies!'* I always liked this piece. Exes can be great inspiration for songs.  You can check it out on @Spotify "
         },
         {
+            "active_ad": true,
             "description": "Spotify link for Love on the Terrace",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #LoveOnTheTerrace #Songs #Instrumental #Recordings",
             "id": 17,
@@ -189,6 +206,7 @@
             "text": "I wrote *'Love on the Terrace'* after a trip to #Bisbee Arizona. #Theramin is always a fun instrument! You can check it out on @Spotify "
         },
         {
+            "active_ad": true,
             "description": "Apple link for Spanish Inquisition",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #SpanishInquisition #Songs #Instrumental #Recordings",
             "id": 18,
@@ -200,6 +218,7 @@
             "text": "I wrote this song many years ago. It's called *'Spanish Inquisition'*! You can check it out on @AppleMusic "
         },
         {
+            "active_ad": true,
             "description": "AppleMusic link for The Artifact",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #TheArtifact #Songs #Instrumental #Recordings",
             "id": 19,
@@ -211,6 +230,7 @@
             "text": "I wrote *'The Artifact'* years ago for a Demo Reel. Turned out really good! You can check it out on @AppleMusic "
         },
         {
+            "active_ad": true,
             "description": "AppleMusic link for Angie Trent",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #AngieTrent #Songs #Instrumental #Recordings",
             "id": 20,
@@ -222,6 +242,7 @@
             "text": "*'Angie Trent'* was a girl I knew who died in a car crash in High School. I wrote this as an homage.  You can check it out on @AppleMusic "
         },
         {
+            "active_ad": true,
             "description": "AppleMusic link for Lies",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #Lies #Songs #Instrumental #Recordings",
             "id": 21,
@@ -233,6 +254,7 @@
             "text": "*'Lies!'* I always liked this piece. Exes can be great inspiration for songs.  You can check it out on @AppleMusic "
         },
         {
+            "active_ad": true,
             "description": "AppleMusic link for Love on the Terrace",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #LoveOnTheTerrace #Songs #Instrumental #Recordings",
             "id": 22,
@@ -244,6 +266,7 @@
             "text": "I wrote *'Love on the Terrace'* after a trip to #Bisbee Arizona. #Theramin is always a fun instrument! You can check it out on @AppleMusic "
         },
         {
+            "active_ad": true,
             "description": "YouTubeMusic link for Spanish Inquisition",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #SpanishInquisition #Songs #Instrumental #Recordings",
             "id": 23,
@@ -255,6 +278,7 @@
             "text": "I wrote this song many years ago. It's called *'Spanish Inquisition'*! You can check it out on @YouTubeMusic "
         },
         {
+            "active_ad": true,
             "description": "YouTubeMusic link for The Artifact",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #TheArtifact #Songs #Instrumental #Recordings",
             "id": 24,
@@ -266,6 +290,7 @@
             "text": "I wrote *'The Artifact'* years ago for a Demo Reel. Turned out really good! You can check it out on @YouTubeMusic "
         },
         {
+            "active_ad": true,
             "description": "YouTubeMusic link for Angie Trent",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #AngieTrent #Songs #Instrumental #Recordings",
             "id": 25,
@@ -277,28 +302,31 @@
             "text": "*'Angie Trent'* was a girl I knew who died in a car crash in High School. I wrote this as an homage.  You can check it out on @YouTubeMusic "
         },
         {
+            "active_ad": true,
             "description": "YouTubeMusic link for Lies",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #Lies #Songs #Instrumental #Recordings",
             "id": 26,
             "image": "",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/23/2021, 00:31:35",
+            "last_posted_id": "1418368156800733187",
             "link": "https://music.youtube.com/watch?v=E-KlidyZxa0&feature=share",
-            "post_count": 0,
+            "post_count": 1,
             "text": "*'Lies!'* I always liked this piece. Exes can be great inspiration for songs.  You can check it out on @YouTubeMusic "
         },
         {
+            "active_ad": true,
             "description": "YouTubeMusic link for Love on the Terrace",
             "hashtags": "#AdamBenson #TheBeforeTimes #Music #LoveOnTheTerrace #Songs #Instrumental #Recordings",
             "id": 27,
             "image": "",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/25/2021, 01:47:53",
+            "last_posted_id": "1419112135754350598",
             "link": "https://music.youtube.com/watch?v=vVuxuqIMo08&feature=share",
-            "post_count": 0,
+            "post_count": 1,
             "text": "I wrote *'Love on the Terrace'* after a trip to #Bisbee Arizona. #Theramin is always a fun instrument! You can check it out on @YouTubeMusic "
         },
         {
+            "active_ad": true,
             "description": "Spotify Ad for EMTE's Baking Soda",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 28,
@@ -310,6 +338,7 @@
             "text": "Back in the 90's I was in a band called *Eight Minutes to Earth*. A #Trippy #Funky #Alternative #Hardrock #Groove.  You can check out our first album on @Spotify "
         },
         {
+            "active_ad": true,
             "description": "AppleMusic Ad for EMTE's Baking Soda",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 29,
@@ -318,9 +347,10 @@
             "last_posted_id": "",
             "link": "https://music.apple.com/us/album/baking-soda/1452988352",
             "post_count": 0,
-            "text": "Back in the 90's I was in a band called *Eight Minutes to Earth*. A #Trippy #Funky #Alternative #Hardrock #Groove.  You can check out our first album on @AppleMusic "
+            "text": "Back in the 90's I was in a band called *Eight Minutes to Earth*. A #Trippy #Funky #Alternative #Hardrock #Groove.  Check out our first album on @AppleMusic "
         },
         {
+            "active_ad": true,
             "description": "YoutubeMusic Ad for EMTE's Baking Soda",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 30,
@@ -329,9 +359,10 @@
             "last_posted_id": "",
             "link": "https://music.youtube.com/playlist?list=OLAK5uy_mYOCg7KuPk_Zw1OBsy0Qqxgh37c7qWYM4",
             "post_count": 0,
-            "text": "Back in the 90's I was in a band called *Eight Minutes to Earth*. A #Trippy #Funky #Alternative #Hardrock #Groove.  You can check out our first album on @YoutubeMusic "
+            "text": "Back in the 90's I was in a band called *Eight Minutes to Earth*. A #Trippy #Funky #Alternative #Hardrock #Groove.  Check out our first album on @YoutubeMusic "
         },
         {
+            "active_ad": true,
             "description": "AmazonMusic Ad for EMTE's Baking Soda",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 31,
@@ -340,9 +371,10 @@
             "last_posted_id": "",
             "link": "https://www.amazon.com/gp/product/B07NMQVSLD/",
             "post_count": 0,
-            "text": "Back in the 90's I was in a band called *Eight Minutes to Earth*. A #Trippy #Funky #Alternative #Hardrock #Groove.  You can check out our first album on @AmazonMusic "
+            "text": "Back in the 90's I was in a band called *Eight Minutes to Earth*. A #Trippy #Funky #Alternative #Hardrock #Groove.  Check out our first album on @AmazonMusic "
         },
         {
+            "active_ad": true,
             "description": "YoutubeMusic ad for Grampa Dick",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 32,
@@ -354,6 +386,7 @@
             "text": "One of my favorite tunes from my 90's band *Eight Minutes To Earth*. *Grampa Dick*!  You can check it out on @YoutubeMusic "
         },
         {
+            "active_ad": true,
             "description": "YoutubeMusic ad for Coholic",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 33,
@@ -365,6 +398,7 @@
             "text": "I wrote this song *Coholic* for my 90's band *Eight Minutes To Earth*. Another one of my favorites.  You can check it out on @YoutubeMusic "
         },
         {
+            "active_ad": true,
             "description": "YoutubeMusic ad for Lint",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 34,
@@ -376,6 +410,7 @@
             "text": "We recorded this *Eight Minutes To Earth* song, *Lint* twice. The second time was on our album *Baking Soda*. You can check it out on @YoutubeMusic "
         },
         {
+            "active_ad": true,
             "description": "YoutubeMusic ad for Wind",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 35,
@@ -384,9 +419,10 @@
             "last_posted_id": "",
             "link": "https://music.youtube.com/watch?v=k95MqX6bDQg&feature=share",
             "post_count": 0,
-            "text": "I love this tune from my old 90's band *Eight Minutes to Earth*. It's called *Wind*. I don't think most people understood it. You can check it out on @YoutubeMusic "
+            "text": "I love this tune from my old 90's band *Eight Minutes to Earth*. It's called *Wind*. I don't think most people understood it. Check it out on @YoutubeMusic "
         },
         {
+            "active_ad": true,
             "description": "YoutubeMusic ad for Salacious Daydream",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 36,
@@ -395,31 +431,34 @@
             "last_posted_id": "",
             "link": "https://music.youtube.com/watch?v=cwwGvDyrG9o&feature=share",
             "post_count": 0,
-            "text": "*Salacious Daydream* was a song I wrote about wondering what other people thought of me. It's on *Eight Minutes to Earth's* 90's album, *Baking Soda*. You can check it out on @YoutubeMusic "
+            "text": "*Salacious Daydream* was a song I wrote about wondering what other people thought of me. It's on *Eight Minutes to Earth's* 90's album, *Baking Soda*."
         },
         {
+            "active_ad": true,
             "description": "AppleMusic ad for Grampa Dick",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 37,
             "image": "",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/24/2021, 18:44:30",
+            "last_posted_id": "1419005588034383872",
             "link": "https://music.apple.com/us/album/grampa-dick/1452988352?i=1452988362",
-            "post_count": 0,
+            "post_count": 1,
             "text": "One of my favorite tunes from my 90's band *Eight Minutes To Earth*. *Grampa Dick*!  You can check it out on @AppleMusic "
         },
         {
+            "active_ad": true,
             "description": "AppleMusic ad for Coholic",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 38,
             "image": "",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/24/2021, 11:44:24",
+            "last_posted_id": "1418899865468350464",
             "link": "https://music.apple.com/us/album/coholic/1452988352?i=1452988363",
-            "post_count": 0,
+            "post_count": 2,
             "text": "I wrote this song *Coholic* for my 90's band *Eight Minutes To Earth*. Another one of my favorites.  You can check it out on @AppleMusic "
         },
         {
+            "active_ad": true,
             "description": "AppleMusic ad for Lint",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 39,
@@ -431,6 +470,7 @@
             "text": "We recorded this *Eight Minutes To Earth* song, *Lint* twice. The second time was on our album *Baking Soda*. You can check it out on @AppleMusic "
         },
         {
+            "active_ad": true,
             "description": "AppleMusic ad for Wind",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 40,
@@ -439,9 +479,10 @@
             "last_posted_id": "",
             "link": "https://music.apple.com/us/album/wind/1452988352?i=1452988367",
             "post_count": 0,
-            "text": "I love this tune from my old 90's band *Eight Minutes to Earth*. It's called *Wind*. I don't think most people understood it. You can check it out on @AppleMusic "
+            "text": "I love this tune from my old 90's band *Eight Minutes to Earth*. It's called *Wind*. I don't think most people understood it. Check it out on @AppleMusic "
         },
         {
+            "active_ad": true,
             "description": "AppleMusic ad for Salacious Daydream",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 41,
@@ -450,9 +491,10 @@
             "last_posted_id": "",
             "link": "https://music.apple.com/us/album/salacious-daydream/1452988352?i=1452988368",
             "post_count": 0,
-            "text": "*Salacious Daydream* was a song I wrote about wondering what other people thought of me. It's on *Eight Minutes to Earth's* 90's album, *Baking Soda*. You can check it out on @AppleMusic "
+            "text": "*Salacious Daydream* was a song I wrote about wondering what other people thought of me. It's on *Eight Minutes to Earth's* 90's album, *Baking Soda*."
         },
         {
+            "active_ad": true,
             "description": "Spotify ad for Grampa Dick",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 42,
@@ -464,6 +506,7 @@
             "text": "One of my favorite tunes from my 90's band *Eight Minutes To Earth*. *Grampa Dick*!  You can check it out on @Spotify "
         },
         {
+            "active_ad": true,
             "description": "Spotify ad for Coholic",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 43,
@@ -475,6 +518,7 @@
             "text": "I wrote this song *Coholic* for my 90's band *Eight Minutes To Earth*. Another one of my favorites.  You can check it out on @Spotify "
         },
         {
+            "active_ad": true,
             "description": "Spotify ad for Lint",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 44,
@@ -486,6 +530,7 @@
             "text": "We recorded this *Eight Minutes To Earth* song, *Lint* twice. The second time was on our album *Baking Soda*. You can check it out on @Spotify "
         },
         {
+            "active_ad": true,
             "description": "Spotify ad for Wind",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 45,
@@ -494,9 +539,10 @@
             "last_posted_id": "",
             "link": "https://open.spotify.com/track/5eSi7mpntJA3zNlAMr5HnQ?si=4595fedb52974ffa",
             "post_count": 0,
-            "text": "I love this tune from my old 90's band *Eight Minutes to Earth*. It's called *Wind*. I don't think most people understood it. You can check it out on @Spotify "
+            "text": "I love this tune from my old 90's band *Eight Minutes to Earth*. It's called *Wind*. I don't think most people understood it. Check it out on @Spotify "
         },
         {
+            "active_ad": true,
             "description": "Spotify ad for Salacious Daydream",
             "hashtags": "#AdamBenson #BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 46,
@@ -505,7 +551,7 @@
             "last_posted_id": "",
             "link": "https://open.spotify.com/track/24cQafaFFFCER6JfFygFPg?si=3eb2de1d695444b5",
             "post_count": 0,
-            "text": "*Salacious Daydream* was a song I wrote about wondering what other people thought of me. It's on *Eight Minutes to Earth's* 90's album, *Baking Soda*. You can check it out on @Spotify "
+            "text": "*Salacious Daydream* was a song I wrote about wondering what other people thought of me. It's on *Eight Minutes to Earth's* 90's album, *Baking Soda*."
         }
     ]
 }
