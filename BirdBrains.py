@@ -222,11 +222,13 @@ class birdBrains(object):
                 if retries <= 5:
                     logger.info('Retrying...  Attempt #{0}'.format(retries))
                     reduced_list = collected_tweets.remove(tweet)
+                    db = self.open_ads_db()
+                    tweets = db['Tweets']
                     get_tweet_id = self.find_random_tweet(tweet_list=reduced_list)
-                    get_tweet = next((twt for twt in reduced_list if twt['id'] == get_tweet_id), False)
+                    get_tweet = next((twt for twt in tweets if twt['id'] == get_tweet_id), False)
                     logger.info('Sending back through...')
                     logger.debug('Retry tweet: %s' % get_tweet)
-                    self.post_tweet(tweet=get_tweet, collected_tweets=reduced_list, retries=retries)
+                    self.post_tweet(tweet=get_tweet, collected_tweets=tweets, retries=retries)
             if sent:
                 logger.debug('Sending tweet to tracker db...')
                 self.track_tweet(tweet=sent)

@@ -76,6 +76,7 @@ def bird_nest():
             collect_tweets = []
             try:
                 for tweet in tweets:
+                    logger.debug('ACTIVE AD: %s' % tweet['active_ad'])
                     if tweet['active_ad']:
                         logger.debug(type(tweet))
                         logger.debug('TWEET: %s' % tweet)
@@ -87,8 +88,6 @@ def bird_nest():
                                 'post_count': tweet['post_count']
                             }
                         )
-                    else:
-                        logger.debug(f'Tweet not active: {tweet}'.format(tweet=tweet))
             except Exception as e:
                 logger.error('This shit dont work! %s' % e)
             if collect_tweets:
@@ -101,7 +100,7 @@ def bird_nest():
                     get_tweet = next((twt for twt in tweets if twt['id'] == get_tweet_id), False)
                     post_count = int(get_tweet['post_count'])
                     logger.debug('SELECTED TWEET: %s' % get_tweet)
-                    posted_tweet = brains.post_tweet(tweet=get_tweet, collected_tweets=sorted_tweets)
+                    posted_tweet = brains.post_tweet(tweet=get_tweet, collected_tweets=tweets)
                     tweet_data = posted_tweet._json
                     logger.info('A Little Bird told me: %s' % tweet_data['text'])
                     logger.debug('Tweet posted: %s' % tweet_data)
