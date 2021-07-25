@@ -2,7 +2,7 @@
     "StartDate": "07/24/2021, 20:58:57",
     "Tweets": [
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "First ad for the Roswell Paradox: The Temporal Key.",
             "hashtags": "#TheRoswellParadox #BackInTime #Books #TemporalKey",
             "id": 1,
@@ -552,6 +552,30 @@
             "link": "https://open.spotify.com/track/24cQafaFFFCER6JfFygFPg?si=3eb2de1d695444b5",
             "post_count": 0,
             "text": "Salacious Daydream was a song I wrote about wondering what other people thought of me. It's on Eight Minutes to Earth's 90's album, Baking Soda."
+        },
+        {
+            "active_ad": true,
+            "description": "Second Ad for the Roswell Paradox Book 2: Iteration",
+            "hashtags": "#TheRoswellParadox #BackInTime #Books #Iteration",
+            "id": 47,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://www.amazon.com/dp/B085DDSY8T/ref=cm_sw_r_tw_dp_GFT7F86WZF356S45KF6Y via @amazon",
+            "post_count": 0,
+            "text": "Dayk is a Temporal Navigator trying to make his way home and save the future, but the future is hunting him down! Check out my book!"
+        },
+        {
+            "active_ad": true,
+            "description": "First ad for the Roswell Paradox: The Temporal Key.",
+            "hashtags": "#TheRoswellParadox #BackInTime #Books #TemporalKey",
+            "id": 48,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P",
+            "post_count": 0,
+            "text": "The crash in Roswell wasn't aliens, it was us 2.5 million years in the future. A Temporal Archaeologist finds himself stranded in the distant past!"
         }
     ]
 }
