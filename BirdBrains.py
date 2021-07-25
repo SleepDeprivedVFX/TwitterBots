@@ -138,15 +138,18 @@ class birdBrains(object):
                     save_file.write(save)
                 logger.info('Date Updated')
 
-    def update_database(self, key=None, value=None, tid=None):
+    def update_database(self, key=None, value=None, tid=None, val_type=str):
         if key and tid:
             tid = int(tid)
             logger.info('Updating the Database')
             db = self.open_ads_db()
             logger.debug('Ads DB collected.')
-            if not value:
+            if not value and val_type == str:
                 value = ""
                 logger.debug('Value is empty')
+            elif not value and val_type == bool:
+                value = False
+                logger.debug('Value is False')
             else:
                 logger.debug('Value is %s' % value)
 
@@ -227,11 +230,11 @@ class birdBrains(object):
                 file_name = tweet['image']
 
                 message = '''
-        {text}
-        
-        {link}
-        
-        {hash_tags}
+{text}
+
+{link}
+
+{hash_tags}
         '''.format(text=tweet['text'], link=tweet['link'], hash_tags=tweet['hashtags'])
 
                 if message:
@@ -247,7 +250,7 @@ class birdBrains(object):
                 if retries <= 5:
                     logger.info('Retrying...  Attempt #{0}'.format(retries))
                     logger.info('Killing bad Tweet...')
-                    self.update_database(key='active_ad', value=False, tid=tweet['id'])
+                    self.update_database(key='active_ad', value=False, tid=tweet['id'], val_type=bool)
                     logger.info('Getting new tweet...')
                     get_tweets = self.get_tweets()
                     collect_tweets = get_tweets[0]
