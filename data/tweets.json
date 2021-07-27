@@ -1,5 +1,5 @@
 {
-    "StartDate": "07/26/2021, 22:30:47",
+    "StartDate": "07/27/2021, 07:24:05",
     "Tweets": [
         {
             "active_ad": true,
@@ -374,7 +374,7 @@
             "text": "Back in the 90's I was in a band called Eight Minutes to Earth. A #Trippy #Funky #Alternative #Hardrock #Groove.  Check out our first album on @AmazonMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YoutubeMusic ad for Grampa Dick",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 32,
@@ -434,7 +434,7 @@
             "text": "Salacious Daydream was a song I wrote about wondering what other people thought of me. It's on Eight Minutes to Earth's 90's album, Baking Soda."
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic ad for Grampa Dick",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 37,
@@ -446,7 +446,7 @@
             "text": "One of my favorite tunes from my 90's band Eight Minutes To Earth. Grampa Dick!  You can check it out on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic ad for Coholic",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 38,
@@ -470,15 +470,15 @@
             "text": "We recorded this Eight Minutes To Earth song, Lint twice. The second time was on our album Baking Soda. You can check it out on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic ad for Wind",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 40,
             "image": "",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/27/2021, 14:24:05",
+            "last_posted_id": "1420027216629481474",
             "link": "https://music.apple.com/us/album/wind/1452988352?i=1452988367",
-            "post_count": 0,
+            "post_count": 1,
             "text": "I love this tune from my old 90's band Eight Minutes to Earth. It's called Wind. I don't think most people understood it. Check it out on @AppleMusic "
         },
         {
@@ -494,7 +494,7 @@
             "text": "Salacious Daydream was a song I wrote about wondering what other people thought of me. It's on Eight Minutes to Earth's 90's album, Baking Soda."
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify ad for Grampa Dick",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 42,
@@ -506,7 +506,7 @@
             "text": "One of my favorite tunes from my 90's band Eight Minutes To Earth. Grampa Dick!  You can check it out on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify ad for Coholic",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 43,
@@ -530,7 +530,7 @@
             "text": "We recorded this Eight Minutes To Earth song, Lint twice. The second time was on our album Baking Soda. You can check it out on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify ad for Wind",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 45,

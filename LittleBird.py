@@ -165,6 +165,7 @@ class littleBird(win32serviceutil.ServiceFramework):
         #     logger.error('The fit hit the shan!', e)
 
         while True:
+            # TODO: Need to add a test that checks for an active internet connection
             if (self.start_time + timedelta(hours=int(config['interval']))) < self.end_time:
                 self.start_time = datetime.now()
                 logger.debug('LOOP: %s' % self.start_time)
