@@ -1,5 +1,5 @@
 {
-    "StartDate": "07/25/2021, 09:19:32",
+    "StartDate": "07/26/2021, 22:30:47",
     "Tweets": [
         {
             "active_ad": true,
@@ -134,15 +134,15 @@
             "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @YoutubeMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "The Apple Music Ad for The Before Times",
             "hashtags": "#TheBeforeTimes #Music #IndieRecordings #Songs #Instrumental #Recordings",
             "id": 12,
             "image": "",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/26/2021, 15:30:38",
+            "last_posted_id": "1419681572974776326",
             "link": "https://music.apple.com/us/album/the-before-times/1545406040",
-            "post_count": 0,
+            "post_count": 1,
             "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @AppleMusic"
         },
         {
@@ -511,10 +511,10 @@
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 43,
             "image": "",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/27/2021, 05:30:48",
+            "last_posted_id": "1419893009496166401",
             "link": "https://open.spotify.com/track/5GI6ovAKMlLrllL6jtZ4rj?si=bf538d4920174420",
-            "post_count": 0,
+            "post_count": 1,
             "text": "I wrote this song Coholic for my 90's band Eight Minutes To Earth. Another one of my favorites.  You can check it out on @Spotify "
         },
         {
@@ -535,10 +535,10 @@
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 45,
             "image": "",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/25/2021, 23:19:37",
+            "last_posted_id": "1419437209371906051",
             "link": "https://open.spotify.com/track/5eSi7mpntJA3zNlAMr5HnQ?si=4595fedb52974ffa",
-            "post_count": 0,
+            "post_count": 1,
             "text": "I love this tune from my old 90's band Eight Minutes to Earth. It's called Wind. I don't think most people understood it. Check it out on @Spotify "
         },
         {
@@ -576,6 +576,150 @@
             "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P",
             "post_count": 0,
             "text": "The crash in Roswell wasn't aliens, it was us 2.5 million years in the future. A Temporal Archaeologist finds himself stranded in the distant past!"
+        },
+        {
+            "active_ad": true,
+            "description": "AppleMusic link for Resurgence of the Desert",
+            "hashtags": "#TheBeforeTimes #Music #ResurgenceOfTheDesert #Songs #Instrumental #Recordings",
+            "id": 49,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/resurgence-of-the-desert-instrumental/1545406040?i=1545406047",
+            "post_count": 0,
+            "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Hope you do too. You can check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "YouTubeMusic link for Resurgence of the Desert",
+            "hashtags": "#TheBeforeTimes #Music #ResurgenceOfTheDesert #Songs #Instrumental #Recordings",
+            "id": 50,
+            "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.youtube.com/watch?v=f8eV7IURGAE&feature=share",
+            "post_count": 0,
+            "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Hope you do too. Check it out on @YouTubeMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Spotify link for Resurgence of the Desert",
+            "hashtags": "#TheBeforeTimes #Music #ResurgenceOfTheDesert #Songs #Instrumental #Recordings",
+            "id": 51,
+            "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://open.spotify.com/track/5L9st6GeMVwp17Dh1o9iTU?si=cf5f5dcbb32c4e15",
+            "post_count": 0,
+            "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Hope you do too. Check it out on @Spotify"
+        },
+        {
+            "active_ad": true,
+            "description": "AmazonMusic link for Resurgence of the Desert",
+            "hashtags": "#TheBeforeTimes #Music #ResurgenceOfTheDesert #Songs #Instrumental #Recordings",
+            "id": 52,
+            "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://www.amazon.com/dp/B08QW8GN4D/ref=dm_ws_tlw_trk6",
+            "post_count": 0,
+            "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Hope you do too. Check it out on @AmazonMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "AmazonMusic link for Spare Dignity",
+            "hashtags": "#TheBeforeTimes #Music #SpareDignity #Songs #Instrumental #Recordings",
+            "id": 53,
+            "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://www.amazon.com/dp/B08QWBBM42/ref=dm_ws_tlw_trk9",
+            "post_count": 0,
+            "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @AmazonMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Spotify link for Spare Dignity",
+            "hashtags": "#TheBeforeTimes #Music #SpareDignity #Songs #Instrumental #Recordings",
+            "id": 54,
+            "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://open.spotify.com/track/2DIqslSnUyLqEk5iMtEcPf?si=1ddee01a6aab471c",
+            "post_count": 0,
+            "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @Spotify"
+        },
+        {
+            "active_ad": true,
+            "description": "AppleMusic link for Spare Dignity",
+            "hashtags": "#TheBeforeTimes #Music #SpareDignity #Songs #Instrumental #Recordings",
+            "id": 55,
+            "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/searching-for-spare-dignity/1545406040?i=1545406050",
+            "post_count": 0,
+            "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "YouTubeMusic link for Spare Dignity",
+            "hashtags": "#TheBeforeTimes #Music #SpareDignity #Songs #Instrumental #Recordings",
+            "id": 56,
+            "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.youtube.com/watch?v=qdEkh1bVx5k&feature=share",
+            "post_count": 0,
+            "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @YouTubeMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "YouTubeMusic link for Looking Over A Cliff",
+            "hashtags": "#TheBeforeTimes #Music #LookingOverACliff #Songs #Instrumental #Recordings",
+            "id": 57,
+            "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.youtube.com/watch?v=djv1W4OrlAM&feature=share",
+            "post_count": 0,
+            "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @YouTubeMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "AppleMusic link for Looking Over A Cliff",
+            "hashtags": "#TheBeforeTimes #Music #LookingOverACliff #Songs #Instrumental #Recordings",
+            "id": 58,
+            "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/looking-over-a-cliff-instrumental/1545406040?i=1545406045",
+            "post_count": 0,
+            "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Spotify link for Looking Over A Cliff",
+            "hashtags": "#TheBeforeTimes #Music #LookingOverACliff #Songs #Instrumental #Recordings",
+            "id": 59,
+            "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://open.spotify.com/track/4CUPIgvFOFDAfSTEUM2vbV?si=75af3d5957954c18",
+            "post_count": 0,
+            "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @Spotify"
+        },
+        {
+            "active_ad": true,
+            "description": "Spotify link for Looking Over A Cliff",
+            "hashtags": "#TheBeforeTimes #Music #LookingOverACliff #Songs #Instrumental #Recordings",
+            "id": 60,
+            "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://www.amazon.com/dp/B08QW9SBKG/ref=dm_ws_tlw_trk4",
+            "post_count": 0,
+            "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @Spotify"
         }
     ]
 }
