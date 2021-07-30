@@ -1,5 +1,5 @@
 {
-    "StartDate": "07/27/2021, 07:24:05",
+    "StartDate": "07/30/2021, 09:05:52",
     "Tweets": [
         {
             "active_ad": true,
@@ -62,7 +62,7 @@
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @YoutubeMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "The Apple Music Ad for The Before Times",
             "hashtags": "#TheBeforeTimes #Music #IndieRecordings",
             "id": 6,
@@ -146,7 +146,7 @@
             "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @AppleMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify link for Spanish Inquisition",
             "hashtags": "#TheBeforeTimes #Music #SpanishInquisition #Songs #Instrumental #Recordings",
             "id": 13,
@@ -175,10 +175,10 @@
             "hashtags": "#TheBeforeTimes #Music #AngieTrent #Songs #Instrumental #Recordings",
             "id": 15,
             "image": "",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/27/2021, 21:24:15",
+            "last_posted_id": "1420132951874891778",
             "link": "https://open.spotify.com/track/0al9E7MuAZdeAeCr3GJLnG?si=c753e088cb284be5",
-            "post_count": 0,
+            "post_count": 1,
             "text": "'Angie Trent' was a girl I knew who died in a car crash in High School. I wrote this as an homage.  You can check it out on @Spotify "
         },
         {
@@ -295,10 +295,10 @@
             "hashtags": "#TheBeforeTimes #Music #AngieTrent #Songs #Instrumental #Recordings",
             "id": 25,
             "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/28/2021, 04:40:16",
+            "last_posted_id": "1420242678957047813",
             "link": "https://music.youtube.com/watch?v=OgWPyJ2LAk8&feature=share",
-            "post_count": 0,
+            "post_count": 1,
             "text": "'Angie Trent' was a girl I knew who died in a car crash in High School. I wrote this as an homage.  You can check it out on @YouTubeMusic "
         },
         {
@@ -386,7 +386,7 @@
             "text": "One of my favorite tunes from my 90's band Eight Minutes To Earth. Grampa Dick!  You can check it out on @YoutubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YoutubeMusic ad for Coholic",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 33,
@@ -398,7 +398,7 @@
             "text": "I wrote this song Coholic for my 90's band Eight Minutes To Earth. Another one of my favorites.  You can check it out on @YoutubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YoutubeMusic ad for Lint",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 34,
@@ -410,19 +410,19 @@
             "text": "We recorded this Eight Minutes To Earth song, Lint twice. The second time was on our album Baking Soda. You can check it out on @YoutubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YoutubeMusic ad for Wind",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 35,
             "image": "C:\\Users\\sleep\\OneDrive\\webs\\adb\\images\\eightminutestoearth\\baking_soda_album_cover.jpg",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/30/2021, 16:06:01",
+            "last_posted_id": "1421140030949511171",
             "link": "https://music.youtube.com/watch?v=k95MqX6bDQg&feature=share",
-            "post_count": 0,
+            "post_count": 1,
             "text": "I love this tune from my old 90's band Eight Minutes to Earth. It's called Wind. I don't think most people understood it. Check it out on @YoutubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YoutubeMusic ad for Salacious Daydream",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 36,
@@ -458,7 +458,7 @@
             "text": "I wrote this song Coholic for my 90's band Eight Minutes To Earth. Another one of my favorites.  You can check it out on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic ad for Lint",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 39,
@@ -482,7 +482,7 @@
             "text": "I love this tune from my old 90's band Eight Minutes to Earth. It's called Wind. I don't think most people understood it. Check it out on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic ad for Salacious Daydream",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 41,
@@ -518,15 +518,15 @@
             "text": "I wrote this song Coholic for my 90's band Eight Minutes To Earth. Another one of my favorites.  You can check it out on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify ad for Lint",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 44,
             "image": "",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/29/2021, 01:45:22",
+            "last_posted_id": "1420561053524512771",
             "link": "https://open.spotify.com/track/4UctAmtZUsLh35DPSZIVsN?si=5995bcce7eb04145",
-            "post_count": 0,
+            "post_count": 1,
             "text": "We recorded this Eight Minutes To Earth song, Lint twice. The second time was on our album Baking Soda. You can check it out on @Spotify "
         },
         {
@@ -542,7 +542,7 @@
             "text": "I love this tune from my old 90's band Eight Minutes to Earth. It's called Wind. I don't think most people understood it. Check it out on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify ad for Salacious Daydream",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 46,
@@ -623,7 +623,7 @@
             "last_posted_id": "",
             "link": "https://www.amazon.com/dp/B08QW8GN4D/ref=dm_ws_tlw_trk6",
             "post_count": 0,
-            "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Hope you do too. Check it out on @AmazonMusic"
+            "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Check it out on @AmazonMusic"
         },
         {
             "active_ad": true,
@@ -655,10 +655,10 @@
             "hashtags": "#TheBeforeTimes #Music #SpareDignity #Songs #Instrumental #Recordings",
             "id": 55,
             "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "07/28/2021, 18:45:14",
+            "last_posted_id": "1420455322305515521",
             "link": "https://music.apple.com/us/album/searching-for-spare-dignity/1545406040?i=1545406050",
-            "post_count": 0,
+            "post_count": 1,
             "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @AppleMusic"
         },
         {
@@ -674,7 +674,7 @@
             "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YouTubeMusic link for Looking Over A Cliff",
             "hashtags": "#TheBeforeTimes #Music #LookingOverACliff #Songs #Instrumental #Recordings",
             "id": 57,
