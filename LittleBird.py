@@ -47,7 +47,7 @@ else:
 logger = logging.getLogger('bird_song')
 logger.getChild('brains')
 logger.setLevel(level)
-fh = TimedRotatingFileHandler(log_file, when='d', interval=2, backupCount=30)
+fh = TimedRotatingFileHandler(log_file, when='d', interval=1, backupCount=30)
 fm = logging.Formatter(fmt='%(asctime)s - %(name)s | %(levelname)s : %(lineno)d - %(message)s')
 fh.setFormatter(fm)
 logger.addHandler(fh)
