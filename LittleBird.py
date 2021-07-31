@@ -31,6 +31,7 @@ import socket
 import BirdBrains
 import logging
 from logging.handlers import TimedRotatingFileHandler
+import requests
 
 config = BirdBrains.get_configuration()
 sys_path = sys.path[0]
@@ -141,6 +142,16 @@ class littleBird(win32serviceutil.ServiceFramework):
         logger.info('Starting Little Bird')
         self.main()
 
+    def internet_check(self):
+        try:
+            test = requests.get(url='http://google.com', timeout=2)
+            logger.info('Internet Connected.')
+            return True
+        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as t:
+            logger.warning('Internet connection cannot be found.', t)
+            return False
+
+
     def main(self):
         """
         The main loop
@@ -165,16 +176,16 @@ class littleBird(win32serviceutil.ServiceFramework):
         #     logger.error('The fit hit the shan!', e)
 
         while True:
-            # TODO: Need to add a test that checks for an active internet connection
-            if (self.start_time + timedelta(hours=int(config['interval']))) < self.end_time:
-                self.start_time = datetime.now()
-                logger.debug('LOOP: %s' % self.start_time)
-                logger.info('Updating Start Date...')
-                brains.update_start_time(self.start_time)
-                logger.info('Starting Tweet Function...')
-                q.put(self.start_time)
-            self.end_time = datetime.now()
-            time.sleep(5)
+            if self.internet_check():
+                if (self.start_time + timedelta(hours=int(config['interval']))) < self.end_time:
+                    self.start_time = datetime.now()
+                    logger.debug('LOOP: %s' % self.start_time)
+                    logger.info('Updating Start Date...')
+                    brains.update_start_time(self.start_time)
+                    logger.info('Starting Tweet Function...')
+                    q.put(self.start_time)
+                self.end_time = datetime.now()
+            time.sleep(30)
 
 
 if __name__ == '__main__':
