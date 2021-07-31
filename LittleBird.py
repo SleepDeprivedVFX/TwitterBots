@@ -47,7 +47,7 @@ else:
 logger = logging.getLogger('bird_song')
 logger.getChild('brains')
 logger.setLevel(level)
-fh = TimedRotatingFileHandler(log_file, when='d', interval=7, backupCount=30)
+fh = TimedRotatingFileHandler(log_file, when='d', interval=2, backupCount=30)
 fm = logging.Formatter(fmt='%(asctime)s - %(name)s | %(levelname)s : %(lineno)d - %(message)s')
 fh.setFormatter(fm)
 logger.addHandler(fh)
@@ -145,7 +145,7 @@ class littleBird(win32serviceutil.ServiceFramework):
     def internet_check(self):
         try:
             test = requests.get(url='http://google.com', timeout=2)
-            logger.info('Internet Connected.')
+            logger.debug('Internet Connected.', test)
             return True
         except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as t:
             logger.warning('Internet connection cannot be found.', t)
