@@ -1,10 +1,10 @@
 {
-    "StartDate": "07/31/2021, 12:04:46",
+    "StartDate": "08/02/2021, 09:02:41",
     "Tweets": [
         {
             "active_ad": true,
             "description": "First ad for the Roswell Paradox: The Temporal Key.",
-            "hashtags": "#TheRoswellParadox #BackInTime #Books #TemporalKey",
+            "hashtags": "#Books #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 1,
             "image": "",
             "last_posted": "07/16/2021, 06:21:24",
@@ -16,7 +16,7 @@
         {
             "active_ad": true,
             "description": "First Ad for the Roswell Paradox Book 2: Iteration",
-            "hashtags": "#TheRoswellParadox #BackInTime #Books #Iteration",
+            "hashtags": "#Books #Iteration #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 2,
             "image": "",
             "last_posted": "",
@@ -76,7 +76,7 @@
         {
             "active_ad": true,
             "description": "Another variation of an add for the books.",
-            "hashtags": "#TheRoswellParadox #BackInTime #Books #TemporalKey #Novel #Author #AdamDBenson",
+            "hashtags": "#Books #TemporalKey #Novel #Author #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 7,
             "image": "",
             "last_posted": "",
@@ -88,7 +88,7 @@
         {
             "active_ad": true,
             "description": "Supplemental Ad for book 2",
-            "hashtags": "#TheRoswellParadox #BackInTime #Books #Iteration #Writing #SciFi",
+            "hashtags": "#Books #Iteration #Writing #SciFi #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 8,
             "image": "",
             "last_posted": "07/21/2021, 00:51:11",
@@ -223,10 +223,10 @@
             "hashtags": "#TheBeforeTimes #Music #TheArtifact #Songs #Instrumental #Recordings",
             "id": 19,
             "image": "",
-            "last_posted": "07/25/2021, 03:58:58",
-            "last_posted_id": "1419145124475404292",
+            "last_posted": "08/02/2021, 16:02:42",
+            "last_posted_id": "1422226360508899329",
             "link": "https://music.apple.com/us/album/the-artifact-instrumental/1545406040?i=1545406043",
-            "post_count": 1,
+            "post_count": 2,
             "text": "I wrote 'The Artifact' years ago for a Demo Reel. Turned out really good! You can check it out on @AppleMusic "
         },
         {
@@ -556,7 +556,7 @@
         {
             "active_ad": true,
             "description": "Second Ad for the Roswell Paradox Book 2: Iteration",
-            "hashtags": "#TheRoswellParadox #BackInTime #Books #Iteration",
+            "hashtags": "#Books #Iteration #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 47,
             "image": "",
             "last_posted": "07/31/2021, 19:04:46",
@@ -568,7 +568,7 @@
         {
             "active_ad": true,
             "description": "First ad for the Roswell Paradox: The Temporal Key.",
-            "hashtags": "#TheRoswellParadox #BackInTime #Books #TemporalKey",
+            "hashtags": "#Books #TemporalKey #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 48,
             "image": "",
             "last_posted": "",
@@ -720,6 +720,30 @@
             "link": "https://www.amazon.com/dp/B08QW9SBKG/ref=dm_ws_tlw_trk4",
             "post_count": 0,
             "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @Spotify"
+        },
+        {
+            "active_ad": true,
+            "description": "Third Ad for the Roswell Paradox Book 2: Iteration",
+            "hashtags": "#Books #Iteration #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
+            "id": 61,
+            "image": "",
+            "last_posted": "07/31/2021, 19:04:46",
+            "last_posted_id": "1421547402494836737",
+            "link": "https://www.amazon.com/dp/B085DDSY8T/ref=cm_sw_r_tw_dp_GFT7F86WZF356S45KF6Y via @amazon",
+            "post_count": 1,
+            "text": "The Roswell Paradox is a two part, non-stop thrill ride through space and time! Like Back to the Future with Aliens!"
+        },
+        {
+            "active_ad": true,
+            "description": "Third ad for the Roswell Paradox: The Temporal Key.",
+            "hashtags": "#Books #TemporalKey #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
+            "id": 62,
+            "image": "",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P",
+            "post_count": 0,
+            "text": "The Roswell Paradox: The Temporal Key is part one of a non-stop adventure through time and space that you won't be able to put down!"
         }
     ]
 }
