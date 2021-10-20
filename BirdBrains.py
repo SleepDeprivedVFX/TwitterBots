@@ -267,5 +267,13 @@ class birdBrains(object):
         logger.info('The Little Bird has spoken!')
         return sent
 
+    def tweet_analyzer(self):
+        data = self.open_ads_db()
+        tweets = data['Tweets']
+        ordered_tweets = sorted(tweets, key=lambda i: (i['post_count']), reverse=False)[:10]
+
+        for t in ordered_tweets:
+            print(t)
+
 
 
