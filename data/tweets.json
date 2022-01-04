@@ -26,7 +26,7 @@
             "text": "Labeled as a Temporal Fugitives, Dayk must find a way to stop agents from ruining the future. Iteration is the trhilling climax to The Temporal Key! "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "The Amazon Ad for The Before Times",
             "hashtags": "#TheBeforeTimes #Music #IndieRecordings",
             "id": 3,
@@ -38,7 +38,7 @@
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @AmazonMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "The Spotify Ad for The Before Times",
             "hashtags": "#TheBeforeTimes #Music #IndieRecordings",
             "id": 4,
@@ -98,7 +98,7 @@
             "text": "'The Roswell Paradox: Iteration' is the second book I wrote for my 2 part series! Check it out and leave a review! "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "The Amazon Ad for The Before Times",
             "hashtags": "#TheBeforeTimes #Music #IndieRecordings #Songs #Recordings",
             "id": 9,
@@ -110,7 +110,7 @@
             "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @AmazonMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "The Spotify Ad for The Before Times",
             "hashtags": "#TheBeforeTimes #Music #IndieRecordings #Songs #Recordings #Instrumental",
             "id": 10,
@@ -134,7 +134,7 @@
             "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @YoutubeMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "The Apple Music Ad for The Before Times",
             "hashtags": "#TheBeforeTimes #Music #IndieRecordings #Songs #Instrumental #Recordings",
             "id": 12,
@@ -146,7 +146,7 @@
             "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @AppleMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify link for Spanish Inquisition",
             "hashtags": "#TheBeforeTimes #Music #SpanishInquisition #Songs #Instrumental #Recordings",
             "id": 13,
@@ -158,7 +158,7 @@
             "text": "I wrote this song many years ago. It's called 'Spanish Inquisition'! You can check it out on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify link for The Artifact",
             "hashtags": "#TheBeforeTimes #Music #TheArtifact #Songs #Instrumental #Recordings",
             "id": 14,
@@ -170,7 +170,7 @@
             "text": "I wrote 'The Artifact' years ago for a Demo Reel. Turned out really good! You can check it out on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify link for Angie Trent",
             "hashtags": "#TheBeforeTimes #Music #AngieTrent #Songs #Instrumental #Recordings",
             "id": 15,
@@ -194,7 +194,7 @@
             "text": "'Lies!' I always liked this piece. Exes can be great inspiration for songs.  You can check it out on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify link for Love on the Terrace",
             "hashtags": "#TheBeforeTimes #Music #LoveOnTheTerrace #Songs #Instrumental #Recordings",
             "id": 17,
@@ -206,7 +206,7 @@
             "text": "I wrote 'Love on the Terrace' after a trip to #Bisbee Arizona. #Theramin is always a fun instrument! You can check it out on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Apple link for Spanish Inquisition",
             "hashtags": "#TheBeforeTimes #Music #SpanishInquisition #Songs #Instrumental #Recordings",
             "id": 18,
@@ -218,7 +218,7 @@
             "text": "I wrote this song many years ago. It's called 'Spanish Inquisition'! You can check it out on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic link for The Artifact",
             "hashtags": "#TheBeforeTimes #Music #TheArtifact #Songs #Instrumental #Recordings",
             "id": 19,
@@ -242,7 +242,7 @@
             "text": "'Angie Trent' was a girl I knew who died in a car crash in High School. I wrote this as an homage.  You can check it out on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic link for Lies",
             "hashtags": "#TheBeforeTimes #Music #Lies #Songs #Instrumental #Recordings",
             "id": 21,
@@ -266,7 +266,7 @@
             "text": "I wrote 'Love on the Terrace' after a trip to #Bisbee Arizona. #Theramin is always a fun instrument! You can check it out on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YouTubeMusic link for Spanish Inquisition",
             "hashtags": "#TheBeforeTimes #Music #SpanishInquisition #Songs #Instrumental #Recordings",
             "id": 23,
@@ -326,7 +326,7 @@
             "text": "I wrote 'Love on the Terrace' after a trip to #Bisbee Arizona. #Theramin is always a fun instrument! You can check it out on @YouTubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify Ad for EMTE's Baking Soda",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 28,
@@ -410,7 +410,7 @@
             "text": "We recorded this Eight Minutes To Earth song, Lint twice. The second time was on our album Baking Soda. You can check it out on @YoutubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YoutubeMusic ad for Wind",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 35,
@@ -422,7 +422,7 @@
             "text": "I love this tune from my old 90's band Eight Minutes to Earth. It's called Wind. I don't think most people understood it. Check it out on @YoutubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YoutubeMusic ad for Salacious Daydream",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 36,
@@ -446,7 +446,7 @@
             "text": "One of my favorite tunes from my 90's band Eight Minutes To Earth. Grampa Dick!  You can check it out on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic ad for Coholic",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 38,
@@ -470,7 +470,7 @@
             "text": "We recorded this Eight Minutes To Earth song, Lint twice. The second time was on our album Baking Soda. You can check it out on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic ad for Wind",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 40,
@@ -494,7 +494,7 @@
             "text": "Salacious Daydream was a song I wrote about wondering what other people thought of me. It's on Eight Minutes to Earth's 90's album, Baking Soda."
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify ad for Grampa Dick",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 42,
@@ -506,7 +506,7 @@
             "text": "One of my favorite tunes from my 90's band Eight Minutes To Earth. Grampa Dick!  You can check it out on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify ad for Coholic",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 43,
@@ -530,7 +530,7 @@
             "text": "We recorded this Eight Minutes To Earth song, Lint twice. The second time was on our album Baking Soda. You can check it out on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify ad for Wind",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 45,
@@ -542,7 +542,7 @@
             "text": "I love this tune from my old 90's band Eight Minutes to Earth. It's called Wind. I don't think most people understood it. Check it out on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify ad for Salacious Daydream",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 46,
@@ -590,7 +590,7 @@
             "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Hope you do too. You can check it out on @AppleMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YouTubeMusic link for Resurgence of the Desert",
             "hashtags": "#TheBeforeTimes #Music #ResurgenceOfTheDesert #Songs #Instrumental #Recordings",
             "id": 50,
@@ -614,7 +614,7 @@
             "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Hope you do too. Check it out on @Spotify"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AmazonMusic link for Resurgence of the Desert",
             "hashtags": "#TheBeforeTimes #Music #ResurgenceOfTheDesert #Songs #Instrumental #Recordings",
             "id": 52,
@@ -626,7 +626,7 @@
             "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Check it out on @AmazonMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AmazonMusic link for Spare Dignity",
             "hashtags": "#TheBeforeTimes #Music #SpareDignity #Songs #Instrumental #Recordings",
             "id": 53,
@@ -638,7 +638,7 @@
             "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @AmazonMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify link for Spare Dignity",
             "hashtags": "#TheBeforeTimes #Music #SpareDignity #Songs #Instrumental #Recordings",
             "id": 54,
@@ -650,7 +650,7 @@
             "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @Spotify"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic link for Spare Dignity",
             "hashtags": "#TheBeforeTimes #Music #SpareDignity #Songs #Instrumental #Recordings",
             "id": 55,
@@ -710,7 +710,7 @@
             "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @Spotify"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify link for Looking Over A Cliff",
             "hashtags": "#TheBeforeTimes #Music #LookingOverACliff #Songs #Instrumental #Recordings",
             "id": 60,
@@ -744,6 +744,18 @@
             "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P",
             "post_count": 5,
             "text": "The Roswell Paradox: The Temporal Key is part one of a non-stop adventure through time and space that you won't be able to put down!"
+        },
+        {
+            "active_ad": true,
+            "description": "Spotify link for Quarantunes",
+            "hashtags": "#Quarantunes #Music #OldTimeMachineClock #Songs #Recordings",
+            "id": 63,
+            "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
+            "last_posted": "01/03/2022, 14:10:42",
+            "last_posted_id": "",
+            "link": "https://www.amazon.com/dp/B08QW9SBKG/ref=dm_ws_tlw_trk4",
+            "post_count": 0,
+            "text": "My brand new album Quarantunes! Songs written in exile. Check it out on @Spotify"
         }
     ]
 }
