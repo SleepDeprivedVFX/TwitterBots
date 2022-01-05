@@ -2,7 +2,7 @@
     "StartDate": "01/04/2022, 20:32:11",
     "Tweets": [
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "First ad for the Roswell Paradox: The Temporal Key.",
             "hashtags": "#Books #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 1,
@@ -14,7 +14,7 @@
             "text": "Stranded in the distant past, trying to preserve the future. The Roswell Paradox is an adventure across millions of years. Sometimes the only way forward is back."
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "First Ad for the Roswell Paradox Book 2: Iteration",
             "hashtags": "#Books #Iteration #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 2,
@@ -74,7 +74,7 @@
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @AppleMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Another variation of an add for the books.",
             "hashtags": "#Books #TemporalKey #Novel #Author #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 7,
@@ -86,7 +86,7 @@
             "text": "I love to write stories. Do it as often as I can. \\n Check out my 2 part book series, 'The Roswell Paradox' on @AmazonKindle! \\n "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Supplemental Ad for book 2",
             "hashtags": "#Books #Iteration #Writing #SciFi #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 8,
@@ -554,7 +554,7 @@
             "text": "Salacious Daydream was a song I wrote about wondering what other people thought of me. It's on Eight Minutes to Earth's 90's album, Baking Soda."
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Second Ad for the Roswell Paradox Book 2: Iteration",
             "hashtags": "#Books #Iteration #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 47,
@@ -566,7 +566,7 @@
             "text": "Dayk is a Temporal Navigator trying to make his way home and save the future, but the future is hunting him down! Check out my book!"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "First ad for the Roswell Paradox: The Temporal Key.",
             "hashtags": "#Books #TemporalKey #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 48,
@@ -722,7 +722,7 @@
             "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @Spotify"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Third Ad for the Roswell Paradox Book 2: Iteration",
             "hashtags": "#Books #Iteration #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 61,
@@ -734,7 +734,7 @@
             "text": "The Roswell Paradox is a two part, non-stop thrill ride through space and time! Like Back to the Future with Aliens!"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Third ad for the Roswell Paradox: The Temporal Key.",
             "hashtags": "#Books #TemporalKey #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 62,
@@ -965,7 +965,7 @@
             "active_ad": true,
             "description": "Apple Music Ad for Old Time Machine Clock!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
-            "id": 81,
+            "id": 66,
             "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Cello_01.jpg",
             "last_posted": "",
             "last_posted_id": "",
@@ -975,27 +975,171 @@
         },
         {
             "active_ad": true,
-            "description": "Apple Music Ad for Old Time Machine Clock!",
-            "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
-            "id": 82,
-            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Cello_01.jpg",
+            "description": "Apple Music Ad for Gone Girl!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
+            "id": 67,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Guitar_01.jpg",
             "last_posted": "",
             "last_posted_id": "",
-            "link": "https://music.apple.com/us/album/old-time-machine-clock/1603234586?i=1603234587",
+            "link": "https://music.apple.com/us/album/gone-girl/1603234586?i=1603234588",
             "post_count": 0,
-            "text": "I really like this one of my songs, 'Old Time Machine Clock' - Check it out on @AppleMusic"
+            "text": "'Gone Girl' off on her journey of self discovery - Check it out on @AppleMusic"
         },
         {
             "active_ad": true,
-            "description": "Apple Music Ad for Old Time Machine Clock!",
-            "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
-            "id": 83,
-            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Cello_01.jpg",
+            "description": "Apple Music Ad for Summer Tide!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
+            "id": 68,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Keyboard.jpg",
             "last_posted": "",
             "last_posted_id": "",
-            "link": "https://music.apple.com/us/album/old-time-machine-clock/1603234586?i=1603234587",
+            "link": "https://music.apple.com/us/album/summer-tide/1603234586?i=1603234590",
             "post_count": 0,
-            "text": "I really like this one of my songs, 'Old Time Machine Clock' - Check it out on @AppleMusic"
+            "text": "Went to watch the #Grunion Run with my best friend. Wrote this song. Check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Apple Music Ad for Barcode!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
+            "id": 69,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Rack_01.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/barcode/1603234586?i=1603234591",
+            "post_count": 0,
+            "text": "When I wrote 'Barcode' it started off fun, but became something else. Check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Apple Music Ad for Afterglow!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
+            "id": 70,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\spiral_01.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/afterglow/1603234586?i=1603234593",
+            "post_count": 0,
+            "text": "@neiltyson! I wrote a song about the Cosmos! 'Afterglow' Check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Apple Music Ad for His Will To fly!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
+            "id": 71,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\amp_01.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/his-will-to-fly-left-him-low/1603234586?i=1603234595",
+            "post_count": 0,
+            "text": "I've got a friend who suffers from depression. This one's for him. Check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Apple Music Ad for What Shall I do!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Blues #NewMusic #Recordings",
+            "id": 72,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Mic.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/what-shall-i-do/1603234586?i=1603234686",
+            "post_count": 0,
+            "text": "A song about things that didn't work out. 'What Shall I Do'. Check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Apple Music Ad for Slow Motion Falling!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
+            "id": 73,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\cymbal_02.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/slow-motion-falling/1603234586?i=1603234687",
+            "post_count": 0,
+            "text": "I imagine slowly falling broken glass when I hear 'Slow Motion Falling'. Check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Apple Music Ad for I Want to Know Who You are!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Classic #NewMusic #Recordings",
+            "id": 74,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Mandolin.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/i-want-to-know-who-you-are/1603234586?i=1603234689",
+            "post_count": 0,
+            "text": "50's inspired simple rock song. Not quite a ballad, but you can check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Apple Music Ad for Lonely Ain't Alone!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
+            "id": 75,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Drums.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/lonely-aint-alone/1603234586?i=1603234690",
+            "post_count": 0,
+            "text": "'Lonely Ain't Alone' is about vapid people in the dating scene. Check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Apple Music Ad for Sensory Perception!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Instrumental #NewMusic #Recordings",
+            "id": 76,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Theremin.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/sensory-perception/1603234586?i=1603234594",
+            "post_count": 0,
+            "text": "I love seemingly atonal instrumentals, you might like this one too! Check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Apple Music Ad for Sunrise on the mountain!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
+            "id": 77,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\WhammyBar.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/sunrise-on-the-mountain/1603234586?i=1603234589",
+            "post_count": 0,
+            "text": "I've been experimenting with 'visual' orchestral pieces. 'Sunrise on the Mountain' Check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Apple Music Ad for Cala Del Rey!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
+            "id": 78,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Percussions_01.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/cala-del-rey/1603234586?i=1603234688",
+            "post_count": 0,
+            "text": "'Cala Del Rey' was one of the first things I recorded violins for. Check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Apple Music Ad for Somewhere They Listen!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
+            "id": 79,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Theremin.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/somewhere-they-listen/1603234586?i=1603234691",
+            "post_count": 0,
+            "text": "I love recording with my #Theremin. Check out 'Somewhere They Listen' on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Apple Music Ad for Spelunking In Madness!",
+            "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
+            "id": 80,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Percussions_01.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.apple.com/us/album/spelunking-in-madness/1603234586?i=1603234592",
+            "post_count": 0,
+            "text": "This is the first thing I ever recorded with my #violin. Check out 'Spelunking in Madness' on @AppleMusic"
         }
     ]
 }
