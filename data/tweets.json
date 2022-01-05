@@ -1,5 +1,5 @@
 {
-    "StartDate": "10/20/2021, 00:09:38",
+    "StartDate": "01/04/2022, 13:31:20",
     "Tweets": [
         {
             "active_ad": true,
@@ -50,7 +50,7 @@
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @Spotify"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "The YouTube Music Ad for The Before Times",
             "hashtags": "#TheBeforeTimes #Music #IndieRecordings",
             "id": 5,
@@ -62,7 +62,7 @@
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @YoutubeMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "The Apple Music Ad for The Before Times",
             "hashtags": "#TheBeforeTimes #Music #IndieRecordings",
             "id": 6,
@@ -122,7 +122,7 @@
             "text": "I write a ton of #music across many styles. Trying to finish a new album now. Check out my last, 'The Before Times' on @Spotify"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "The YouTube Music Ad for The Before Times",
             "hashtags": "#TheBeforeTimes #Music #IndieRecordings #songs #Recordings #Instrumental",
             "id": 11,
@@ -182,7 +182,7 @@
             "text": "'Angie Trent' was a girl I knew who died in a car crash in High School. I wrote this as an homage.  You can check it out on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify link for Lies",
             "hashtags": "#TheBeforeTimes #Music #Lies #Songs #Instrumental #Recordings",
             "id": 16,
@@ -230,7 +230,7 @@
             "text": "I wrote 'The Artifact' years ago for a Demo Reel. Turned out really good! You can check it out on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic link for Angie Trent",
             "hashtags": "#TheBeforeTimes #Music #AngieTrent #Songs #Instrumental #Recordings",
             "id": 20,
@@ -254,7 +254,7 @@
             "text": "'Lies!' I always liked this piece. Exes can be great inspiration for songs.  You can check it out on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic link for Love on the Terrace",
             "hashtags": "#TheBeforeTimes #Music #LoveOnTheTerrace #Songs #Instrumental #Recordings",
             "id": 22,
@@ -278,7 +278,7 @@
             "text": "I wrote this song many years ago. It's called 'Spanish Inquisition'! You can check it out on @YouTubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YouTubeMusic link for The Artifact",
             "hashtags": "#TheBeforeTimes #Music #TheArtifact #Songs #Instrumental #Recordings",
             "id": 24,
@@ -290,7 +290,7 @@
             "text": "I wrote 'The Artifact' years ago for a Demo Reel. Turned out really good! You can check it out on @YouTubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YouTubeMusic link for Angie Trent",
             "hashtags": "#TheBeforeTimes #Music #AngieTrent #Songs #Instrumental #Recordings",
             "id": 25,
@@ -302,7 +302,7 @@
             "text": "'Angie Trent' was a girl I knew who died in a car crash in High School. I wrote this as an homage.  You can check it out on @YouTubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YouTubeMusic link for Lies",
             "hashtags": "#TheBeforeTimes #Music #Lies #Songs #Instrumental #Recordings",
             "id": 26,
@@ -314,7 +314,7 @@
             "text": "'Lies!' I always liked this piece. Exes can be great inspiration for songs.  You can check it out on @YouTubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YouTubeMusic link for Love on the Terrace",
             "hashtags": "#TheBeforeTimes #Music #LoveOnTheTerrace #Songs #Instrumental #Recordings",
             "id": 27,
@@ -338,7 +338,7 @@
             "text": "Back in the 90's I was in a band called Eight Minutes to Earth. A #Trippy #Funky #Alternative #Hardrock #Groove.  You can check out our first album on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic Ad for EMTE's Baking Soda",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 29,
@@ -350,7 +350,7 @@
             "text": "Back in the 90's I was in a band called Eight Minutes to Earth. A #Trippy #Funky #Alternative #Hardrock #Groove.  Check out our first album on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YoutubeMusic Ad for EMTE's Baking Soda",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 30,
@@ -362,7 +362,7 @@
             "text": "Back in the 90's I was in a band called Eight Minutes to Earth. A #Trippy #Funky #Alternative #Hardrock #Groove.  Check out our first album on @YoutubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AmazonMusic Ad for EMTE's Baking Soda",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 31,
@@ -374,7 +374,7 @@
             "text": "Back in the 90's I was in a band called Eight Minutes to Earth. A #Trippy #Funky #Alternative #Hardrock #Groove.  Check out our first album on @AmazonMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YoutubeMusic ad for Grampa Dick",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 32,
@@ -386,7 +386,7 @@
             "text": "One of my favorite tunes from my 90's band Eight Minutes To Earth. Grampa Dick!  You can check it out on @YoutubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YoutubeMusic ad for Coholic",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 33,
@@ -398,7 +398,7 @@
             "text": "I wrote this song Coholic for my 90's band Eight Minutes To Earth. Another one of my favorites.  You can check it out on @YoutubeMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YoutubeMusic ad for Lint",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 34,
@@ -434,7 +434,7 @@
             "text": "Salacious Daydream was a song I wrote about wondering what other people thought of me. It's on Eight Minutes to Earth's 90's album, Baking Soda."
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic ad for Grampa Dick",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 37,
@@ -458,7 +458,7 @@
             "text": "I wrote this song Coholic for my 90's band Eight Minutes To Earth. Another one of my favorites.  You can check it out on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic ad for Lint",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 39,
@@ -482,7 +482,7 @@
             "text": "I love this tune from my old 90's band Eight Minutes to Earth. It's called Wind. I don't think most people understood it. Check it out on @AppleMusic "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic ad for Salacious Daydream",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 41,
@@ -518,15 +518,15 @@
             "text": "I wrote this song Coholic for my 90's band Eight Minutes To Earth. Another one of my favorites.  You can check it out on @Spotify "
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify ad for Lint",
             "hashtags": "#BakingSoda #Music #EightMinutesToEarth #Songs #EMTE #90sMusic",
             "id": 44,
             "image": "",
-            "last_posted": "07/29/2021, 01:45:22",
-            "last_posted_id": "1420561053524512771",
+            "last_posted": "01/04/2022, 21:31:20",
+            "last_posted_id": "1478479182543740931",
             "link": "https://open.spotify.com/track/4UctAmtZUsLh35DPSZIVsN?si=5995bcce7eb04145",
-            "post_count": 1,
+            "post_count": 2,
             "text": "We recorded this Eight Minutes To Earth song, Lint twice. The second time was on our album Baking Soda. You can check it out on @Spotify "
         },
         {
@@ -578,7 +578,7 @@
             "text": "The crash in Roswell wasn't aliens, it was us 2.5 million years in the future. A Temporal Archaeologist finds himself stranded in the distant past!"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic link for Resurgence of the Desert",
             "hashtags": "#TheBeforeTimes #Music #ResurgenceOfTheDesert #Songs #Instrumental #Recordings",
             "id": 49,
@@ -602,7 +602,7 @@
             "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Hope you do too. Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify link for Resurgence of the Desert",
             "hashtags": "#TheBeforeTimes #Music #ResurgenceOfTheDesert #Songs #Instrumental #Recordings",
             "id": 51,
@@ -662,7 +662,7 @@
             "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @AppleMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YouTubeMusic link for Spare Dignity",
             "hashtags": "#TheBeforeTimes #Music #SpareDignity #Songs #Instrumental #Recordings",
             "id": 56,
@@ -674,7 +674,7 @@
             "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "YouTubeMusic link for Looking Over A Cliff",
             "hashtags": "#TheBeforeTimes #Music #LookingOverACliff #Songs #Instrumental #Recordings",
             "id": 57,
@@ -686,7 +686,7 @@
             "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "AppleMusic link for Looking Over A Cliff",
             "hashtags": "#TheBeforeTimes #Music #LookingOverACliff #Songs #Instrumental #Recordings",
             "id": 58,
@@ -698,7 +698,7 @@
             "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @AppleMusic"
         },
         {
-            "active_ad": true,
+            "active_ad": false,
             "description": "Spotify link for Looking Over A Cliff",
             "hashtags": "#TheBeforeTimes #Music #LookingOverACliff #Songs #Instrumental #Recordings",
             "id": 59,
@@ -747,15 +747,39 @@
         },
         {
             "active_ad": true,
-            "description": "Spotify link for Quarantunes",
-            "hashtags": "#Quarantunes #Music #OldTimeMachineClock #Songs #Recordings",
+            "description": "Apple Music Ad for Quarantunes!",
+            "hashtags": "#Quarantunes #Music #Album #NewMusic #Recordings",
             "id": 63,
-            "image": "C:\\Users\\sleep\\OneDrive\\Music\\Adam\\TheBeforeTimes\\BeforeTimes.jpg",
-            "last_posted": "01/03/2022, 14:10:42",
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Quarantunes_02_v001.jpg",
+            "last_posted": "",
             "last_posted_id": "",
-            "link": "https://www.amazon.com/dp/B08QW9SBKG/ref=dm_ws_tlw_trk4",
+            "link": "https://music.apple.com/us/album/quarantunes/1603234586",
             "post_count": 0,
-            "text": "My brand new album Quarantunes! Songs written in exile. Check it out on @Spotify"
+            "text": "I'm super excited about my new album, #Quarantunes! Songs I wrote in lockdown - Check it out on @AppleMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "YouTube Music Ad for Quarantunes!",
+            "hashtags": "#Quarantunes #Music #Album #NewMusic #Recordings",
+            "id": 64,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Quarantunes_02_v001.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.youtube.com/playlist?list=OLAK5uy_kqZWpD5LPBE3tGoQnGgGIXzj95clbdo04",
+            "post_count": 0,
+            "text": "I'm super excited about my new album, #Quarantunes! Songs I wrote in lockdown - Check it out on @YouTubeMusic"
+        },
+        {
+            "active_ad": true,
+            "description": "Amazon Music Ad for Quarantunes!",
+            "hashtags": "#Quarantunes #Music #Album #NewMusic #Recordings",
+            "id": 65,
+            "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Quarantunes_02_v001.jpg",
+            "last_posted": "",
+            "last_posted_id": "",
+            "link": "https://music.amazon.com/albums/B09PNQHN52",
+            "post_count": 0,
+            "text": "I'm super excited about my new album, #Quarantunes! Songs I wrote in lockdown - Check it out on @AmazonMusic"
         }
     ]
 }
