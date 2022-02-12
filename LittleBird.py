@@ -173,6 +173,7 @@ class littleBird(win32serviceutil.ServiceFramework):
         logger.info('Start Time updated from DB: %s' % self.start_time)
         brains.update_start_time(start_time=self.start_time.strftime("%m/%d/%Y, %H:%M:%S"))
         self.end_time = datetime.now()
+        brains.popup_tweet(title='Little Bird!', msg='Little Bird has Started!')
         # except Exception as e:
         #     logger.error('The fit hit the shan!', e)
 
@@ -184,6 +185,7 @@ class littleBird(win32serviceutil.ServiceFramework):
                     logger.info('Updating Start Date...')
                     brains.update_start_time(self.start_time)
                     logger.info('Starting Tweet Function...')
+                    brains.popup_tweet(title='Starting Tweet Function...', msg='Tweeting...')
                     q.put(self.start_time)
                 self.end_time = datetime.now()
             time.sleep(30)

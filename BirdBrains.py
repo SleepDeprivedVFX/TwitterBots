@@ -195,7 +195,11 @@ class birdBrains(object):
             pass
 
     def popup_tweet(self, title=None, msg=None):
-        popup_sys = popups.WindowsBalloonTip(title, msg)
+        try:
+            popup_sys = popups.WindowsBalloonTip(title, msg)
+            logger.info('Popup popped off!! {}'.format(popup_sys))
+        except Exception as e:
+            logger.error('POP UP FAILED!!! {}'.format(e))
 
     def get_tweets(self):
         db = self.open_ads_db()
