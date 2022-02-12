@@ -11,6 +11,7 @@ import random
 import math
 import pprint
 import logging
+import popups
 
 twitter_keys = [
     "coordinates",
@@ -193,6 +194,9 @@ class birdBrains(object):
             # TODO: Make this save the tweet into the post_watch_list.json document.
             pass
 
+    def popup_tweet(self, title=None, msg=None):
+        popup_sys = popups.WindowsBalloonTip(title, msg)
+
     def get_tweets(self):
         db = self.open_ads_db()
         tweets = db['Tweets']
@@ -261,9 +265,12 @@ class birdBrains(object):
                     logger.info('Sending back through...')
                     logger.debug('Retry tweet: %s' % get_tweet)
                     self.post_tweet(tweet=get_tweet, retries=retries)
+                    fail_msg = 'Attempt #{0} - Tweet ID: {1}'.format(retries, get_tweet_id)
+                    self.popup_tweet(title='POST FAILED!! - Trying again.', msg=fail_msg)
             if sent:
                 logger.debug('Sending tweet to tracker db...')
                 self.track_tweet(tweet=sent)
+                self.popup_tweet(title='Tweet Sent!', msg=message)
         logger.info('The Little Bird has spoken!')
         return sent
 
