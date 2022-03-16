@@ -1,8 +1,8 @@
 {
-    "StartDate": "03/15/2022, 22:47:02",
+    "StartDate": "03/15/2022, 10:07:55",
     "Tweets": [
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "First ad for the Roswell Paradox: The Temporal Key.",
             "hashtags": "#Books #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 1,
@@ -14,7 +14,7 @@
             "text": "Stranded in the distant past, trying to preserve the future. The Roswell Paradox is an adventure across millions of years. Sometimes the only way forward is back."
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "First Ad for the Roswell Paradox Book 2: Iteration",
             "hashtags": "#Books #Iteration #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 2,
@@ -74,7 +74,7 @@
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Another variation of an add for the books.",
             "hashtags": "#Books #TemporalKey #Novel #Author #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 7,
@@ -86,7 +86,7 @@
             "text": "I love to write stories. Do it as often as I can. \\n Check out my 2 part book series, 'The Roswell Paradox' on @AmazonKindle! \\n "
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Supplemental Ad for book 2",
             "hashtags": "#Books #Iteration #Writing #SciFi #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 8,
@@ -554,7 +554,7 @@
             "text": "Salacious Daydream was a song I wrote about wondering what other people thought of me. It's on Eight Minutes to Earth's 90's album, Baking Soda."
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Second Ad for the Roswell Paradox Book 2: Iteration",
             "hashtags": "#Books #Iteration #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 47,
@@ -566,7 +566,7 @@
             "text": "Dayk is a Temporal Navigator trying to make his way home and save the future, but the future is hunting him down! Check out my book!"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "First ad for the Roswell Paradox: The Temporal Key.",
             "hashtags": "#Books #TemporalKey #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 48,
@@ -722,7 +722,7 @@
             "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @Spotify"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Third Ad for the Roswell Paradox Book 2: Iteration",
             "hashtags": "#Books #Iteration #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 61,
@@ -734,7 +734,7 @@
             "text": "The Roswell Paradox is a two part, non-stop thrill ride through space and time! Like Back to the Future with Aliens!"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Third ad for the Roswell Paradox: The Temporal Key.",
             "hashtags": "#Books #TemporalKey #Roswell #GrayAliens #TimeTravel #GreyAliens #TheGreys #Aliens",
             "id": 62,
@@ -746,7 +746,7 @@
             "text": "The Roswell Paradox: The Temporal Key is part one of a non-stop adventure through time and space that you won't be able to put down!"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for Quarantunes!",
             "hashtags": "#Quarantunes #Music #Album #NewMusic #Recordings",
             "id": 63,
@@ -755,10 +755,10 @@
             "last_posted_id": "1492159575750963207",
             "link": "https://music.apple.com/us/album/quarantunes/1603234586",
             "post_count": 4,
-            "text": "I'm super excited about my new album, #Quarantunes! Songs I wrote in lockdown - Check it out on @AppleMusic"
+            "text": "I'm super excited about my new album, #Quarantunes! Check it out on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for Quarantunes!",
             "hashtags": "#Quarantunes #Music #Album #NewMusic #Recordings",
             "id": 64,
@@ -767,10 +767,10 @@
             "last_posted_id": "1484287271784235008",
             "link": "https://music.youtube.com/playlist?list=OLAK5uy_kqZWpD5LPBE3tGoQnGgGIXzj95clbdo04",
             "post_count": 1,
-            "text": "I'm super excited about my new album, #Quarantunes! Songs I wrote in lockdown - Check it out on @YouTubeMusic"
+            "text": "I'm super excited about my new album, #Quarantunes! Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for Quarantunes!",
             "hashtags": "#Quarantunes #Music #Album #NewMusic #Recordings",
             "id": 65,
@@ -779,10 +779,10 @@
             "last_posted_id": "1488568446623256581",
             "link": "https://music.amazon.com/albums/B09PNQHN52",
             "post_count": 3,
-            "text": "I'm super excited about my new album, #Quarantunes! Songs I wrote in lockdown - Check it out on @AmazonMusic"
+            "text": "I'm super excited about my new album, #Quarantunes! Check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for Old Time Machine Clock!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 66,
@@ -794,7 +794,7 @@
             "text": "I really like this one of my songs, 'Old Time Machine Clock' - Check it out on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for Gone Girl!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 67,
@@ -811,14 +811,14 @@
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 68,
             "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Keyboard.jpg",
-            "last_posted": "03/15/2022, 23:44:24",
-            "last_posted_id": "1503879818735063042",
+            "last_posted": "03/16/2022, 17:07:57",
+            "last_posted_id": "1504142437194686465",
             "link": "https://music.apple.com/us/album/summer-tide/1603234586?i=1603234590",
-            "post_count": 30,
+            "post_count": 34,
             "text": "Went to watch the #Grunion Run with my best friend. Wrote this song. Check it out on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for Barcode!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 69,
@@ -830,7 +830,7 @@
             "text": "When I wrote 'Barcode' it started off fun, but became something else. Check it out on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for Afterglow!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 70,
@@ -842,7 +842,7 @@
             "text": "@neiltyson! I wrote a song about the Cosmos! 'Afterglow' Check it out on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for His Will To fly!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 71,
@@ -854,7 +854,7 @@
             "text": "I've got a friend who suffers from depression. This one's for him. Check it out on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for What Shall I do!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Blues #NewMusic #Recordings",
             "id": 72,
@@ -866,7 +866,7 @@
             "text": "A song about things that didn't work out. 'What Shall I Do'. Check it out on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for Slow Motion Falling!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 73,
@@ -878,7 +878,7 @@
             "text": "I imagine slowly falling broken glass when I hear 'Slow Motion Falling'. Check it out on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for I Want to Know Who You are!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Classic #NewMusic #Recordings",
             "id": 74,
@@ -890,7 +890,7 @@
             "text": "50's inspired simple rock song. Not quite a ballad, but you can check it out on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for Lonely Ain't Alone!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 75,
@@ -902,7 +902,7 @@
             "text": "'Lonely Ain't Alone' is about vapid people in the dating scene. Check it out on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for Sensory Perception!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Instrumental #NewMusic #Recordings",
             "id": 76,
@@ -914,7 +914,7 @@
             "text": "I love seemingly atonal instrumentals, you might like this one too! Check it out on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for Sunrise on the mountain!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 77,
@@ -926,7 +926,7 @@
             "text": "I've been experimenting with 'visual' orchestral pieces. 'Sunrise on the Mountain' Check it out on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for Cala Del Rey!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 78,
@@ -938,7 +938,7 @@
             "text": "'Cala Del Rey' was one of the first things I recorded violins for. Check it out on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for Somewhere They Listen!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 79,
@@ -950,7 +950,7 @@
             "text": "I love recording with my #Theremin. Check out 'Somewhere They Listen' on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Apple Music Ad for Spelunking In Madness!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 80,
@@ -962,7 +962,7 @@
             "text": "This is the first thing I ever recorded with my #violin. Check out 'Spelunking in Madness' on @AppleMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for Old Time Machine Clock!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 81,
@@ -974,7 +974,7 @@
             "text": "I really like this one of my songs, 'Old Time Machine Clock' - Check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for Gone Girl!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 82,
@@ -986,7 +986,7 @@
             "text": "'Gone Girl' off on her journey of self discovery - Check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for Summer Tide!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 83,
@@ -998,7 +998,7 @@
             "text": "Went to watch the #Grunion Run with my best friend. Wrote this song. Check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for Barcode!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 84,
@@ -1010,7 +1010,7 @@
             "text": "When I wrote 'Barcode' it started off fun, but became something else. Check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for Afterglow!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 85,
@@ -1022,7 +1022,7 @@
             "text": "@neiltyson! I wrote a song about the Cosmos! 'Afterglow' Check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for His Will To fly!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 86,
@@ -1034,7 +1034,7 @@
             "text": "I've got a friend who suffers from depression. This one's for him. Check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for What Shall I do!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Blues #NewMusic #Recordings",
             "id": 87,
@@ -1046,7 +1046,7 @@
             "text": "A song about things that didn't work out. 'What Shall I Do'. Check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for Slow Motion Falling!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 88,
@@ -1058,7 +1058,7 @@
             "text": "I imagine slowly falling broken glass when I hear 'Slow Motion Falling'. Check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for I Want to Know Who You are!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Classic #NewMusic #Recordings",
             "id": 89,
@@ -1070,7 +1070,7 @@
             "text": "50's inspired simple rock song. Not quite a ballad, but you can check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for Lonely Ain't Alone!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 90,
@@ -1082,7 +1082,7 @@
             "text": "'Lonely Ain't Alone' is about vapid people in the dating scene. Check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for Sensory Perception!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Instrumental #NewMusic #Recordings",
             "id": 91,
@@ -1094,7 +1094,7 @@
             "text": "I love seemingly atonal instrumentals, you might like this one too! Check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for Sunrise on the mountain!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 92,
@@ -1106,7 +1106,7 @@
             "text": "I've been experimenting with 'visual' orchestral pieces. 'Sunrise on the Mountain' Check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for Cala Del Rey!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 93,
@@ -1118,7 +1118,7 @@
             "text": "'Cala Del Rey' was one of the first things I recorded violins for. Check it out on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for Somewhere They Listen!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 94,
@@ -1130,7 +1130,7 @@
             "text": "I love recording with my #Theremin. Check out 'Somewhere They Listen' on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "Amazon Music Ad for Spelunking In Madness!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 95,
@@ -1142,7 +1142,7 @@
             "text": "This is the first thing I ever recorded with my #violin. Check out 'Spelunking in Madness' on @AmazonMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for Old Time Machine Clock!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 96,
@@ -1154,7 +1154,7 @@
             "text": "I really like this one of my songs, 'Old Time Machine Clock' - Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for Gone Girl!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 97,
@@ -1166,7 +1166,7 @@
             "text": "'Gone Girl' off on her journey of self discovery - Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for Summer Tide!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 98,
@@ -1178,7 +1178,7 @@
             "text": "Went to watch the #Grunion Run with my best friend. Wrote this song. Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for Barcode!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 99,
@@ -1190,7 +1190,7 @@
             "text": "When I wrote 'Barcode' it started off fun, but became something else. Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for Afterglow!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 100,
@@ -1202,7 +1202,7 @@
             "text": "@neiltyson! I wrote a song about the Cosmos! 'Afterglow' Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for His Will To fly!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 101,
@@ -1214,7 +1214,7 @@
             "text": "I've got a friend who suffers from depression. This one's for him. Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for What Shall I do!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Blues #NewMusic #Recordings",
             "id": 102,
@@ -1226,7 +1226,7 @@
             "text": "A song about things that didn't work out. 'What Shall I Do'. Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for Slow Motion Falling!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 103,
@@ -1238,7 +1238,7 @@
             "text": "I imagine slowly falling broken glass when I hear 'Slow Motion Falling'. Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for I Want to Know Who You are!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Classic #NewMusic #Recordings",
             "id": 104,
@@ -1250,7 +1250,7 @@
             "text": "50's inspired simple rock song. Not quite a ballad, but you can check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for Lonely Ain't Alone!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Alternative #NewMusic #Recordings",
             "id": 105,
@@ -1262,7 +1262,7 @@
             "text": "'Lonely Ain't Alone' is about vapid people in the dating scene. Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for Sensory Perception!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Instrumental #NewMusic #Recordings",
             "id": 106,
@@ -1274,7 +1274,7 @@
             "text": "I love seemingly atonal instrumentals, you might like this one too! Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for Sunrise on the mountain!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 107,
@@ -1286,7 +1286,7 @@
             "text": "I've been experimenting with 'visual' orchestral pieces. 'Sunrise on the Mountain' Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for Cala Del Rey!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 108,
@@ -1298,7 +1298,7 @@
             "text": "'Cala Del Rey' was one of the first things I recorded violins for. Check it out on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for Somewhere They Listen!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 109,
@@ -1310,7 +1310,7 @@
             "text": "I love recording with my #Theremin. Check out 'Somewhere They Listen' on @YouTubeMusic"
         },
         {
-            "active_ad": false,
+            "active_ad": true,
             "description": "YouTube Music Ad for Spelunking In Madness!",
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 110,
