@@ -78,7 +78,7 @@ def bird_nest():
                 try:
                     # sorted_tweets = sorted(collect_tweets, key=lambda i: (i['last_posted'], i['post_count']),
                     #                        reverse=True)[1:]
-                    sorted_tweets = sorted(collect_tweets, key=lambda i: (i['post_count']), reverse=True)[:15]
+                    sorted_tweets = sorted(collect_tweets, key=lambda i: (i['post_count']), reverse=False)[:15]
                     logger.debug('SORTED TWEETS: %s' % sorted_tweets)
                     logger.info('Grabbing a pre-built tweet...')
                     get_tweet_id = brains.find_random_tweet(tweet_list=sorted_tweets)
