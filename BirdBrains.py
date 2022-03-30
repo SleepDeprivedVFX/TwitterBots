@@ -12,6 +12,8 @@ import math
 import pprint
 import logging
 from win10toast import ToastNotifier
+
+# Setup Toaster
 toaster = ToastNotifier()
 
 twitter_keys = [

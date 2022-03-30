@@ -131,7 +131,6 @@ class littleBird(win32serviceutil.ServiceFramework):
         self.start_time = None
         self.end_time = None
 
-
     def SvcStop(self):
         self.ReportServiceStatus(win32service.SERVICE_STOP_PENDING)
         win32event.SetEvent(self.hWaitStop)
