@@ -11,7 +11,8 @@ import random
 import math
 import pprint
 import logging
-import popups
+from win10toast import ToastNotifier
+toaster = ToastNotifier()
 
 twitter_keys = [
     "coordinates",
@@ -201,8 +202,15 @@ class birdBrains(object):
 
     def popup_tweet(self, title=None, msg=None):
         try:
-            popup_sys = popups.WindowsBalloonTip(title, msg)
-            logger.info('Popup popped off!! {}'.format(popup_sys))
+            logger.debug('Popup Toaster Message sent...')
+            toaster.show_toast(
+                title=title,
+                msg=msg,
+                icon_path=None,
+                threaded=True,
+                duration=10
+            )
+            logger.debug('Popup Toaster Message Done.')
         except Exception as e:
             logger.error('POP UP FAILED!!! {}'.format(e))
 

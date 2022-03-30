@@ -21,8 +21,6 @@ import os
 import sys
 import threading
 import queue
-import win32file
-import win32con
 import win32serviceutil
 import win32service
 import win32event
@@ -32,7 +30,10 @@ import BirdBrains
 import logging
 from logging.handlers import TimedRotatingFileHandler
 import requests
-import popups
+from win10toast import ToastNotifier
+
+# Setup Toast Notifier
+toaster = ToastNotifier()
 
 config = BirdBrains.get_configuration()
 sys_path = sys.path[0]
@@ -77,8 +78,6 @@ def bird_nest():
             tweets = get_tweets[1]
             if collect_tweets:
                 try:
-                    # sorted_tweets = sorted(collect_tweets, key=lambda i: (i['last_posted'], i['post_count']),
-                    #                        reverse=True)[1:]
                     sorted_tweets = sorted(collect_tweets, key=lambda i: (i['post_count']), reverse=False)[:15]
                     logger.debug('SORTED TWEETS: %s' % sorted_tweets)
                     logger.info('Grabbing a pre-built tweet...')
@@ -132,8 +131,6 @@ class littleBird(win32serviceutil.ServiceFramework):
         self.start_time = None
         self.end_time = None
 
-        # Test
-        # self.main()
 
     def SvcStop(self):
         self.ReportServiceStatus(win32service.SERVICE_STOP_PENDING)
@@ -163,11 +160,17 @@ class littleBird(win32serviceutil.ServiceFramework):
         self.end_time = datetime.now()
         # try:
         self.start_time = brains.open_ads_db()['StartDate']
-        try:
-            popups.WindowsBalloonTip('Little Bird', 'Starting up the Twitter Bot...')
-        except Exception as e:
-            logger.error('POP UP FAILED: %s' % e)
-            pass
+
+        logger.debug('Showing Startup Toaster....')
+        toaster.show_toast(
+            'Little Bird',
+            'A little bird has started',
+            icon_path=None,
+            threaded=True,
+            duration=10
+        )
+        logger.debug('Finished startup Toaster.')
+
         if not self.start_time:
             self.start_time = datetime.now()
             logger.debug('The start time was empty.  Updating with a real date: %s' % self.start_time)
