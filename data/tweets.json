@@ -1,5 +1,5 @@
 {
-    "StartDate": "03/28/2022, 23:28:33",
+    "StartDate": "03/29/2022, 20:11:09",
     "Tweets": [
         {
             "active_ad": true,
@@ -11,6 +11,7 @@
             "last_posted_id": "1448506905777766403",
             "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P",
             "post_count": 11,
+            "failures": 0,
             "text": "Stranded in the distant past, trying to preserve the future. The Roswell Paradox is an adventure across millions of years. Sometimes the only way forward is back."
         },
         {
@@ -23,6 +24,7 @@
             "last_posted_id": "1432580586862874628",
             "link": "https://www.amazon.com/dp/B085DDSY8T/ref=cm_sw_r_tw_dp_GFT7F86WZF356S45KF6Y via @amazon",
             "post_count": 1,
+            "failures": 0,
             "text": "Labeled as a Temporal Fugitives, Dayk must find a way to stop agents from ruining the future. Iteration is the trhilling climax to The Temporal Key! "
         },
         {
@@ -35,6 +37,7 @@
             "last_posted_id": "1436210325016039425",
             "link": "https://www.amazon.com/gp/product/B08QWB159K/",
             "post_count": 5,
+            "failures": 0,
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @AmazonMusic"
         },
         {
@@ -47,6 +50,7 @@
             "last_posted_id": "1448896117022756865",
             "link": "https://open.spotify.com/album/3fUtPDQw3pdbVgHmEHzlFT",
             "post_count": 6,
+            "failures": 0,
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @Spotify"
         },
         {
@@ -59,6 +63,7 @@
             "last_posted_id": "1417369960221872128",
             "link": "https://music.youtube.com/playlist?list=OLAK5uy_kyPPG4vjDJyAtnYSkeriYTg5AiDMUKjEc&feature=share ",
             "post_count": 1,
+            "failures": 0,
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @YoutubeMusic"
         },
         {
@@ -71,6 +76,7 @@
             "last_posted_id": "1418161763552354308",
             "link": "https://music.apple.com/us/album/the-before-times/1545406040",
             "post_count": 2,
+            "failures": 0,
             "text": "'The Before Times' Recordings and Demos of Adam Benson from the days before Quarantine \\n Get it on @AppleMusic"
         },
         {
@@ -83,6 +89,7 @@
             "last_posted_id": "1450237667426246657",
             "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P via @amazon",
             "post_count": 8,
+            "failures": 0,
             "text": "I love to write stories. Do it as often as I can. \\n Check out my 2 part book series, 'The Roswell Paradox' on @AmazonKindle! \\n "
         },
         {
@@ -95,6 +102,7 @@
             "last_posted_id": "1449066447506866181",
             "link": "https://www.amazon.com/dp/B085DDSY8T/ref=cm_sw_r_tw_dp_GFT7F86WZF356S45KF6Y via @amazon",
             "post_count": 11,
+            "failures": 0,
             "text": "'The Roswell Paradox: Iteration' is the second book I wrote for my 2 part series! Check it out and leave a review! "
         },
         {
@@ -107,6 +115,7 @@
             "last_posted_id": "1445887227121127430",
             "link": "https://www.amazon.com/gp/product/B08QWB159K/",
             "post_count": 6,
+            "failures": 0,
             "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @AmazonMusic"
         },
         {
@@ -119,6 +128,7 @@
             "last_posted_id": "1423736229627973633",
             "link": "https://open.spotify.com/album/3fUtPDQw3pdbVgHmEHzlFT",
             "post_count": 1,
+            "failures": 0,
             "text": "I write a ton of #music across many styles. Trying to finish a new album now. Check out my last, 'The Before Times' on @Spotify"
         },
         {
@@ -131,6 +141,7 @@
             "last_posted_id": "1446248865200435200",
             "link": "https://music.youtube.com/playlist?list=OLAK5uy_kyPPG4vjDJyAtnYSkeriYTg5AiDMUKjEc&feature=share ",
             "post_count": 6,
+            "failures": 0,
             "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @YoutubeMusic"
         },
         {
@@ -143,6 +154,7 @@
             "last_posted_id": "1419681572974776326",
             "link": "https://music.apple.com/us/album/the-before-times/1545406040",
             "post_count": 1,
+            "failures": 0,
             "text": "I write a ton of music. Working on a new album now. Check out my last, 'The Before Times' on @AppleMusic"
         },
         {
@@ -155,6 +167,7 @@
             "last_posted_id": "",
             "link": "https://open.spotify.com/track/2G7PZaSeSPJwDL0hhK7eZg?si=dc32de20836c4513",
             "post_count": 0,
+            "failures": 0,
             "text": "I wrote this song many years ago. It's called 'Spanish Inquisition'! You can check it out on @Spotify "
         },
         {
@@ -167,6 +180,7 @@
             "last_posted_id": "1449958249151623173",
             "link": "https://open.spotify.com/track/2ThrODe5wYZc5OrABi9rSW?si=d0c4775c7baf4872",
             "post_count": 4,
+            "failures": 0,
             "text": "I wrote 'The Artifact' years ago for a Demo Reel. Turned out really good! You can check it out on @Spotify "
         },
         {
@@ -179,6 +193,7 @@
             "last_posted_id": "1429868236699422739",
             "link": "https://open.spotify.com/track/0al9E7MuAZdeAeCr3GJLnG?si=c753e088cb284be5",
             "post_count": 3,
+            "failures": 0,
             "text": "'Angie Trent' was a girl I knew who died in a car crash in High School. I wrote this as an homage.  You can check it out on @Spotify "
         },
         {
@@ -191,6 +206,7 @@
             "last_posted_id": "1448042015237627906",
             "link": "https://open.spotify.com/track/3mmRVFfKnnptvE540Qzhd6?si=c86264129bc74d3a",
             "post_count": 5,
+            "failures": 0,
             "text": "'Lies!' I always liked this piece. Exes can be great inspiration for songs.  You can check it out on @Spotify "
         },
         {
@@ -203,6 +219,7 @@
             "last_posted_id": "1446615754183303168",
             "link": "https://open.spotify.com/track/0WYnRrySvKC2BWKnbttXgY?si=63131516fef24036",
             "post_count": 6,
+            "failures": 0,
             "text": "I wrote 'Love on the Terrace' after a trip to #Bisbee Arizona. #Theramin is always a fun instrument! You can check it out on @Spotify "
         },
         {
@@ -215,6 +232,7 @@
             "last_posted_id": "1447658730594598917",
             "link": "https://music.apple.com/us/album/spanish-inquisition-instrumental/1545406040?i=1545406042",
             "post_count": 4,
+            "failures": 0,
             "text": "I wrote this song many years ago. It's called 'Spanish Inquisition'! You can check it out on @AppleMusic "
         },
         {
@@ -227,6 +245,7 @@
             "last_posted_id": "1449801658930581507",
             "link": "https://music.apple.com/us/album/the-artifact-instrumental/1545406040?i=1545406043",
             "post_count": 6,
+            "failures": 0,
             "text": "I wrote 'The Artifact' years ago for a Demo Reel. Turned out really good! You can check it out on @AppleMusic "
         },
         {
@@ -239,6 +258,7 @@
             "last_posted_id": "1443321506960855040",
             "link": "https://music.apple.com/us/album/angie-trent-instrumental/1545406040?i=1545406046",
             "post_count": 4,
+            "failures": 0,
             "text": "'Angie Trent' was a girl I knew who died in a car crash in High School. I wrote this as an homage.  You can check it out on @AppleMusic "
         },
         {
@@ -251,6 +271,7 @@
             "last_posted_id": "1448260295399395330",
             "link": "https://music.apple.com/us/album/lies/1545406040?i=1545406048",
             "post_count": 4,
+            "failures": 0,
             "text": "'Lies!' I always liked this piece. Exes can be great inspiration for songs.  You can check it out on @AppleMusic "
         },
         {
@@ -263,6 +284,7 @@
             "last_posted_id": "1430757966655877124",
             "link": "https://music.apple.com/us/album/love-on-the-terrace-instrumental/1545406040?i=1545406049",
             "post_count": 3,
+            "failures": 0,
             "text": "I wrote 'Love on the Terrace' after a trip to #Bisbee Arizona. #Theramin is always a fun instrument! You can check it out on @AppleMusic "
         },
         {
@@ -275,6 +297,7 @@
             "last_posted_id": "1447413650604519431",
             "link": "https://music.youtube.com/watch?v=eF21xFLZElM&feature=share",
             "post_count": 8,
+            "failures": 0,
             "text": "I wrote this song many years ago. It's called 'Spanish Inquisition'! You can check it out on @YouTubeMusic "
         },
         {
@@ -287,6 +310,7 @@
             "last_posted_id": "",
             "link": "https://music.youtube.com/watch?v=Q1WsRm2VhZM&feature=share",
             "post_count": 0,
+            "failures": 0,
             "text": "I wrote 'The Artifact' years ago for a Demo Reel. Turned out really good! You can check it out on @YouTubeMusic "
         },
         {
@@ -299,6 +323,7 @@
             "last_posted_id": "1428490133674725377",
             "link": "https://music.youtube.com/watch?v=OgWPyJ2LAk8&feature=share",
             "post_count": 4,
+            "failures": 0,
             "text": "'Angie Trent' was a girl I knew who died in a car crash in High School. I wrote this as an homage.  You can check it out on @YouTubeMusic "
         },
         {
@@ -311,6 +336,7 @@
             "last_posted_id": "1443432456086949888",
             "link": "https://music.youtube.com/watch?v=E-KlidyZxa0&feature=share",
             "post_count": 4,
+            "failures": 0,
             "text": "'Lies!' I always liked this piece. Exes can be great inspiration for songs.  You can check it out on @YouTubeMusic "
         },
         {
@@ -323,6 +349,7 @@
             "last_posted_id": "1441357832188661767",
             "link": "https://music.youtube.com/watch?v=vVuxuqIMo08&feature=share",
             "post_count": 5,
+            "failures": 0,
             "text": "I wrote 'Love on the Terrace' after a trip to #Bisbee Arizona. #Theramin is always a fun instrument! You can check it out on @YouTubeMusic "
         },
         {
@@ -335,6 +362,7 @@
             "last_posted_id": "",
             "link": "https://open.spotify.com/album/3NbcyHs2PEIp9QxsILqdRL",
             "post_count": 0,
+            "failures": 0,
             "text": "Back in the 90's I was in a band called Eight Minutes to Earth. A #Trippy #Funky #Alternative #Hardrock #Groove.  You can check out our first album on @Spotify "
         },
         {
@@ -347,6 +375,7 @@
             "last_posted_id": "1448790214818689067",
             "link": "https://music.apple.com/us/album/baking-soda/1452988352",
             "post_count": 5,
+            "failures": 0,
             "text": "Back in the 90's I was in a band called Eight Minutes to Earth. A #Trippy #Funky #Alternative #Hardrock #Groove.  Check out our first album on @AppleMusic "
         },
         {
@@ -359,6 +388,7 @@
             "last_posted_id": "1447764571649757185",
             "link": "https://music.youtube.com/playlist?list=OLAK5uy_mYOCg7KuPk_Zw1OBsy0Qqxgh37c7qWYM4",
             "post_count": 3,
+            "failures": 0,
             "text": "Back in the 90's I was in a band called Eight Minutes to Earth. A #Trippy #Funky #Alternative #Hardrock #Groove.  Check out our first album on @YoutubeMusic "
         },
         {
@@ -371,6 +401,7 @@
             "last_posted_id": "1438896721153564675",
             "link": "https://www.amazon.com/gp/product/B07NMQVSLD/",
             "post_count": 2,
+            "failures": 0,
             "text": "Back in the 90's I was in a band called Eight Minutes to Earth. A #Trippy #Funky #Alternative #Hardrock #Groove.  Check out our first album on @AmazonMusic "
         },
         {
@@ -383,6 +414,7 @@
             "last_posted_id": "1419331497819983876",
             "link": "https://music.youtube.com/watch?v=UEPtr0xPPFI&feature=share",
             "post_count": 1,
+            "failures": 0,
             "text": "One of my favorite tunes from my 90's band Eight Minutes To Earth. Grampa Dick!  You can check it out on @YoutubeMusic "
         },
         {
@@ -395,6 +427,7 @@
             "last_posted_id": "",
             "link": "https://music.youtube.com/watch?v=K2b22P7TQyM&feature=share",
             "post_count": 0,
+            "failures": 0,
             "text": "I wrote this song Coholic for my 90's band Eight Minutes To Earth. Another one of my favorites.  You can check it out on @YoutubeMusic "
         },
         {
@@ -407,6 +440,7 @@
             "last_posted_id": "",
             "link": "https://music.youtube.com/watch?v=siIhJc20coY&feature=share",
             "post_count": 0,
+            "failures": 0,
             "text": "We recorded this Eight Minutes To Earth song, Lint twice. The second time was on our album Baking Soda. You can check it out on @YoutubeMusic "
         },
         {
@@ -419,6 +453,7 @@
             "last_posted_id": "1421140030949511171",
             "link": "https://music.youtube.com/watch?v=k95MqX6bDQg&feature=share",
             "post_count": 1,
+            "failures": 0,
             "text": "I love this tune from my old 90's band Eight Minutes to Earth. It's called Wind. I don't think most people understood it. Check it out on @YoutubeMusic "
         },
         {
@@ -431,6 +466,7 @@
             "last_posted_id": "",
             "link": "https://music.youtube.com/watch?v=cwwGvDyrG9o&feature=share",
             "post_count": 0,
+            "failures": 0,
             "text": "Salacious Daydream was a song I wrote about wondering what other people thought of me. It's on Eight Minutes to Earth's 90's album, Baking Soda."
         },
         {
@@ -443,6 +479,7 @@
             "last_posted_id": "1419005588034383872",
             "link": "https://music.apple.com/us/album/grampa-dick/1452988352?i=1452988362",
             "post_count": 1,
+            "failures": 0,
             "text": "One of my favorite tunes from my 90's band Eight Minutes To Earth. Grampa Dick!  You can check it out on @AppleMusic "
         },
         {
@@ -455,6 +492,7 @@
             "last_posted_id": "1418899865468350464",
             "link": "https://music.apple.com/us/album/coholic/1452988352?i=1452988363",
             "post_count": 2,
+            "failures": 0,
             "text": "I wrote this song Coholic for my 90's band Eight Minutes To Earth. Another one of my favorites.  You can check it out on @AppleMusic "
         },
         {
@@ -467,6 +505,7 @@
             "last_posted_id": "",
             "link": "https://music.apple.com/us/album/lint/1452988352?i=1452988366",
             "post_count": 0,
+            "failures": 0,
             "text": "We recorded this Eight Minutes To Earth song, Lint twice. The second time was on our album Baking Soda. You can check it out on @AppleMusic "
         },
         {
@@ -479,6 +518,7 @@
             "last_posted_id": "1420027216629481474",
             "link": "https://music.apple.com/us/album/wind/1452988352?i=1452988367",
             "post_count": 1,
+            "failures": 0,
             "text": "I love this tune from my old 90's band Eight Minutes to Earth. It's called Wind. I don't think most people understood it. Check it out on @AppleMusic "
         },
         {
@@ -491,6 +531,7 @@
             "last_posted_id": "",
             "link": "https://music.apple.com/us/album/salacious-daydream/1452988352?i=1452988368",
             "post_count": 0,
+            "failures": 0,
             "text": "Salacious Daydream was a song I wrote about wondering what other people thought of me. It's on Eight Minutes to Earth's 90's album, Baking Soda."
         },
         {
@@ -503,6 +544,7 @@
             "last_posted_id": "1417905037502652418",
             "link": "https://open.spotify.com/track/73dgEA3xkQ80oqjBh7NwVP?si=6cd599a6c0604262",
             "post_count": 1,
+            "failures": 0,
             "text": "One of my favorite tunes from my 90's band Eight Minutes To Earth. Grampa Dick!  You can check it out on @Spotify "
         },
         {
@@ -515,6 +557,7 @@
             "last_posted_id": "1419893009496166401",
             "link": "https://open.spotify.com/track/5GI6ovAKMlLrllL6jtZ4rj?si=bf538d4920174420",
             "post_count": 1,
+            "failures": 0,
             "text": "I wrote this song Coholic for my 90's band Eight Minutes To Earth. Another one of my favorites.  You can check it out on @Spotify "
         },
         {
@@ -527,6 +570,7 @@
             "last_posted_id": "1478479182543740931",
             "link": "https://open.spotify.com/track/4UctAmtZUsLh35DPSZIVsN?si=5995bcce7eb04145",
             "post_count": 2,
+            "failures": 0,
             "text": "We recorded this Eight Minutes To Earth song, Lint twice. The second time was on our album Baking Soda. You can check it out on @Spotify "
         },
         {
@@ -539,6 +583,7 @@
             "last_posted_id": "1419437209371906051",
             "link": "https://open.spotify.com/track/5eSi7mpntJA3zNlAMr5HnQ?si=4595fedb52974ffa",
             "post_count": 1,
+            "failures": 0,
             "text": "I love this tune from my old 90's band Eight Minutes to Earth. It's called Wind. I don't think most people understood it. Check it out on @Spotify "
         },
         {
@@ -551,6 +596,7 @@
             "last_posted_id": "",
             "link": "https://open.spotify.com/track/24cQafaFFFCER6JfFygFPg?si=3eb2de1d695444b5",
             "post_count": 0,
+            "failures": 0,
             "text": "Salacious Daydream was a song I wrote about wondering what other people thought of me. It's on Eight Minutes to Earth's 90's album, Baking Soda."
         },
         {
@@ -563,6 +609,7 @@
             "last_posted_id": "1450494274689134594",
             "link": "https://www.amazon.com/dp/B085DDSY8T/ref=cm_sw_r_tw_dp_GFT7F86WZF356S45KF6Y via @amazon",
             "post_count": 6,
+            "failures": 0,
             "text": "Dayk is a Temporal Navigator trying to make his way home and save the future, but the future is hunting him down! Check out my book!"
         },
         {
@@ -575,6 +622,7 @@
             "last_posted_id": "1504146061203410944",
             "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P",
             "post_count": 7,
+            "failures": 0,
             "text": "The crash in Roswell wasn't aliens, it was us 2.5 million years in the future. A Temporal Archaeologist finds himself stranded in the distant past!"
         },
         {
@@ -587,6 +635,7 @@
             "last_posted_id": "",
             "link": "https://music.apple.com/us/album/resurgence-of-the-desert-instrumental/1545406040?i=1545406047",
             "post_count": 0,
+            "failures": 0,
             "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Hope you do too. You can check it out on @AppleMusic"
         },
         {
@@ -599,6 +648,7 @@
             "last_posted_id": "1440012018916880385",
             "link": "https://music.youtube.com/watch?v=f8eV7IURGAE&feature=share",
             "post_count": 4,
+            "failures": 0,
             "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Hope you do too. Check it out on @YouTubeMusic"
         },
         {
@@ -611,6 +661,7 @@
             "last_posted_id": "1425457518201872386",
             "link": "https://open.spotify.com/track/5L9st6GeMVwp17Dh1o9iTU?si=cf5f5dcbb32c4e15",
             "post_count": 1,
+            "failures": 0,
             "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Hope you do too. Check it out on @Spotify"
         },
         {
@@ -623,6 +674,7 @@
             "last_posted_id": "1443093998323724291",
             "link": "https://www.amazon.com/dp/B08QW8GN4D/ref=dm_ws_tlw_trk6",
             "post_count": 4,
+            "failures": 0,
             "text": "I don't actually recall when I recorded Resurgence Of The Desert, but I really like the piece! Check it out on @AmazonMusic"
         },
         {
@@ -635,6 +687,7 @@
             "last_posted_id": "1445442163878232069",
             "link": "https://www.amazon.com/dp/B08QWBBM42/ref=dm_ws_tlw_trk9",
             "post_count": 4,
+            "failures": 0,
             "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @AmazonMusic"
         },
         {
@@ -647,6 +700,7 @@
             "last_posted_id": "1442522933679648769",
             "link": "https://open.spotify.com/track/2DIqslSnUyLqEk5iMtEcPf?si=1ddee01a6aab471c",
             "post_count": 3,
+            "failures": 0,
             "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @Spotify"
         },
         {
@@ -659,6 +713,7 @@
             "last_posted_id": "1450343519906795526",
             "link": "https://music.apple.com/us/album/searching-for-spare-dignity/1545406040?i=1545406050",
             "post_count": 4,
+            "failures": 0,
             "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @AppleMusic"
         },
         {
@@ -671,6 +726,7 @@
             "last_posted_id": "1448366192893202434",
             "link": "https://music.youtube.com/watch?v=qdEkh1bVx5k&feature=share",
             "post_count": 3,
+            "failures": 0,
             "text": "I can sing in a pretty bassy voice when I want to. I Recorded Spare Dignity when I first moved to Los Angeles. Check it out on @YouTubeMusic"
         },
         {
@@ -683,6 +739,7 @@
             "last_posted_id": "",
             "link": "https://music.youtube.com/watch?v=djv1W4OrlAM&feature=share",
             "post_count": 0,
+            "failures": 0,
             "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @YouTubeMusic"
         },
         {
@@ -695,6 +752,7 @@
             "last_posted_id": "1439906087642173441",
             "link": "https://music.apple.com/us/album/looking-over-a-cliff-instrumental/1545406040?i=1545406045",
             "post_count": 4,
+            "failures": 0,
             "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @AppleMusic"
         },
         {
@@ -707,6 +765,7 @@
             "last_posted_id": "",
             "link": "https://open.spotify.com/track/4CUPIgvFOFDAfSTEUM2vbV?si=75af3d5957954c18",
             "post_count": 0,
+            "failures": 0,
             "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @Spotify"
         },
         {
@@ -719,6 +778,7 @@
             "last_posted_id": "1447123993429827585",
             "link": "https://www.amazon.com/dp/B08QW9SBKG/ref=dm_ws_tlw_trk4",
             "post_count": 4,
+            "failures": 0,
             "text": "Looking Over A Cliff was the first song I recorded with a #PanFlute. Check it out on @Spotify"
         },
         {
@@ -731,6 +791,7 @@
             "last_posted_id": "1450720850387214341",
             "link": "https://www.amazon.com/dp/B085DDSY8T/ref=cm_sw_r_tw_dp_GFT7F86WZF356S45KF6Y via @amazon",
             "post_count": 8,
+            "failures": 0,
             "text": "The Roswell Paradox is a two part, non-stop thrill ride through space and time! Like Back to the Future with Aliens!"
         },
         {
@@ -743,6 +804,7 @@
             "last_posted_id": "1478585096848359425",
             "link": "https://www.amazon.com/dp/B07R6LJGZ7/ref=cm_sw_r_tw_dp_TGT7DA3R1504FYWYCP6P",
             "post_count": 3,
+            "failures": 0,
             "text": "The Roswell Paradox: The Temporal Key is part one of a non-stop adventure through time and space that you won't be able to put down!"
         },
         {
@@ -755,6 +817,7 @@
             "last_posted_id": "1492159575750963207",
             "link": "https://music.apple.com/us/album/quarantunes/1603234586",
             "post_count": 4,
+            "failures": 0,
             "text": "I'm super excited about my new album, #Quarantunes! Check it out on @AppleMusic"
         },
         {
@@ -767,6 +830,7 @@
             "last_posted_id": "1505612591317454849",
             "link": "https://music.youtube.com/playlist?list=OLAK5uy_kqZWpD5LPBE3tGoQnGgGIXzj95clbdo04",
             "post_count": 2,
+            "failures": 0,
             "text": "I'm super excited about my new album, #Quarantunes! Check it out on @YouTubeMusic"
         },
         {
@@ -779,6 +843,7 @@
             "last_posted_id": "1488568446623256581",
             "link": "https://music.amazon.com/albums/B09PNQHN52",
             "post_count": 3,
+            "failures": 0,
             "text": "I'm super excited about my new album, #Quarantunes! Check it out on @AmazonMusic"
         },
         {
@@ -791,6 +856,7 @@
             "last_posted_id": "1488492708637208577",
             "link": "https://music.apple.com/us/album/old-time-machine-clock/1603234586?i=1603234587",
             "post_count": 3,
+            "failures": 0,
             "text": "I really like this one of my songs, 'Old Time Machine Clock' - Check it out on @AppleMusic"
         },
         {
@@ -803,6 +869,7 @@
             "last_posted_id": "1483561212226932737",
             "link": "https://music.apple.com/us/album/gone-girl/1603234586?i=1603234588",
             "post_count": 2,
+            "failures": 0,
             "text": "'Gone Girl' off on her journey of self discovery - Check it out on @AppleMusic"
         },
         {
@@ -815,6 +882,7 @@
             "last_posted_id": "1504221779480309760",
             "link": "https://music.apple.com/us/album/summer-tide/1603234586?i=1603234590",
             "post_count": 35,
+            "failures": 0,
             "text": "Went to watch the #Grunion Run with my best friend. Wrote this song. Check it out on @AppleMusic"
         },
         {
@@ -827,6 +895,7 @@
             "last_posted_id": "1508049253729406978",
             "link": "https://music.apple.com/us/album/barcode/1603234586?i=1603234591",
             "post_count": 4,
+            "failures": 0,
             "text": "When I wrote 'Barcode' it started off fun, but became something else. Check it out on @AppleMusic"
         },
         {
@@ -839,6 +908,8 @@
             "last_posted_id": "1484655719110512641",
             "link": "https://music.apple.com/us/album/afterglow/1603234586?i=1603234593",
             "post_count": 2,
+            "failures": 0,
+            "failures": 0,
             "text": "@neiltyson! I wrote a song about the Cosmos! 'Afterglow' Check it out on @AppleMusic"
         },
         {
@@ -851,6 +922,7 @@
             "last_posted_id": "1483636879375298560",
             "link": "https://music.apple.com/us/album/his-will-to-fly-left-him-low/1603234586?i=1603234595",
             "post_count": 2,
+            "failures": 0,
             "text": "I've got a friend who suffers from depression. This one's for him. Check it out on @AppleMusic"
         },
         {
@@ -863,6 +935,7 @@
             "last_posted_id": "1504504253158625281",
             "link": "https://music.apple.com/us/album/what-shall-i-do/1603234586?i=1603234686",
             "post_count": 2,
+            "failures": 0,
             "text": "A song about things that didn't work out. 'What Shall I Do'. Check it out on @AppleMusic"
         },
         {
@@ -875,6 +948,7 @@
             "last_posted_id": "1504579980331610131",
             "link": "https://music.apple.com/us/album/slow-motion-falling/1603234586?i=1603234687",
             "post_count": 3,
+            "failures": 0,
             "text": "I imagine slowly falling broken glass when I hear 'Slow Motion Falling'. Check it out on @AppleMusic"
         },
         {
@@ -887,6 +961,7 @@
             "last_posted_id": "1486341620521787395",
             "link": "https://music.apple.com/us/album/i-want-to-know-who-you-are/1603234586?i=1603234689",
             "post_count": 2,
+            "failures": 0,
             "text": "50's inspired simple rock song. Not quite a ballad, but you can check it out on @AppleMusic"
         },
         {
@@ -899,6 +974,7 @@
             "last_posted_id": "1499928637977493511",
             "link": "https://music.apple.com/us/album/lonely-aint-alone/1603234586?i=1603234690",
             "post_count": 18,
+            "failures": 0,
             "text": "'Lonely Ain't Alone' is about vapid people in the dating scene. Check it out on @AppleMusic"
         },
         {
@@ -911,6 +987,7 @@
             "last_posted_id": "1505760985700724736",
             "link": "https://music.apple.com/us/album/sensory-perception/1603234586?i=1603234594",
             "post_count": 3,
+            "failures": 0,
             "text": "I love seemingly atonal instrumentals, you might like this one too! Check it out on @AppleMusic"
         },
         {
@@ -923,6 +1000,7 @@
             "last_posted_id": "1508153013440942085",
             "link": "https://music.apple.com/us/album/sunrise-on-the-mountain/1603234586?i=1603234589",
             "post_count": 4,
+            "failures": 0,
             "text": "I've been experimenting with 'visual' orchestral pieces. 'Sunrise on the Mountain' Check it out on @AppleMusic"
         },
         {
@@ -935,6 +1013,7 @@
             "last_posted_id": "1489505595166060544",
             "link": "https://music.apple.com/us/album/cala-del-rey/1603234586?i=1603234688",
             "post_count": 3,
+            "failures": 0,
             "text": "'Cala Del Rey' was one of the first things I recorded violins for. Check it out on @AppleMusic"
         },
         {
@@ -947,6 +1026,7 @@
             "last_posted_id": "1492342592318500869",
             "link": "https://music.apple.com/us/album/somewhere-they-listen/1603234586?i=1603234691",
             "post_count": 4,
+            "failures": 0,
             "text": "I love recording with my #Theremin. Check out 'Somewhere They Listen' on @AppleMusic"
         },
         {
@@ -959,6 +1039,7 @@
             "last_posted_id": "1504344736768819200",
             "link": "https://music.apple.com/us/album/spelunking-in-madness/1603234586?i=1603234592",
             "post_count": 15,
+            "failures": 0,
             "text": "This is the first thing I ever recorded with my #violin. Check out 'Spelunking in Madness' on @AppleMusic"
         },
         {
@@ -971,6 +1052,7 @@
             "last_posted_id": "1506025417790042112",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_lRw0C6pIp2IkZXSSxoo32Q2Vb&trackAsin=B09PNR237C",
             "post_count": 3,
+            "failures": 0,
             "text": "I really like this one of my songs, 'Old Time Machine Clock' - Check it out on @AmazonMusic"
         },
         {
@@ -983,6 +1065,7 @@
             "last_posted_id": "1491880920911003657",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_XUxtYYXPCUs9OtYgxo8yDpJYz&trackAsin=B09PNQZWB1",
             "post_count": 3,
+            "failures": 0,
             "text": "'Gone Girl' off on her journey of self discovery - Check it out on @AmazonMusic"
         },
         {
@@ -995,6 +1078,7 @@
             "last_posted_id": "1507967197636833282",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_sF0ZkCtDgUeWHGx11M0iRdXg3&trackAsin=B09PNR3W5B",
             "post_count": 3,
+            "failures": 0,
             "text": "Went to watch the #Grunion Run with my best friend. Wrote this song. Check it out on @AmazonMusic"
         },
         {
@@ -1007,6 +1091,7 @@
             "last_posted_id": "1494691102590263300",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_b5lVDrYBoeNgfNMKiHkDA9bWU&trackAsin=B09PNQML1L",
             "post_count": 5,
+            "failures": 0,
             "text": "When I wrote 'Barcode' it started off fun, but became something else. Check it out on @AmazonMusic"
         },
         {
@@ -1019,6 +1104,7 @@
             "last_posted_id": "1506808795032301575",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_CirpVEQIuGS5evUyk9F35gsaM&trackAsin=B09PNQ7XQJ",
             "post_count": 3,
+            "failures": 0,
             "text": "@neiltyson! I wrote a song about the Cosmos! 'Afterglow' Check it out on @AmazonMusic"
         },
         {
@@ -1031,6 +1117,7 @@
             "last_posted_id": "1506321747959697408",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_lmOdr8LNZ6LK8wLaBiXzj2AwI&trackAsin=B09PNP38H8",
             "post_count": 3,
+            "failures": 0,
             "text": "I've got a friend who suffers from depression. This one's for him. Check it out on @AmazonMusic"
         },
         {
@@ -1043,6 +1130,7 @@
             "last_posted_id": "1493343209757417478",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_1dT7sWTD7AMD4RhIW9FDMAkUv&trackAsin=B09PNQ9KPG",
             "post_count": 4,
+            "failures": 0,
             "text": "A song about things that didn't work out. 'What Shall I Do'. Check it out on @AmazonMusic"
         },
         {
@@ -1055,6 +1143,7 @@
             "last_posted_id": "1491358724484579330",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_PsIMsDsqNxgTYm1xUemW4bfwM&trackAsin=B09PNPHPT1",
             "post_count": 3,
+            "failures": 0,
             "text": "I imagine slowly falling broken glass when I hear 'Slow Motion Falling'. Check it out on @AmazonMusic"
         },
         {
@@ -1067,6 +1156,7 @@
             "last_posted_id": "1487181222405042179",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_h60yMx2zRBzKD2XLkXzhN0y2D&trackAsin=B09PNQHD2W",
             "post_count": 2,
+            "failures": 0,
             "text": "50's inspired simple rock song. Not quite a ballad, but you can check it out on @AmazonMusic"
         },
         {
@@ -1079,6 +1169,7 @@
             "last_posted_id": "1487019265555271683",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_hASpzusQA4akDrrQbmKnHjeQy&trackAsin=B09PNQN9QX",
             "post_count": 2,
+            "failures": 0,
             "text": "'Lonely Ain't Alone' is about vapid people in the dating scene. Check it out on @AmazonMusic"
         },
         {
@@ -1091,6 +1182,7 @@
             "last_posted_id": "1507622941596389376",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_56WziVUI72ENujGmYX8rseWwX&trackAsin=B09PNQR56D",
             "post_count": 3,
+            "failures": 0,
             "text": "I love seemingly atonal instrumentals, you might like this one too! Check it out on @AmazonMusic"
         },
         {
@@ -1103,6 +1195,7 @@
             "last_posted_id": "1505949765711720448",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_56WziVUI72ENujGmYX8rseWwX&trackAsin=B09PNQR56D",
             "post_count": 2,
+            "failures": 0,
             "text": "I've been experimenting with 'visual' orchestral pieces. 'Sunrise on the Mountain' Check it out on @AmazonMusic"
         },
         {
@@ -1115,6 +1208,7 @@
             "last_posted_id": "1488719816907059205",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_u8aH4V940btdC0IFmyKHroHj1&trackAsin=B09PNQQT4W",
             "post_count": 2,
+            "failures": 0,
             "text": "'Cala Del Rey' was one of the first things I recorded violins for. Check it out on @AmazonMusic"
         },
         {
@@ -1127,6 +1221,7 @@
             "last_posted_id": "1493768380553170944",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_8kszAY4r7QQX3Eos9aPnQsuGH&trackAsin=B09PNQ6CJT",
             "post_count": 4,
+            "failures": 0,
             "text": "I love recording with my #Theremin. Check out 'Somewhere They Listen' on @AmazonMusic"
         },
         {
@@ -1139,6 +1234,7 @@
             "last_posted_id": "1487683796296036354",
             "link": "https://music.amazon.com/albums/B09PNQHN52?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_kDDs0SfQNPuVo6o6U9Iyel8tT&trackAsin=B09PNRP1SP",
             "post_count": 2,
+            "failures": 0,
             "text": "This is the first thing I ever recorded with my #violin. Check out 'Spelunking in Madness' on @AmazonMusic"
         },
         {
@@ -1151,6 +1247,7 @@
             "last_posted_id": "1487881115368972288",
             "link": "https://music.youtube.com/watch?v=FLb0M4qAdWw&feature=share",
             "post_count": 2,
+            "failures": 0,
             "text": "I really like this one of my songs, 'Old Time Machine Clock' - Check it out on @YouTubeMusic"
         },
         {
@@ -1163,6 +1260,7 @@
             "last_posted_id": "1488921602456649728",
             "link": "https://music.youtube.com/watch?v=RUG52VI0eck&feature=share",
             "post_count": 2,
+            "failures": 0,
             "text": "'Gone Girl' off on her journey of self discovery - Check it out on @YouTubeMusic"
         },
         {
@@ -1175,6 +1273,7 @@
             "last_posted_id": "1496238101869449216",
             "link": "https://music.youtube.com/watch?v=jOJ_Pg9_uVQ&feature=share",
             "post_count": 6,
+            "failures": 0,
             "text": "Went to watch the #Grunion Run with my best friend. Wrote this song. Check it out on @YouTubeMusic"
         },
         {
@@ -1187,6 +1286,7 @@
             "last_posted_id": "1506122398784901123",
             "link": "https://music.youtube.com/watch?v=6WK9vs6RBpQ&feature=share",
             "post_count": 2,
+            "failures": 0,
             "text": "When I wrote 'Barcode' it started off fun, but became something else. Check it out on @YouTubeMusic"
         },
         {
@@ -1199,6 +1299,7 @@
             "last_posted_id": "1488235108033183744",
             "link": "https://music.youtube.com/watch?v=yCJ6QkWgkOM&feature=share",
             "post_count": 2,
+            "failures": 0,
             "text": "@neiltyson! I wrote a song about the Cosmos! 'Afterglow' Check it out on @YouTubeMusic"
         },
         {
@@ -1211,6 +1312,7 @@
             "last_posted_id": "1491637599928156160",
             "link": "https://music.youtube.com/watch?v=8L182hiQTPw&feature=share",
             "post_count": 3,
+            "failures": 0,
             "text": "I've got a friend who suffers from depression. This one's for him. Check it out on @YouTubeMusic"
         },
         {
@@ -1223,6 +1325,7 @@
             "last_posted_id": "1504496373357457410",
             "link": "https://music.youtube.com/watch?v=e7YoziPwmHA&feature=share",
             "post_count": 6,
+            "failures": 0,
             "text": "A song about things that didn't work out. 'What Shall I Do'. Check it out on @YouTubeMusic"
         },
         {
@@ -1235,6 +1338,7 @@
             "last_posted_id": "1488159451890675712",
             "link": "https://music.youtube.com/watch?v=WcBFt-_XoB4&feature=share",
             "post_count": 2,
+            "failures": 0,
             "text": "I imagine slowly falling broken glass when I hear 'Slow Motion Falling'. Check it out on @YouTubeMusic"
         },
         {
@@ -1247,6 +1351,7 @@
             "last_posted_id": "1487392754967613440",
             "link": "https://music.youtube.com/watch?v=ad3jC7dW0BM&feature=share",
             "post_count": 2,
+            "failures": 0,
             "text": "50's inspired simple rock song. Not quite a ballad, but you can check it out on @YouTubeMusic"
         },
         {
@@ -1259,6 +1364,7 @@
             "last_posted_id": "1508237617023791109",
             "link": "https://music.youtube.com/watch?v=qfpWSySXAm0&feature=share",
             "post_count": 3,
+            "failures": 0,
             "text": "'Lonely Ain't Alone' is about vapid people in the dating scene. Check it out on @YouTubeMusic"
         },
         {
@@ -1271,6 +1377,7 @@
             "last_posted_id": "1488843035974639617",
             "link": "https://music.youtube.com/watch?v=os09SO9KlB4&feature=share",
             "post_count": 1,
+            "failures": 0,
             "text": "I love seemingly atonal instrumentals, you might like this one too! Check it out on @YouTubeMusic"
         },
         {
@@ -1283,6 +1390,7 @@
             "last_posted_id": "1508692581529829378",
             "link": "https://music.youtube.com/watch?v=bmeeHmNJP5o&feature=share",
             "post_count": 3,
+            "failures": 0,
             "text": "I've been experimenting with 'visual' orchestral pieces. 'Sunrise on the Mountain' Check it out on @YouTubeMusic"
         },
         {
@@ -1291,10 +1399,11 @@
             "hashtags": "#Quarantunes #Music #Song #Rock #Orchestral #NewMusic #Recordings",
             "id": 108,
             "image": "C:\\Users\\sleep\\OneDrive\\Documents\\sg_jobs\\Quarantunes\\PSDs\\exports\\Percussions_01.jpg",
-            "last_posted": "",
-            "last_posted_id": "",
+            "last_posted": "03/30/2022, 03:11:10",
+            "last_posted_id": "1509005285544787972",
             "link": "https://music.youtube.com/watch?v=Hi7ctWn7EkI&feature=share",
-            "post_count": 0,
+            "post_count": 1,
+            "failures": 0,
             "text": "'Cala Del Rey' was one of the first things I recorded violins for. Check it out on @YouTubeMusic"
         },
         {
@@ -1307,6 +1416,7 @@
             "last_posted_id": "1504853783196561411",
             "link": "https://music.youtube.com/watch?v=rKCO06PYp_E&feature=share",
             "post_count": 2,
+            "failures": 0,
             "text": "I love recording with my #Theremin. Check out 'Somewhere They Listen' on @YouTubeMusic"
         },
         {
@@ -1319,6 +1429,7 @@
             "last_posted_id": "1482484256743968769",
             "link": "https://music.youtube.com/watch?v=ylIeK-Iw0NI&feature=share",
             "post_count": 1,
+            "failures": 0,
             "text": "This is the first thing I ever recorded with my #violin. Check out 'Spelunking in Madness' on @YouTubeMusic"
         }
     ]

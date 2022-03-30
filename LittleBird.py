@@ -32,6 +32,7 @@ import BirdBrains
 import logging
 from logging.handlers import TimedRotatingFileHandler
 import requests
+import popups
 
 config = BirdBrains.get_configuration()
 sys_path = sys.path[0]
@@ -153,7 +154,6 @@ class littleBird(win32serviceutil.ServiceFramework):
             logger.warning('Internet connection cannot be found.', t)
             return False
 
-
     def main(self):
         """
         The main loop
@@ -163,6 +163,11 @@ class littleBird(win32serviceutil.ServiceFramework):
         self.end_time = datetime.now()
         # try:
         self.start_time = brains.open_ads_db()['StartDate']
+        try:
+            popups.WindowsBalloonTip('Little Bird', 'Starting up the Twitter Bot...')
+        except Exception as e:
+            logger.error('POP UP FAILED: %s' % e)
+            pass
         if not self.start_time:
             self.start_time = datetime.now()
             logger.debug('The start time was empty.  Updating with a real date: %s' % self.start_time)

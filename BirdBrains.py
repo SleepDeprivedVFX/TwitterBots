@@ -139,7 +139,9 @@ class birdBrains(object):
                     save_file.write(save)
                 logger.info('Date Updated')
 
-    def update_database(self, key=None, value=None, tid=None, val_type=str):
+    def update_database(self, key=None, value=None, tid=None, val_type=None):
+        if not val_type:
+            val_type = str
         if key and tid:
             tid = int(tid)
             logger.info('Updating the Database')
@@ -151,6 +153,9 @@ class birdBrains(object):
             elif not value and val_type == bool:
                 value = False
                 logger.debug('Value is False')
+            elif not value and val_type == int:
+                value = 0
+                logger.debug('Value is %i' % value)
             else:
                 logger.debug('Value is %s' % value)
 
@@ -224,6 +229,14 @@ class birdBrains(object):
             logger.error('This shit dont work! %s' % e)
         return collect_tweets, tweets
 
+    def get_tweet(self, tid=None):
+        tweet = None
+        if tid:
+            db = self.open_ads_db()
+            tweets = db['Tweets']
+            tweet = [t for t in tweets if t['id'] == tid][0]
+        return tweet
+
     def post_tweet(self, tweet=None, retries=0):
         logger.debug('post_tweet started.')
         sent = None
@@ -258,7 +271,14 @@ class birdBrains(object):
                 if retries <= 5:
                     logger.info('Retrying...  Attempt #{0}'.format(retries))
                     logger.info('Killing bad Tweet...')
-                    self.update_database(key='active_ad', value=False, tid=tweet['id'], val_type=bool)
+                    # TODO: This is where the popups would be nice.
+                    get_tweet = self.get_tweet(tid=tweet['id'])
+                    failures = get_tweet['failures']
+                    failures += 1
+                    self.update_database(key='failures', value=failures, tid=tweet['id'], val_type=int)
+                    if failures > 5:
+                        self.update_database(key='active_ad', value=False, tid=tweet['id'], val_type=bool)
+                    time.sleep(5)
                     logger.info('Getting new tweet...')
                     get_tweets = self.get_tweets()
                     collect_tweets = get_tweets[0]
@@ -285,6 +305,5 @@ class birdBrains(object):
 
         for t in ordered_tweets:
             print(t)
-
 
 
